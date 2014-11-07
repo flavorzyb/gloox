@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2AFA2B651A0D2CF300BE1B65 /* libcocos2dx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFA279F1A0D2A5400BE1B65 /* libcocos2dx.a */; };
 		2AFA2B661A0D2CF300BE1B65 /* libCocosDenshion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFA2B621A0D2CDF00BE1B65 /* libCocosDenshion.a */; };
+		2AFA2B6F1A0D307800BE1B65 /* libgloox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFA2B6C1A0D304300BE1B65 /* libgloox.a */; };
 		84D661961A0CDD1B002E8D48 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D661951A0CDD1B002E8D48 /* QuartzCore.framework */; };
 		84D661981A0CDD1B002E8D48 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D661971A0CDD1B002E8D48 /* OpenGLES.framework */; };
 		84D6619A1A0CDD1B002E8D48 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D661991A0CDD1B002E8D48 /* OpenAL.framework */; };
@@ -64,11 +65,26 @@
 			remoteGlobalIDString = D87CC2E4154FC6C500AAFE11;
 			remoteInfo = CocosDenshion;
 		};
+		2AFA2B6B1A0D304300BE1B65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AFA2B671A0D304300BE1B65 /* gloox.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 848E3EAE1A0CA81500712406;
+			remoteInfo = gloox;
+		};
+		2AFA2B6D1A0D307100BE1B65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AFA2B671A0D304300BE1B65 /* gloox.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 848E3EAD1A0CA81500712406;
+			remoteInfo = gloox;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2AFA279A1A0D2A5400BE1B65 /* cocos2dx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2dx.xcodeproj; path = "libs/cocos2d-x/cocos2dx/proj.ios/cocos2dx.xcodeproj"; sourceTree = "<group>"; };
 		2AFA2B5D1A0D2CDF00BE1B65 /* CocosDenshion.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CocosDenshion.xcodeproj; path = "libs/cocos2d-x/CocosDenshion/proj.ios/CocosDenshion.xcodeproj"; sourceTree = "<group>"; };
+		2AFA2B671A0D304300BE1B65 /* gloox.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = gloox.xcodeproj; path = "libs/gloox-1.0.11/gloox.xcodeproj"; sourceTree = "<group>"; };
 		84D661921A0CDD1B002E8D48 /* network.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = network.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D661951A0CDD1B002E8D48 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		84D661971A0CDD1B002E8D48 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -107,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AFA2B6F1A0D307800BE1B65 /* libgloox.a in Frameworks */,
 				2AFA2B651A0D2CF300BE1B65 /* libcocos2dx.a in Frameworks */,
 				2AFA2B661A0D2CF300BE1B65 /* libCocosDenshion.a in Frameworks */,
 				84D6619A1A0CDD1B002E8D48 /* OpenAL.framework in Frameworks */,
@@ -139,9 +156,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		2AFA2B681A0D304300BE1B65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AFA2B6C1A0D304300BE1B65 /* libgloox.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		84D661891A0CDD1A002E8D48 = {
 			isa = PBXGroup;
 			children = (
+				2AFA2B671A0D304300BE1B65 /* gloox.xcodeproj */,
 				2AFA279A1A0D2A5400BE1B65 /* cocos2dx.xcodeproj */,
 				2AFA2B5D1A0D2CDF00BE1B65 /* CocosDenshion.xcodeproj */,
 				84D661941A0CDD1B002E8D48 /* Frameworks */,
@@ -248,6 +274,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				2AFA2B6E1A0D307100BE1B65 /* PBXTargetDependency */,
 				2AFA2B641A0D2CEC00BE1B65 /* PBXTargetDependency */,
 				2AFA2B5C1A0D2CCD00BE1B65 /* PBXTargetDependency */,
 			);
@@ -288,6 +315,10 @@
 					ProductGroup = 2AFA2B5E1A0D2CDF00BE1B65 /* Products */;
 					ProjectRef = 2AFA2B5D1A0D2CDF00BE1B65 /* CocosDenshion.xcodeproj */;
 				},
+				{
+					ProductGroup = 2AFA2B681A0D304300BE1B65 /* Products */;
+					ProjectRef = 2AFA2B671A0D304300BE1B65 /* gloox.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -309,6 +340,13 @@
 			fileType = archive.ar;
 			path = libCocosDenshion.a;
 			remoteRef = 2AFA2B611A0D2CDF00BE1B65 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2AFA2B6C1A0D304300BE1B65 /* libgloox.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libgloox.a;
+			remoteRef = 2AFA2B6B1A0D304300BE1B65 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -360,6 +398,11 @@
 			name = CocosDenshion;
 			targetProxy = 2AFA2B631A0D2CEC00BE1B65 /* PBXContainerItemProxy */;
 		};
+		2AFA2B6E1A0D307100BE1B65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = gloox;
+			targetProxy = 2AFA2B6D1A0D307100BE1B65 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -388,6 +431,7 @@
 					"\"$(SRCROOT)/libs/cocos2d-x/cocos2dx/include\"",
 					"\"$(SRCROOT)/libs/cocos2d-x/cocos2dx/platform/third_party/ios\"",
 					"\"$(SRCROOT)/libs/cocos2d-x/cocos2dx/platform/ios\"",
+					"\"$(SRCROOT)/libs/gloox-1.0.11/src\"",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
@@ -417,6 +461,7 @@
 					"\"$(SRCROOT)/libs/cocos2d-x/cocos2dx/include\"",
 					"\"$(SRCROOT)/libs/cocos2d-x/cocos2dx/platform/third_party/ios\"",
 					"\"$(SRCROOT)/libs/cocos2d-x/cocos2dx/platform/ios\"",
+					"\"$(SRCROOT)/libs/gloox-1.0.11/src\"",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
