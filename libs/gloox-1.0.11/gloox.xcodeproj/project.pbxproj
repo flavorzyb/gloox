@@ -65,6 +65,7 @@
 		848E405A1A0CAC6E00712406 /* prep.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = prep.cpp; path = src/prep.cpp; sourceTree = "<group>"; };
 		848E41BC1A0CAC6E00712406 /* util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = util.cpp; path = src/util.cpp; sourceTree = "<group>"; };
 		848E42A21A0CB8E200712406 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		848E42A61A0CC21E00712406 /* config.h.unix */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = config.h.unix; path = src/config.h.unix; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +109,7 @@
 		848E3EBD1A0CA8D100712406 /* include */ = {
 			isa = PBXGroup;
 			children = (
+				848E42A61A0CC21E00712406 /* config.h.unix */,
 				848E3F461A0CAA0C00712406 /* config.h */,
 				848E3F471A0CAA0C00712406 /* connectionbase.h */,
 				848E3F481A0CAA0C00712406 /* connectionbosh.h */,
