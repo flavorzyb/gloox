@@ -15,7 +15,6 @@
 		848E3F6E1A0CAA0C00712406 /* connectionhandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F4A1A0CAA0C00712406 /* connectionhandler.h */; };
 		848E3F721A0CAA0C00712406 /* connectiontcpbase.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F4E1A0CAA0C00712406 /* connectiontcpbase.h */; };
 		848E3F731A0CAA0C00712406 /* connectiontcpclient.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F4F1A0CAA0C00712406 /* connectiontcpclient.h */; };
-		848E3F741A0CAA0C00712406 /* connectiontcpserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F501A0CAA0C00712406 /* connectiontcpserver.h */; };
 		848E3F7F1A0CAA0C00712406 /* dns.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F5B1A0CAA0C00712406 /* dns.h */; };
 		848E3FB41A0CAA6D00712406 /* loghandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F8C1A0CAA6C00712406 /* loghandler.h */; };
 		848E3FB51A0CAA6D00712406 /* logsink.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F8D1A0CAA6C00712406 /* logsink.h */; };
@@ -26,7 +25,6 @@
 		848E3FF11A0CAC4400712406 /* gloox.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FE81A0CAC4400712406 /* gloox.h */; };
 		848E41D51A0CAC6E00712406 /* connectiontcpbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E400A1A0CAC6E00712406 /* connectiontcpbase.cpp */; };
 		848E41D61A0CAC6E00712406 /* connectiontcpclient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E400B1A0CAC6E00712406 /* connectiontcpclient.cpp */; };
-		848E41D71A0CAC6E00712406 /* connectiontcpserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E400C1A0CAC6E00712406 /* connectiontcpserver.cpp */; };
 		848E41E11A0CAC6E00712406 /* dns.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40161A0CAC6E00712406 /* dns.cpp */; };
 		848E41FE1A0CAC6E00712406 /* gloox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40361A0CAC6E00712406 /* gloox.cpp */; };
 		848E420E1A0CAC6E00712406 /* logsink.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40461A0CAC6E00712406 /* logsink.cpp */; };
@@ -46,7 +44,6 @@
 		848E3F4A1A0CAA0C00712406 /* connectionhandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = connectionhandler.h; path = src/connectionhandler.h; sourceTree = "<group>"; };
 		848E3F4E1A0CAA0C00712406 /* connectiontcpbase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = connectiontcpbase.h; path = src/connectiontcpbase.h; sourceTree = "<group>"; };
 		848E3F4F1A0CAA0C00712406 /* connectiontcpclient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = connectiontcpclient.h; path = src/connectiontcpclient.h; sourceTree = "<group>"; };
-		848E3F501A0CAA0C00712406 /* connectiontcpserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = connectiontcpserver.h; path = src/connectiontcpserver.h; sourceTree = "<group>"; };
 		848E3F5B1A0CAA0C00712406 /* dns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dns.h; path = src/dns.h; sourceTree = "<group>"; };
 		848E3F8C1A0CAA6C00712406 /* loghandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = loghandler.h; path = src/loghandler.h; sourceTree = "<group>"; };
 		848E3F8D1A0CAA6C00712406 /* logsink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = logsink.h; path = src/logsink.h; sourceTree = "<group>"; };
@@ -57,7 +54,6 @@
 		848E3FE81A0CAC4400712406 /* gloox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gloox.h; path = src/gloox.h; sourceTree = "<group>"; };
 		848E400A1A0CAC6E00712406 /* connectiontcpbase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = connectiontcpbase.cpp; path = src/connectiontcpbase.cpp; sourceTree = "<group>"; };
 		848E400B1A0CAC6E00712406 /* connectiontcpclient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = connectiontcpclient.cpp; path = src/connectiontcpclient.cpp; sourceTree = "<group>"; };
-		848E400C1A0CAC6E00712406 /* connectiontcpserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = connectiontcpserver.cpp; path = src/connectiontcpserver.cpp; sourceTree = "<group>"; };
 		848E40161A0CAC6E00712406 /* dns.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dns.cpp; path = src/dns.cpp; sourceTree = "<group>"; };
 		848E40361A0CAC6E00712406 /* gloox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gloox.cpp; path = src/gloox.cpp; sourceTree = "<group>"; };
 		848E40461A0CAC6E00712406 /* logsink.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = logsink.cpp; path = src/logsink.cpp; sourceTree = "<group>"; };
@@ -117,7 +113,6 @@
 				848E3F4A1A0CAA0C00712406 /* connectionhandler.h */,
 				848E3F4E1A0CAA0C00712406 /* connectiontcpbase.h */,
 				848E3F4F1A0CAA0C00712406 /* connectiontcpclient.h */,
-				848E3F501A0CAA0C00712406 /* connectiontcpserver.h */,
 				848E3F5B1A0CAA0C00712406 /* dns.h */,
 				848E3FE81A0CAC4400712406 /* gloox.h */,
 				848E3F8C1A0CAA6C00712406 /* loghandler.h */,
@@ -136,7 +131,6 @@
 			children = (
 				848E400A1A0CAC6E00712406 /* connectiontcpbase.cpp */,
 				848E400B1A0CAC6E00712406 /* connectiontcpclient.cpp */,
-				848E400C1A0CAC6E00712406 /* connectiontcpserver.cpp */,
 				848E40161A0CAC6E00712406 /* dns.cpp */,
 				848E40361A0CAC6E00712406 /* gloox.cpp */,
 				848E40461A0CAC6E00712406 /* logsink.cpp */,
@@ -175,7 +169,6 @@
 				848E3F6E1A0CAA0C00712406 /* connectionhandler.h in Headers */,
 				848E3F6A1A0CAA0C00712406 /* config.h in Headers */,
 				848E3F031A0CA93900712406 /* util.h in Headers */,
-				848E3F741A0CAA0C00712406 /* connectiontcpserver.h in Headers */,
 				848E3F7F1A0CAA0C00712406 /* dns.h in Headers */,
 				848E3F731A0CAA0C00712406 /* connectiontcpclient.h in Headers */,
 				848E3F6C1A0CAA0C00712406 /* connectionbosh.h in Headers */,
@@ -244,7 +237,6 @@
 				848E42951A0CAC6E00712406 /* util.cpp in Sources */,
 				848E41D61A0CAC6E00712406 /* connectiontcpclient.cpp in Sources */,
 				848E420E1A0CAC6E00712406 /* logsink.cpp in Sources */,
-				848E41D71A0CAC6E00712406 /* connectiontcpserver.cpp in Sources */,
 				848E421A1A0CAC6E00712406 /* mutex.cpp in Sources */,
 				848E41E11A0CAC6E00712406 /* dns.cpp in Sources */,
 			);
