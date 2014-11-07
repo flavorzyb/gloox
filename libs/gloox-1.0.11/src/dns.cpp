@@ -415,25 +415,29 @@ namespace gloox
       setsockopt(fd, SOL_SOCKET, SO_REUSEADDR,&timeout, sizeof(int));
     #else
       struct timeval timeout;
-      timeout.tv_sec = 3;
+      timeout.tv_sec = 2;
       timeout.tv_usec = 0;
       
       //发送时限
-      setsockopt(fd, SOL_SOCKET, SO_SNDTIMEO,  &timeout, sizeof(int));
+      setsockopt(fd, SOL_SOCKET, SO_SNDTIMEO,  (const void *) &timeout, sizeof(struct timeval));
       //接收时限
-      setsockopt(fd, SOL_SOCKET, SO_RCVTIMEO,  &timeout, sizeof(int));
+      setsockopt(fd, SOL_SOCKET, SO_RCVTIMEO,  (const void *) &timeout, sizeof(struct timeval));
       
-      setsockopt(fd, SOL_SOCKET, SO_REUSEADDR, &timeout, sizeof(int));
+      setsockopt(fd, SOL_SOCKET, SO_REUSEADDR, (const void *) &timeout, sizeof(struct timeval));
     #endif
       
-      int keepAlive = 1;
+      int keep_alive = 1;
       int keep_idle = 2;//开始首次KeepAlive探测前的TCP空闭时间
       int keep_interval = 1;//两次KeepAlive探测间的时间间隔
       int keep_count = 3;//判定断开前的KeepAlive探测次数
-      setsockopt(fd, SOL_SOCKET, SO_KEEPALIVE,  &keepAlive,     sizeof(keepAlive));
-      setsockopt(fd, SOL_TCP, TCP_KEEPIDLE,     &keep_idle,     sizeof(keep_idle));
-      setsockopt(fd, SOL_TCP,TCP_KEEPINTVL,     &keep_interval, sizeof(keep_interval));
-      setsockopt(fd, SOL_TCP,TCP_KEEPCNT,       &keep_count,    sizeof(keep_count));
+      setsockopt(fd, SOL_SOCKET, SO_KEEPALIVE,  (const void *) &keep_alive,    sizeof(int));
+      setsockopt(fd, SOL_TCP, TCP_KEEPIDLE,     (const void *) &keep_idle,     sizeof(int));
+      setsockopt(fd, SOL_TCP,TCP_KEEPINTVL,     (const void *) &keep_interval, sizeof(int));
+      setsockopt(fd, SOL_TCP,TCP_KEEPCNT,       (const void *) &keep_count,    sizeof(int));
+                 
+      // 设置tcp 的nodelay
+      int tcp_nodelay = 1;
+      setsockopt(fd, SOL_TCP,TCP_NODELAY,       (const void *) &tcp_nodelay,   sizeof(int));
 #endif
 
     return (int)fd;
