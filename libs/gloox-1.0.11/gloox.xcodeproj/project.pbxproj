@@ -7,23 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		848E3ED01A0CA90B00712406 /* adhoc.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EBF1A0CA90B00712406 /* adhoc.h */; };
-		848E3ED11A0CA90B00712406 /* adhoccommandprovider.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EC01A0CA90B00712406 /* adhoccommandprovider.h */; };
-		848E3ED21A0CA90B00712406 /* adhochandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EC11A0CA90B00712406 /* adhochandler.h */; };
-		848E3ED31A0CA90B00712406 /* amp.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EC21A0CA90B00712406 /* amp.h */; };
-		848E3ED41A0CA90B00712406 /* annotations.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EC31A0CA90B00712406 /* annotations.h */; };
-		848E3ED51A0CA90B00712406 /* annotationshandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EC41A0CA90B00712406 /* annotationshandler.h */; };
-		848E3ED61A0CA90B00712406 /* atomicrefcount.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EC51A0CA90B00712406 /* atomicrefcount.h */; };
-		848E3ED71A0CA90B00712406 /* attention.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EC61A0CA90B00712406 /* attention.h */; };
-		848E3ED81A0CA90B00712406 /* base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EC71A0CA90B00712406 /* base64.h */; };
-		848E3ED91A0CA90B00712406 /* bookmarkhandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EC81A0CA90B00712406 /* bookmarkhandler.h */; };
-		848E3EDA1A0CA90B00712406 /* bookmarkstorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EC91A0CA90B00712406 /* bookmarkstorage.h */; };
-		848E3EDB1A0CA90B00712406 /* bytestream.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3ECA1A0CA90B00712406 /* bytestream.h */; };
-		848E3EDC1A0CA90B00712406 /* bytestreamdatahandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3ECB1A0CA90B00712406 /* bytestreamdatahandler.h */; };
-		848E3EDD1A0CA90B00712406 /* bytestreamhandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3ECC1A0CA90B00712406 /* bytestreamhandler.h */; };
-		848E3EDE1A0CA90B00712406 /* capabilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3ECD1A0CA90B00712406 /* capabilities.h */; };
-		848E3EDF1A0CA90B00712406 /* carbons.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3ECE1A0CA90B00712406 /* carbons.h */; };
-		848E3EE01A0CA90B00712406 /* chatstate.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3ECF1A0CA90B00712406 /* chatstate.h */; };
 		848E3EF51A0CA93800712406 /* tag.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EE11A0CA93800712406 /* tag.h */; };
 		848E3EF61A0CA93800712406 /* taghandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EE21A0CA93800712406 /* taghandler.h */; };
 		848E3EF71A0CA93800712406 /* tlsbase.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EE31A0CA93800712406 /* tlsbase.h */; };
@@ -66,36 +49,14 @@
 		848E3F3A1A0CA9BF00712406 /* statisticshandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F241A0CA9BF00712406 /* statisticshandler.h */; };
 		848E3F3B1A0CA9BF00712406 /* subscription.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F251A0CA9BF00712406 /* subscription.h */; };
 		848E3F3C1A0CA9BF00712406 /* subscriptionhandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F261A0CA9BF00712406 /* subscriptionhandler.h */; };
-		848E3F611A0CAA0C00712406 /* chatstatefilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F3D1A0CAA0C00712406 /* chatstatefilter.h */; };
-		848E3F621A0CAA0C00712406 /* chatstatehandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F3E1A0CAA0C00712406 /* chatstatehandler.h */; };
-		848E3F631A0CAA0C00712406 /* client.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F3F1A0CAA0C00712406 /* client.h */; };
-		848E3F641A0CAA0C00712406 /* clientbase.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F401A0CAA0C00712406 /* clientbase.h */; };
-		848E3F651A0CAA0C00712406 /* component.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F411A0CAA0C00712406 /* component.h */; };
-		848E3F661A0CAA0C00712406 /* compressionbase.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F421A0CAA0C00712406 /* compressionbase.h */; };
-		848E3F671A0CAA0C00712406 /* compressiondatahandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F431A0CAA0C00712406 /* compressiondatahandler.h */; };
-		848E3F681A0CAA0C00712406 /* compressiondefault.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F441A0CAA0C00712406 /* compressiondefault.h */; };
-		848E3F691A0CAA0C00712406 /* compressionzlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F451A0CAA0C00712406 /* compressionzlib.h */; };
 		848E3F6A1A0CAA0C00712406 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F461A0CAA0C00712406 /* config.h */; };
 		848E3F6B1A0CAA0C00712406 /* connectionbase.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F471A0CAA0C00712406 /* connectionbase.h */; };
 		848E3F6C1A0CAA0C00712406 /* connectionbosh.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F481A0CAA0C00712406 /* connectionbosh.h */; };
 		848E3F6D1A0CAA0C00712406 /* connectiondatahandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F491A0CAA0C00712406 /* connectiondatahandler.h */; };
 		848E3F6E1A0CAA0C00712406 /* connectionhandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F4A1A0CAA0C00712406 /* connectionhandler.h */; };
-		848E3F6F1A0CAA0C00712406 /* connectionhttpproxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F4B1A0CAA0C00712406 /* connectionhttpproxy.h */; };
-		848E3F701A0CAA0C00712406 /* connectionlistener.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F4C1A0CAA0C00712406 /* connectionlistener.h */; };
-		848E3F711A0CAA0C00712406 /* connectionsocks5proxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F4D1A0CAA0C00712406 /* connectionsocks5proxy.h */; };
 		848E3F721A0CAA0C00712406 /* connectiontcpbase.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F4E1A0CAA0C00712406 /* connectiontcpbase.h */; };
 		848E3F731A0CAA0C00712406 /* connectiontcpclient.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F4F1A0CAA0C00712406 /* connectiontcpclient.h */; };
 		848E3F741A0CAA0C00712406 /* connectiontcpserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F501A0CAA0C00712406 /* connectiontcpserver.h */; };
-		848E3F751A0CAA0C00712406 /* connectiontls.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F511A0CAA0C00712406 /* connectiontls.h */; };
-		848E3F761A0CAA0C00712406 /* connectiontlsserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F521A0CAA0C00712406 /* connectiontlsserver.h */; };
-		848E3F771A0CAA0C00712406 /* dataform.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F531A0CAA0C00712406 /* dataform.h */; };
-		848E3F781A0CAA0C00712406 /* dataformfield.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F541A0CAA0C00712406 /* dataformfield.h */; };
-		848E3F791A0CAA0C00712406 /* dataformitem.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F551A0CAA0C00712406 /* dataformitem.h */; };
-		848E3F7A1A0CAA0C00712406 /* dataformreported.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F561A0CAA0C00712406 /* dataformreported.h */; };
-		848E3F7B1A0CAA0C00712406 /* delayeddelivery.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F571A0CAA0C00712406 /* delayeddelivery.h */; };
-		848E3F7C1A0CAA0C00712406 /* disco.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F581A0CAA0C00712406 /* disco.h */; };
-		848E3F7D1A0CAA0C00712406 /* discohandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F591A0CAA0C00712406 /* discohandler.h */; };
-		848E3F7E1A0CAA0C00712406 /* disconodehandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F5A1A0CAA0C00712406 /* disconodehandler.h */; };
 		848E3F7F1A0CAA0C00712406 /* dns.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F5B1A0CAA0C00712406 /* dns.h */; };
 		848E3F801A0CAA0C00712406 /* error.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F5C1A0CAA0C00712406 /* error.h */; };
 		848E3F811A0CAA0C00712406 /* event.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F5D1A0CAA0C00712406 /* event.h */; };
@@ -150,7 +111,6 @@
 		848E3FE21A0CAC1900712406 /* registrationhandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FDA1A0CAC1900712406 /* registrationhandler.h */; };
 		848E3FE31A0CAC1900712406 /* rosteritemdata.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FDB1A0CAC1900712406 /* rosteritemdata.h */; };
 		848E3FE41A0CAC1900712406 /* searchhandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FDC1A0CAC1900712406 /* searchhandler.h */; };
-		848E3FEE1A0CAC4400712406 /* dataformfieldcontainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FE51A0CAC4400712406 /* dataformfieldcontainer.h */; };
 		848E3FEF1A0CAC4400712406 /* flexoff.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FE61A0CAC4400712406 /* flexoff.h */; };
 		848E3FF01A0CAC4400712406 /* flexoffhandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FE71A0CAC4400712406 /* flexoffhandler.h */; };
 		848E3FF11A0CAC4400712406 /* gloox.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FE81A0CAC4400712406 /* gloox.h */; };
@@ -271,27 +231,11 @@
 		848E42971A0CAC6E00712406 /* vcardmanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E41BE1A0CAC6E00712406 /* vcardmanager.cpp */; };
 		848E42981A0CAC6E00712406 /* vcardupdate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E41BF1A0CAC6E00712406 /* vcardupdate.cpp */; };
 		848E42991A0CAC6E00712406 /* xhtmlim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E41C11A0CAC6E00712406 /* xhtmlim.cpp */; };
+		848E42A51A0CB91500712406 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848E42A21A0CB8E200712406 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		848E3EAE1A0CA81500712406 /* libgloox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libgloox.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		848E3EBF1A0CA90B00712406 /* adhoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = adhoc.h; path = src/adhoc.h; sourceTree = "<group>"; };
-		848E3EC01A0CA90B00712406 /* adhoccommandprovider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = adhoccommandprovider.h; path = src/adhoccommandprovider.h; sourceTree = "<group>"; };
-		848E3EC11A0CA90B00712406 /* adhochandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = adhochandler.h; path = src/adhochandler.h; sourceTree = "<group>"; };
-		848E3EC21A0CA90B00712406 /* amp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = amp.h; path = src/amp.h; sourceTree = "<group>"; };
-		848E3EC31A0CA90B00712406 /* annotations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = annotations.h; path = src/annotations.h; sourceTree = "<group>"; };
-		848E3EC41A0CA90B00712406 /* annotationshandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = annotationshandler.h; path = src/annotationshandler.h; sourceTree = "<group>"; };
-		848E3EC51A0CA90B00712406 /* atomicrefcount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = atomicrefcount.h; path = src/atomicrefcount.h; sourceTree = "<group>"; };
-		848E3EC61A0CA90B00712406 /* attention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = attention.h; path = src/attention.h; sourceTree = "<group>"; };
-		848E3EC71A0CA90B00712406 /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = base64.h; path = src/base64.h; sourceTree = "<group>"; };
-		848E3EC81A0CA90B00712406 /* bookmarkhandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bookmarkhandler.h; path = src/bookmarkhandler.h; sourceTree = "<group>"; };
-		848E3EC91A0CA90B00712406 /* bookmarkstorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bookmarkstorage.h; path = src/bookmarkstorage.h; sourceTree = "<group>"; };
-		848E3ECA1A0CA90B00712406 /* bytestream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bytestream.h; path = src/bytestream.h; sourceTree = "<group>"; };
-		848E3ECB1A0CA90B00712406 /* bytestreamdatahandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bytestreamdatahandler.h; path = src/bytestreamdatahandler.h; sourceTree = "<group>"; };
-		848E3ECC1A0CA90B00712406 /* bytestreamhandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bytestreamhandler.h; path = src/bytestreamhandler.h; sourceTree = "<group>"; };
-		848E3ECD1A0CA90B00712406 /* capabilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = capabilities.h; path = src/capabilities.h; sourceTree = "<group>"; };
-		848E3ECE1A0CA90B00712406 /* carbons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = carbons.h; path = src/carbons.h; sourceTree = "<group>"; };
-		848E3ECF1A0CA90B00712406 /* chatstate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = chatstate.h; path = src/chatstate.h; sourceTree = "<group>"; };
 		848E3EE11A0CA93800712406 /* tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tag.h; path = src/tag.h; sourceTree = "<group>"; };
 		848E3EE21A0CA93800712406 /* taghandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = taghandler.h; path = src/taghandler.h; sourceTree = "<group>"; };
 		848E3EE31A0CA93800712406 /* tlsbase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tlsbase.h; path = src/tlsbase.h; sourceTree = "<group>"; };
@@ -334,36 +278,14 @@
 		848E3F241A0CA9BF00712406 /* statisticshandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = statisticshandler.h; path = src/statisticshandler.h; sourceTree = "<group>"; };
 		848E3F251A0CA9BF00712406 /* subscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = subscription.h; path = src/subscription.h; sourceTree = "<group>"; };
 		848E3F261A0CA9BF00712406 /* subscriptionhandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = subscriptionhandler.h; path = src/subscriptionhandler.h; sourceTree = "<group>"; };
-		848E3F3D1A0CAA0C00712406 /* chatstatefilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = chatstatefilter.h; path = src/chatstatefilter.h; sourceTree = "<group>"; };
-		848E3F3E1A0CAA0C00712406 /* chatstatehandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = chatstatehandler.h; path = src/chatstatehandler.h; sourceTree = "<group>"; };
-		848E3F3F1A0CAA0C00712406 /* client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = client.h; path = src/client.h; sourceTree = "<group>"; };
-		848E3F401A0CAA0C00712406 /* clientbase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = clientbase.h; path = src/clientbase.h; sourceTree = "<group>"; };
-		848E3F411A0CAA0C00712406 /* component.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = component.h; path = src/component.h; sourceTree = "<group>"; };
-		848E3F421A0CAA0C00712406 /* compressionbase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = compressionbase.h; path = src/compressionbase.h; sourceTree = "<group>"; };
-		848E3F431A0CAA0C00712406 /* compressiondatahandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = compressiondatahandler.h; path = src/compressiondatahandler.h; sourceTree = "<group>"; };
-		848E3F441A0CAA0C00712406 /* compressiondefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = compressiondefault.h; path = src/compressiondefault.h; sourceTree = "<group>"; };
-		848E3F451A0CAA0C00712406 /* compressionzlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = compressionzlib.h; path = src/compressionzlib.h; sourceTree = "<group>"; };
 		848E3F461A0CAA0C00712406 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = src/config.h; sourceTree = "<group>"; };
 		848E3F471A0CAA0C00712406 /* connectionbase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = connectionbase.h; path = src/connectionbase.h; sourceTree = "<group>"; };
 		848E3F481A0CAA0C00712406 /* connectionbosh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = connectionbosh.h; path = src/connectionbosh.h; sourceTree = "<group>"; };
 		848E3F491A0CAA0C00712406 /* connectiondatahandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = connectiondatahandler.h; path = src/connectiondatahandler.h; sourceTree = "<group>"; };
 		848E3F4A1A0CAA0C00712406 /* connectionhandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = connectionhandler.h; path = src/connectionhandler.h; sourceTree = "<group>"; };
-		848E3F4B1A0CAA0C00712406 /* connectionhttpproxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = connectionhttpproxy.h; path = src/connectionhttpproxy.h; sourceTree = "<group>"; };
-		848E3F4C1A0CAA0C00712406 /* connectionlistener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = connectionlistener.h; path = src/connectionlistener.h; sourceTree = "<group>"; };
-		848E3F4D1A0CAA0C00712406 /* connectionsocks5proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = connectionsocks5proxy.h; path = src/connectionsocks5proxy.h; sourceTree = "<group>"; };
 		848E3F4E1A0CAA0C00712406 /* connectiontcpbase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = connectiontcpbase.h; path = src/connectiontcpbase.h; sourceTree = "<group>"; };
 		848E3F4F1A0CAA0C00712406 /* connectiontcpclient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = connectiontcpclient.h; path = src/connectiontcpclient.h; sourceTree = "<group>"; };
 		848E3F501A0CAA0C00712406 /* connectiontcpserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = connectiontcpserver.h; path = src/connectiontcpserver.h; sourceTree = "<group>"; };
-		848E3F511A0CAA0C00712406 /* connectiontls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = connectiontls.h; path = src/connectiontls.h; sourceTree = "<group>"; };
-		848E3F521A0CAA0C00712406 /* connectiontlsserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = connectiontlsserver.h; path = src/connectiontlsserver.h; sourceTree = "<group>"; };
-		848E3F531A0CAA0C00712406 /* dataform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dataform.h; path = src/dataform.h; sourceTree = "<group>"; };
-		848E3F541A0CAA0C00712406 /* dataformfield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dataformfield.h; path = src/dataformfield.h; sourceTree = "<group>"; };
-		848E3F551A0CAA0C00712406 /* dataformitem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dataformitem.h; path = src/dataformitem.h; sourceTree = "<group>"; };
-		848E3F561A0CAA0C00712406 /* dataformreported.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dataformreported.h; path = src/dataformreported.h; sourceTree = "<group>"; };
-		848E3F571A0CAA0C00712406 /* delayeddelivery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = delayeddelivery.h; path = src/delayeddelivery.h; sourceTree = "<group>"; };
-		848E3F581A0CAA0C00712406 /* disco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = disco.h; path = src/disco.h; sourceTree = "<group>"; };
-		848E3F591A0CAA0C00712406 /* discohandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = discohandler.h; path = src/discohandler.h; sourceTree = "<group>"; };
-		848E3F5A1A0CAA0C00712406 /* disconodehandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = disconodehandler.h; path = src/disconodehandler.h; sourceTree = "<group>"; };
 		848E3F5B1A0CAA0C00712406 /* dns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dns.h; path = src/dns.h; sourceTree = "<group>"; };
 		848E3F5C1A0CAA0C00712406 /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = error.h; path = src/error.h; sourceTree = "<group>"; };
 		848E3F5D1A0CAA0C00712406 /* event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = event.h; path = src/event.h; sourceTree = "<group>"; };
@@ -418,7 +340,6 @@
 		848E3FDA1A0CAC1900712406 /* registrationhandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = registrationhandler.h; path = src/registrationhandler.h; sourceTree = "<group>"; };
 		848E3FDB1A0CAC1900712406 /* rosteritemdata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rosteritemdata.h; path = src/rosteritemdata.h; sourceTree = "<group>"; };
 		848E3FDC1A0CAC1900712406 /* searchhandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = searchhandler.h; path = src/searchhandler.h; sourceTree = "<group>"; };
-		848E3FE51A0CAC4400712406 /* dataformfieldcontainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dataformfieldcontainer.h; path = src/dataformfieldcontainer.h; sourceTree = "<group>"; };
 		848E3FE61A0CAC4400712406 /* flexoff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = flexoff.h; path = src/flexoff.h; sourceTree = "<group>"; };
 		848E3FE71A0CAC4400712406 /* flexoffhandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = flexoffhandler.h; path = src/flexoffhandler.h; sourceTree = "<group>"; };
 		848E3FE81A0CAC4400712406 /* gloox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gloox.h; path = src/gloox.h; sourceTree = "<group>"; };
@@ -540,6 +461,7 @@
 		848E41BF1A0CAC6E00712406 /* vcardupdate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vcardupdate.cpp; path = src/vcardupdate.cpp; sourceTree = "<group>"; };
 		848E41C01A0CAC6E00712406 /* version.rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = version.rc; path = src/version.rc; sourceTree = "<group>"; };
 		848E41C11A0CAC6E00712406 /* xhtmlim.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xhtmlim.cpp; path = src/xhtmlim.cpp; sourceTree = "<group>"; };
+		848E42A21A0CB8E200712406 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -547,6 +469,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848E42A51A0CB91500712406 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,6 +480,7 @@
 			isa = PBXGroup;
 			children = (
 				848E3EBC1A0CA89000712406 /* gloox */,
+				848E42A41A0CB8E500712406 /* Frameworks */,
 				848E3EAF1A0CA81500712406 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -581,54 +505,14 @@
 		848E3EBD1A0CA8D100712406 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				848E3EBF1A0CA90B00712406 /* adhoc.h */,
-				848E3EC01A0CA90B00712406 /* adhoccommandprovider.h */,
-				848E3EC11A0CA90B00712406 /* adhochandler.h */,
-				848E3EC21A0CA90B00712406 /* amp.h */,
-				848E3EC31A0CA90B00712406 /* annotations.h */,
-				848E3EC41A0CA90B00712406 /* annotationshandler.h */,
-				848E3EC51A0CA90B00712406 /* atomicrefcount.h */,
-				848E3EC61A0CA90B00712406 /* attention.h */,
-				848E3EC71A0CA90B00712406 /* base64.h */,
-				848E3EC81A0CA90B00712406 /* bookmarkhandler.h */,
-				848E3EC91A0CA90B00712406 /* bookmarkstorage.h */,
-				848E3ECA1A0CA90B00712406 /* bytestream.h */,
-				848E3ECB1A0CA90B00712406 /* bytestreamdatahandler.h */,
-				848E3ECC1A0CA90B00712406 /* bytestreamhandler.h */,
-				848E3ECD1A0CA90B00712406 /* capabilities.h */,
-				848E3ECE1A0CA90B00712406 /* carbons.h */,
-				848E3ECF1A0CA90B00712406 /* chatstate.h */,
-				848E3F3D1A0CAA0C00712406 /* chatstatefilter.h */,
-				848E3F3E1A0CAA0C00712406 /* chatstatehandler.h */,
-				848E3F3F1A0CAA0C00712406 /* client.h */,
-				848E3F401A0CAA0C00712406 /* clientbase.h */,
-				848E3F411A0CAA0C00712406 /* component.h */,
-				848E3F421A0CAA0C00712406 /* compressionbase.h */,
-				848E3F431A0CAA0C00712406 /* compressiondatahandler.h */,
-				848E3F441A0CAA0C00712406 /* compressiondefault.h */,
-				848E3F451A0CAA0C00712406 /* compressionzlib.h */,
 				848E3F461A0CAA0C00712406 /* config.h */,
 				848E3F471A0CAA0C00712406 /* connectionbase.h */,
 				848E3F481A0CAA0C00712406 /* connectionbosh.h */,
 				848E3F491A0CAA0C00712406 /* connectiondatahandler.h */,
 				848E3F4A1A0CAA0C00712406 /* connectionhandler.h */,
-				848E3F4B1A0CAA0C00712406 /* connectionhttpproxy.h */,
-				848E3F4C1A0CAA0C00712406 /* connectionlistener.h */,
-				848E3F4D1A0CAA0C00712406 /* connectionsocks5proxy.h */,
 				848E3F4E1A0CAA0C00712406 /* connectiontcpbase.h */,
 				848E3F4F1A0CAA0C00712406 /* connectiontcpclient.h */,
 				848E3F501A0CAA0C00712406 /* connectiontcpserver.h */,
-				848E3F511A0CAA0C00712406 /* connectiontls.h */,
-				848E3F521A0CAA0C00712406 /* connectiontlsserver.h */,
-				848E3F531A0CAA0C00712406 /* dataform.h */,
-				848E3F541A0CAA0C00712406 /* dataformfield.h */,
-				848E3FE51A0CAC4400712406 /* dataformfieldcontainer.h */,
-				848E3F551A0CAA0C00712406 /* dataformitem.h */,
-				848E3F561A0CAA0C00712406 /* dataformreported.h */,
-				848E3F571A0CAA0C00712406 /* delayeddelivery.h */,
-				848E3F581A0CAA0C00712406 /* disco.h */,
-				848E3F591A0CAA0C00712406 /* discohandler.h */,
-				848E3F5A1A0CAA0C00712406 /* disconodehandler.h */,
 				848E3F5B1A0CAA0C00712406 /* dns.h */,
 				848E3F5C1A0CAA0C00712406 /* error.h */,
 				848E3F5D1A0CAA0C00712406 /* event.h */,
@@ -857,6 +741,14 @@
 			name = src;
 			sourceTree = "<group>";
 		};
+		848E42A41A0CB8E500712406 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				848E42A21A0CB8E200712406 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -866,22 +758,15 @@
 			files = (
 				848E3FC61A0CAA6D00712406 /* oob.h in Headers */,
 				848E3FF61A0CAC4400712406 /* instantmucroom.h in Headers */,
-				848E3EDA1A0CA90B00712406 /* bookmarkstorage.h in Headers */,
-				848E3F791A0CAA0C00712406 /* dataformitem.h in Headers */,
 				848E3FB41A0CAA6D00712406 /* loghandler.h in Headers */,
 				848E3F841A0CAA0C00712406 /* featureneg.h in Headers */,
-				848E3F641A0CAA0C00712406 /* clientbase.h in Headers */,
-				848E3ED61A0CA90B00712406 /* atomicrefcount.h in Headers */,
-				848E3F621A0CAA0C00712406 /* chatstatehandler.h in Headers */,
 				848E3FD21A0CAA6D00712406 /* pubsubitem.h in Headers */,
-				848E3ED51A0CA90B00712406 /* annotationshandler.h in Headers */,
 				848E3FAD1A0CAA6D00712406 /* jinglesessionhandler.h in Headers */,
 				848E3F6D1A0CAA0C00712406 /* connectiondatahandler.h in Headers */,
 				848E3F811A0CAA0C00712406 /* event.h in Headers */,
 				848E3FB61A0CAA6D00712406 /* macros.h in Headers */,
 				848E3FB81A0CAA6D00712406 /* message.h in Headers */,
 				848E3FF21A0CAC4400712406 /* glooxversion.h in Headers */,
-				848E3F661A0CAA0C00712406 /* compressionbase.h in Headers */,
 				848E3F721A0CAA0C00712406 /* connectiontcpbase.h in Headers */,
 				848E3EFD1A0CA93900712406 /* tlshandler.h in Headers */,
 				848E3F061A0CA93900712406 /* vcardmanager.h in Headers */,
@@ -890,9 +775,7 @@
 				848E3FAE1A0CAA6D00712406 /* lastactivity.h in Headers */,
 				848E3FBD1A0CAA6D00712406 /* messagesessionhandler.h in Headers */,
 				848E3FC21A0CAA6D00712406 /* mucroomhandler.h in Headers */,
-				848E3F611A0CAA0C00712406 /* chatstatefilter.h in Headers */,
 				848E3FD31A0CAA6D00712406 /* pubsubmanager.h in Headers */,
-				848E3ED81A0CA90B00712406 /* base64.h in Headers */,
 				848E3FC31A0CAA6D00712406 /* mutex.h in Headers */,
 				848E3FD11A0CAA6D00712406 /* pubsubevent.h in Headers */,
 				848E3F321A0CA9BF00712406 /* siprofilehandler.h in Headers */,
@@ -900,12 +783,9 @@
 				848E3FC81A0CAA6D00712406 /* prep.h in Headers */,
 				848E3F071A0CA93900712406 /* vcardupdate.h in Headers */,
 				848E3FB51A0CAA6D00712406 /* logsink.h in Headers */,
-				848E3ED21A0CA90B00712406 /* adhochandler.h in Headers */,
 				848E3FC51A0CAA6D00712406 /* nickname.h in Headers */,
 				848E3EFF1A0CA93900712406 /* tlsopensslclient.h in Headers */,
-				848E3F631A0CAA0C00712406 /* client.h in Headers */,
 				848E3F3C1A0CA9BF00712406 /* subscriptionhandler.h in Headers */,
-				848E3F781A0CAA0C00712406 /* dataformfield.h in Headers */,
 				848E3F381A0CA9BF00712406 /* stanzaextension.h in Headers */,
 				848E3FB91A0CAA6D00712406 /* messageevent.h in Headers */,
 				848E3F081A0CA93900712406 /* xhtmlim.h in Headers */,
@@ -920,46 +800,33 @@
 				848E3EF71A0CA93800712406 /* tlsbase.h in Headers */,
 				848E3EFB1A0CA93900712406 /* tlsgnutlsclientanon.h in Headers */,
 				848E3F281A0CA9BF00712406 /* rosteritem.h in Headers */,
-				848E3ED31A0CA90B00712406 /* amp.h in Headers */,
-				848E3F681A0CAA0C00712406 /* compressiondefault.h in Headers */,
 				848E3FCF1A0CAA6D00712406 /* privatexmlhandler.h in Headers */,
 				848E3F311A0CA9BF00712406 /* siprofilefthandler.h in Headers */,
 				848E3F391A0CA9BF00712406 /* stanzaextensionfactory.h in Headers */,
 				848E3EF81A0CA93800712406 /* tlsdefault.h in Headers */,
 				848E3FBC1A0CAA6D00712406 /* messagesession.h in Headers */,
-				848E3EDC1A0CA90B00712406 /* bytestreamdatahandler.h in Headers */,
 				848E3F051A0CA93900712406 /* vcardhandler.h in Headers */,
 				848E3FBE1A0CAA6D00712406 /* mucinvitationhandler.h in Headers */,
 				848E3FB01A0CAA6D00712406 /* linklocal.h in Headers */,
 				848E421D1A0CAC6E00712406 /* nonsaslauth.h in Headers */,
 				848E3FB71A0CAA6D00712406 /* md5.h in Headers */,
-				848E3EDF1A0CA90B00712406 /* carbons.h in Headers */,
-				848E3F701A0CAA0C00712406 /* connectionlistener.h in Headers */,
 				848E3F6B1A0CAA0C00712406 /* connectionbase.h in Headers */,
 				848E42141A0CAC6E00712406 /* messageeventhandler.h in Headers */,
 				848E3F021A0CA93900712406 /* uniquemucroom.h in Headers */,
-				848E3F761A0CAA0C00712406 /* connectiontlsserver.h in Headers */,
 				848E3F3B1A0CA9BF00712406 /* subscription.h in Headers */,
 				848E3F831A0CAA0C00712406 /* eventhandler.h in Headers */,
-				848E3F771A0CAA0C00712406 /* dataform.h in Headers */,
 				848E3F361A0CA9BF00712406 /* softwareversion.h in Headers */,
-				848E3F7D1A0CAA0C00712406 /* discohandler.h in Headers */,
-				848E3F751A0CAA0C00712406 /* connectiontls.h in Headers */,
 				848E3FC91A0CAA6D00712406 /* presence.h in Headers */,
 				848E3FBA1A0CAA6D00712406 /* messagefilter.h in Headers */,
-				848E3EDD1A0CA90B00712406 /* bytestreamhandler.h in Headers */,
 				848E3F041A0CA93900712406 /* vcard.h in Headers */,
 				848E3FB21A0CAA6D00712406 /* linklocalhandler.h in Headers */,
 				848E3FC41A0CAA6D00712406 /* mutexguard.h in Headers */,
 				848E3EF51A0CA93800712406 /* tag.h in Headers */,
-				848E3F671A0CAA0C00712406 /* compressiondatahandler.h in Headers */,
 				848E3EFA1A0CA93900712406 /* tlsgnutlsclient.h in Headers */,
 				848E3EF91A0CA93800712406 /* tlsgnutlsbase.h in Headers */,
 				848E3FE41A0CAC1900712406 /* searchhandler.h in Headers */,
 				848E3FDD1A0CAC1900712406 /* jinglepluginfactory.h in Headers */,
 				848E3FD41A0CAA6D00712406 /* pubsubresulthandler.h in Headers */,
-				848E3F7A1A0CAA0C00712406 /* dataformreported.h in Headers */,
-				848E3ED91A0CA90B00712406 /* bookmarkhandler.h in Headers */,
 				848E3FF31A0CAC4400712406 /* gpgencrypted.h in Headers */,
 				848E3FCE1A0CAA6D00712406 /* privatexml.h in Headers */,
 				848E3F331A0CA9BF00712406 /* socks5bytestream.h in Headers */,
@@ -968,8 +835,6 @@
 				848E3FEF1A0CAC4400712406 /* flexoff.h in Headers */,
 				848E3FCB1A0CAA6D00712406 /* privacyitem.h in Headers */,
 				848E3F301A0CA9BF00712406 /* siprofileft.h in Headers */,
-				848E3ED41A0CA90B00712406 /* annotations.h in Headers */,
-				848E3ED01A0CA90B00712406 /* adhoc.h in Headers */,
 				848E3F011A0CA93900712406 /* tlsschannel.h in Headers */,
 				848E3EF61A0CA93800712406 /* taghandler.h in Headers */,
 				848E3FB31A0CAA6D00712406 /* linklocalmanager.h in Headers */,
@@ -981,22 +846,12 @@
 				848E3F031A0CA93900712406 /* util.h in Headers */,
 				848E3FF01A0CAC4400712406 /* flexoffhandler.h in Headers */,
 				848E3F2A1A0CA9BF00712406 /* rostermanager.h in Headers */,
-				848E3F651A0CAA0C00712406 /* component.h in Headers */,
-				848E3ED11A0CA90B00712406 /* adhoccommandprovider.h in Headers */,
-				848E3EDB1A0CA90B00712406 /* bytestream.h in Headers */,
 				848E3FE31A0CAC1900712406 /* rosteritemdata.h in Headers */,
-				848E3F691A0CAA0C00712406 /* compressionzlib.h in Headers */,
-				848E3F7E1A0CAA0C00712406 /* disconodehandler.h in Headers */,
-				848E3F6F1A0CAA0C00712406 /* connectionhttpproxy.h in Headers */,
 				848E3FE11A0CAC1900712406 /* registration.h in Headers */,
 				848E3F291A0CA9BF00712406 /* rosterlistener.h in Headers */,
-				848E3FEE1A0CAC4400712406 /* dataformfieldcontainer.h in Headers */,
-				848E3F7B1A0CAA0C00712406 /* delayeddelivery.h in Headers */,
 				848E3F741A0CAA0C00712406 /* connectiontcpserver.h in Headers */,
-				848E3EDE1A0CA90B00712406 /* capabilities.h in Headers */,
 				848E3F7F1A0CAA0C00712406 /* dns.h in Headers */,
 				848E3FBF1A0CAA6D00712406 /* mucmessagesession.h in Headers */,
-				848E3EE01A0CA90B00712406 /* chatstate.h in Headers */,
 				848E3FCA1A0CAA6D00712406 /* presencehandler.h in Headers */,
 				848E3F271A0CA9BF00712406 /* resource.h in Headers */,
 				848E3FAF1A0CAA6D00712406 /* lastactivityhandler.h in Headers */,
@@ -1012,13 +867,10 @@
 				848E3FDE1A0CAC1900712406 /* jinglesession.h in Headers */,
 				848E3F731A0CAA0C00712406 /* connectiontcpclient.h in Headers */,
 				848E3F2B1A0CA9BF00712406 /* search.h in Headers */,
-				848E3F7C1A0CAA0C00712406 /* disco.h in Headers */,
-				848E3F711A0CAA0C00712406 /* connectionsocks5proxy.h in Headers */,
 				848E3F2C1A0CA9BF00712406 /* sha.h in Headers */,
 				848E3F6C1A0CAA0C00712406 /* connectionbosh.h in Headers */,
 				848E3F341A0CA9BF00712406 /* socks5bytestreammanager.h in Headers */,
 				848E3FD01A0CAA6D00712406 /* pubsub.h in Headers */,
-				848E3ED71A0CA90B00712406 /* attention.h in Headers */,
 				848E3FCD1A0CAA6D00712406 /* privacymanager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1226,10 +1078,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -1261,9 +1114,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
