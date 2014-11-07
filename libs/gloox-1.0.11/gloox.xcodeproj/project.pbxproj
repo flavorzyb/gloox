@@ -7,48 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		848E3EF51A0CA93800712406 /* tag.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EE11A0CA93800712406 /* tag.h */; };
-		848E3EF61A0CA93800712406 /* taghandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EE21A0CA93800712406 /* taghandler.h */; };
-		848E3EF71A0CA93800712406 /* tlsbase.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EE31A0CA93800712406 /* tlsbase.h */; };
-		848E3EF81A0CA93800712406 /* tlsdefault.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EE41A0CA93800712406 /* tlsdefault.h */; };
-		848E3EF91A0CA93800712406 /* tlsgnutlsbase.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EE51A0CA93800712406 /* tlsgnutlsbase.h */; };
-		848E3EFA1A0CA93900712406 /* tlsgnutlsclient.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EE61A0CA93800712406 /* tlsgnutlsclient.h */; };
-		848E3EFB1A0CA93900712406 /* tlsgnutlsclientanon.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EE71A0CA93800712406 /* tlsgnutlsclientanon.h */; };
-		848E3EFC1A0CA93900712406 /* tlsgnutlsserveranon.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EE81A0CA93800712406 /* tlsgnutlsserveranon.h */; };
-		848E3EFD1A0CA93900712406 /* tlshandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EE91A0CA93800712406 /* tlshandler.h */; };
-		848E3EFE1A0CA93900712406 /* tlsopensslbase.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EEA1A0CA93800712406 /* tlsopensslbase.h */; };
-		848E3EFF1A0CA93900712406 /* tlsopensslclient.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EEB1A0CA93800712406 /* tlsopensslclient.h */; };
-		848E3F001A0CA93900712406 /* tlsopensslserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EEC1A0CA93800712406 /* tlsopensslserver.h */; };
-		848E3F011A0CA93900712406 /* tlsschannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EED1A0CA93800712406 /* tlsschannel.h */; };
-		848E3F021A0CA93900712406 /* uniquemucroom.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EEE1A0CA93800712406 /* uniquemucroom.h */; };
 		848E3F031A0CA93900712406 /* util.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EEF1A0CA93800712406 /* util.h */; };
-		848E3F041A0CA93900712406 /* vcard.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EF01A0CA93800712406 /* vcard.h */; };
-		848E3F051A0CA93900712406 /* vcardhandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EF11A0CA93800712406 /* vcardhandler.h */; };
-		848E3F061A0CA93900712406 /* vcardmanager.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EF21A0CA93800712406 /* vcardmanager.h */; };
-		848E3F071A0CA93900712406 /* vcardupdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EF31A0CA93800712406 /* vcardupdate.h */; };
-		848E3F081A0CA93900712406 /* xhtmlim.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EF41A0CA93800712406 /* xhtmlim.h */; };
-		848E3F271A0CA9BF00712406 /* resource.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F111A0CA9BE00712406 /* resource.h */; };
-		848E3F281A0CA9BF00712406 /* rosteritem.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F121A0CA9BE00712406 /* rosteritem.h */; };
-		848E3F291A0CA9BF00712406 /* rosterlistener.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F131A0CA9BE00712406 /* rosterlistener.h */; };
-		848E3F2A1A0CA9BF00712406 /* rostermanager.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F141A0CA9BE00712406 /* rostermanager.h */; };
-		848E3F2B1A0CA9BF00712406 /* search.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F151A0CA9BE00712406 /* search.h */; };
-		848E3F2C1A0CA9BF00712406 /* sha.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F161A0CA9BE00712406 /* sha.h */; };
-		848E3F2D1A0CA9BF00712406 /* shim.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F171A0CA9BE00712406 /* shim.h */; };
-		848E3F2E1A0CA9BF00712406 /* sihandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F181A0CA9BE00712406 /* sihandler.h */; };
-		848E3F2F1A0CA9BF00712406 /* simanager.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F191A0CA9BE00712406 /* simanager.h */; };
-		848E3F301A0CA9BF00712406 /* siprofileft.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F1A1A0CA9BE00712406 /* siprofileft.h */; };
-		848E3F311A0CA9BF00712406 /* siprofilefthandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F1B1A0CA9BE00712406 /* siprofilefthandler.h */; };
-		848E3F321A0CA9BF00712406 /* siprofilehandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F1C1A0CA9BE00712406 /* siprofilehandler.h */; };
-		848E3F331A0CA9BF00712406 /* socks5bytestream.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F1D1A0CA9BE00712406 /* socks5bytestream.h */; };
-		848E3F341A0CA9BF00712406 /* socks5bytestreammanager.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F1E1A0CA9BF00712406 /* socks5bytestreammanager.h */; };
-		848E3F351A0CA9BF00712406 /* socks5bytestreamserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F1F1A0CA9BF00712406 /* socks5bytestreamserver.h */; };
-		848E3F361A0CA9BF00712406 /* softwareversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F201A0CA9BF00712406 /* softwareversion.h */; };
-		848E3F371A0CA9BF00712406 /* stanza.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F211A0CA9BF00712406 /* stanza.h */; };
-		848E3F381A0CA9BF00712406 /* stanzaextension.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F221A0CA9BF00712406 /* stanzaextension.h */; };
-		848E3F391A0CA9BF00712406 /* stanzaextensionfactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F231A0CA9BF00712406 /* stanzaextensionfactory.h */; };
-		848E3F3A1A0CA9BF00712406 /* statisticshandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F241A0CA9BF00712406 /* statisticshandler.h */; };
-		848E3F3B1A0CA9BF00712406 /* subscription.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F251A0CA9BF00712406 /* subscription.h */; };
-		848E3F3C1A0CA9BF00712406 /* subscriptionhandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F261A0CA9BF00712406 /* subscriptionhandler.h */; };
 		848E3F6A1A0CAA0C00712406 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F461A0CAA0C00712406 /* config.h */; };
 		848E3F6B1A0CAA0C00712406 /* connectionbase.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F471A0CAA0C00712406 /* connectionbase.h */; };
 		848E3F6C1A0CAA0C00712406 /* connectionbosh.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F481A0CAA0C00712406 /* connectionbosh.h */; };
@@ -58,226 +17,28 @@
 		848E3F731A0CAA0C00712406 /* connectiontcpclient.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F4F1A0CAA0C00712406 /* connectiontcpclient.h */; };
 		848E3F741A0CAA0C00712406 /* connectiontcpserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F501A0CAA0C00712406 /* connectiontcpserver.h */; };
 		848E3F7F1A0CAA0C00712406 /* dns.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F5B1A0CAA0C00712406 /* dns.h */; };
-		848E3F801A0CAA0C00712406 /* error.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F5C1A0CAA0C00712406 /* error.h */; };
-		848E3F811A0CAA0C00712406 /* event.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F5D1A0CAA0C00712406 /* event.h */; };
-		848E3F821A0CAA0C00712406 /* eventdispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F5E1A0CAA0C00712406 /* eventdispatcher.h */; };
-		848E3F831A0CAA0C00712406 /* eventhandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F5F1A0CAA0C00712406 /* eventhandler.h */; };
-		848E3F841A0CAA0C00712406 /* featureneg.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F601A0CAA0C00712406 /* featureneg.h */; };
-		848E3FAD1A0CAA6D00712406 /* jinglesessionhandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F851A0CAA6C00712406 /* jinglesessionhandler.h */; };
-		848E3FAE1A0CAA6D00712406 /* lastactivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F861A0CAA6C00712406 /* lastactivity.h */; };
-		848E3FAF1A0CAA6D00712406 /* lastactivityhandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F871A0CAA6C00712406 /* lastactivityhandler.h */; };
-		848E3FB01A0CAA6D00712406 /* linklocal.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F881A0CAA6C00712406 /* linklocal.h */; };
-		848E3FB11A0CAA6D00712406 /* linklocalclient.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F891A0CAA6C00712406 /* linklocalclient.h */; };
-		848E3FB21A0CAA6D00712406 /* linklocalhandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F8A1A0CAA6C00712406 /* linklocalhandler.h */; };
-		848E3FB31A0CAA6D00712406 /* linklocalmanager.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F8B1A0CAA6C00712406 /* linklocalmanager.h */; };
 		848E3FB41A0CAA6D00712406 /* loghandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F8C1A0CAA6C00712406 /* loghandler.h */; };
 		848E3FB51A0CAA6D00712406 /* logsink.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F8D1A0CAA6C00712406 /* logsink.h */; };
 		848E3FB61A0CAA6D00712406 /* macros.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F8E1A0CAA6C00712406 /* macros.h */; };
-		848E3FB71A0CAA6D00712406 /* md5.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F8F1A0CAA6C00712406 /* md5.h */; };
-		848E3FB81A0CAA6D00712406 /* message.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F901A0CAA6C00712406 /* message.h */; };
-		848E3FB91A0CAA6D00712406 /* messageevent.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F911A0CAA6C00712406 /* messageevent.h */; };
-		848E3FBA1A0CAA6D00712406 /* messagefilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F921A0CAA6C00712406 /* messagefilter.h */; };
-		848E3FBB1A0CAA6D00712406 /* messagehandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F931A0CAA6C00712406 /* messagehandler.h */; };
-		848E3FBC1A0CAA6D00712406 /* messagesession.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F941A0CAA6C00712406 /* messagesession.h */; };
-		848E3FBD1A0CAA6D00712406 /* messagesessionhandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F951A0CAA6C00712406 /* messagesessionhandler.h */; };
-		848E3FBE1A0CAA6D00712406 /* mucinvitationhandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F961A0CAA6C00712406 /* mucinvitationhandler.h */; };
-		848E3FBF1A0CAA6D00712406 /* mucmessagesession.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F971A0CAA6C00712406 /* mucmessagesession.h */; };
-		848E3FC01A0CAA6D00712406 /* mucroom.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F981A0CAA6C00712406 /* mucroom.h */; };
-		848E3FC11A0CAA6D00712406 /* mucroomconfighandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F991A0CAA6C00712406 /* mucroomconfighandler.h */; };
-		848E3FC21A0CAA6D00712406 /* mucroomhandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F9A1A0CAA6D00712406 /* mucroomhandler.h */; };
 		848E3FC31A0CAA6D00712406 /* mutex.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F9B1A0CAA6D00712406 /* mutex.h */; };
 		848E3FC41A0CAA6D00712406 /* mutexguard.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F9C1A0CAA6D00712406 /* mutexguard.h */; };
-		848E3FC51A0CAA6D00712406 /* nickname.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F9D1A0CAA6D00712406 /* nickname.h */; };
-		848E3FC61A0CAA6D00712406 /* oob.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F9E1A0CAA6D00712406 /* oob.h */; };
-		848E3FC71A0CAA6D00712406 /* parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F9F1A0CAA6D00712406 /* parser.h */; };
 		848E3FC81A0CAA6D00712406 /* prep.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FA01A0CAA6D00712406 /* prep.h */; };
-		848E3FC91A0CAA6D00712406 /* presence.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FA11A0CAA6D00712406 /* presence.h */; };
-		848E3FCA1A0CAA6D00712406 /* presencehandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FA21A0CAA6D00712406 /* presencehandler.h */; };
-		848E3FCB1A0CAA6D00712406 /* privacyitem.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FA31A0CAA6D00712406 /* privacyitem.h */; };
-		848E3FCC1A0CAA6D00712406 /* privacylisthandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FA41A0CAA6D00712406 /* privacylisthandler.h */; };
-		848E3FCD1A0CAA6D00712406 /* privacymanager.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FA51A0CAA6D00712406 /* privacymanager.h */; };
-		848E3FCE1A0CAA6D00712406 /* privatexml.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FA61A0CAA6D00712406 /* privatexml.h */; };
-		848E3FCF1A0CAA6D00712406 /* privatexmlhandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FA71A0CAA6D00712406 /* privatexmlhandler.h */; };
-		848E3FD01A0CAA6D00712406 /* pubsub.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FA81A0CAA6D00712406 /* pubsub.h */; };
-		848E3FD11A0CAA6D00712406 /* pubsubevent.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FA91A0CAA6D00712406 /* pubsubevent.h */; };
-		848E3FD21A0CAA6D00712406 /* pubsubitem.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FAA1A0CAA6D00712406 /* pubsubitem.h */; };
-		848E3FD31A0CAA6D00712406 /* pubsubmanager.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FAB1A0CAA6D00712406 /* pubsubmanager.h */; };
-		848E3FD41A0CAA6D00712406 /* pubsubresulthandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FAC1A0CAA6D00712406 /* pubsubresulthandler.h */; };
-		848E3FDD1A0CAC1900712406 /* jinglepluginfactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FD51A0CAC1900712406 /* jinglepluginfactory.h */; };
-		848E3FDE1A0CAC1900712406 /* jinglesession.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FD61A0CAC1900712406 /* jinglesession.h */; };
-		848E3FDF1A0CAC1900712406 /* jinglesessionmanager.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FD71A0CAC1900712406 /* jinglesessionmanager.h */; };
-		848E3FE01A0CAC1900712406 /* receipt.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FD81A0CAC1900712406 /* receipt.h */; };
-		848E3FE11A0CAC1900712406 /* registration.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FD91A0CAC1900712406 /* registration.h */; };
-		848E3FE21A0CAC1900712406 /* registrationhandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FDA1A0CAC1900712406 /* registrationhandler.h */; };
-		848E3FE31A0CAC1900712406 /* rosteritemdata.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FDB1A0CAC1900712406 /* rosteritemdata.h */; };
-		848E3FE41A0CAC1900712406 /* searchhandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FDC1A0CAC1900712406 /* searchhandler.h */; };
-		848E3FEF1A0CAC4400712406 /* flexoff.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FE61A0CAC4400712406 /* flexoff.h */; };
-		848E3FF01A0CAC4400712406 /* flexoffhandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FE71A0CAC4400712406 /* flexoffhandler.h */; };
 		848E3FF11A0CAC4400712406 /* gloox.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FE81A0CAC4400712406 /* gloox.h */; };
-		848E3FF21A0CAC4400712406 /* glooxversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FE91A0CAC4400712406 /* glooxversion.h */; };
-		848E3FF31A0CAC4400712406 /* gpgencrypted.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FEA1A0CAC4400712406 /* gpgencrypted.h */; };
-		848E3FF41A0CAC4400712406 /* gpgsigned.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FEB1A0CAC4400712406 /* gpgsigned.h */; };
-		848E3FF51A0CAC4400712406 /* inbandbytestream.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FEC1A0CAC4400712406 /* inbandbytestream.h */; };
-		848E3FF61A0CAC4400712406 /* instantmucroom.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3FED1A0CAC4400712406 /* instantmucroom.h */; };
-		848E41C21A0CAC6E00712406 /* adhoc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E3FF71A0CAC6E00712406 /* adhoc.cpp */; };
-		848E41C31A0CAC6E00712406 /* amp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E3FF81A0CAC6E00712406 /* amp.cpp */; };
-		848E41C41A0CAC6E00712406 /* annotations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E3FF91A0CAC6E00712406 /* annotations.cpp */; };
-		848E41C51A0CAC6E00712406 /* atomicrefcount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E3FFA1A0CAC6E00712406 /* atomicrefcount.cpp */; };
-		848E41C61A0CAC6E00712406 /* attention.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E3FFB1A0CAC6E00712406 /* attention.cpp */; };
-		848E41C71A0CAC6E00712406 /* base64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E3FFC1A0CAC6E00712406 /* base64.cpp */; };
-		848E41C81A0CAC6E00712406 /* bookmarkstorage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E3FFD1A0CAC6E00712406 /* bookmarkstorage.cpp */; };
-		848E41C91A0CAC6E00712406 /* capabilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E3FFE1A0CAC6E00712406 /* capabilities.cpp */; };
-		848E41CA1A0CAC6E00712406 /* carbons.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E3FFF1A0CAC6E00712406 /* carbons.cpp */; };
-		848E41CB1A0CAC6E00712406 /* chatstate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40001A0CAC6E00712406 /* chatstate.cpp */; };
-		848E41CC1A0CAC6E00712406 /* chatstatefilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40011A0CAC6E00712406 /* chatstatefilter.cpp */; };
-		848E41CD1A0CAC6E00712406 /* client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40021A0CAC6E00712406 /* client.cpp */; };
-		848E41CE1A0CAC6E00712406 /* clientbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40031A0CAC6E00712406 /* clientbase.cpp */; };
-		848E41CF1A0CAC6E00712406 /* component.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40041A0CAC6E00712406 /* component.cpp */; };
-		848E41D01A0CAC6E00712406 /* compressiondefault.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40051A0CAC6E00712406 /* compressiondefault.cpp */; };
-		848E41D11A0CAC6E00712406 /* compressionzlib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40061A0CAC6E00712406 /* compressionzlib.cpp */; };
-		848E41D21A0CAC6E00712406 /* connectionbosh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40071A0CAC6E00712406 /* connectionbosh.cpp */; };
-		848E41D31A0CAC6E00712406 /* connectionhttpproxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40081A0CAC6E00712406 /* connectionhttpproxy.cpp */; };
-		848E41D41A0CAC6E00712406 /* connectionsocks5proxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40091A0CAC6E00712406 /* connectionsocks5proxy.cpp */; };
 		848E41D51A0CAC6E00712406 /* connectiontcpbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E400A1A0CAC6E00712406 /* connectiontcpbase.cpp */; };
 		848E41D61A0CAC6E00712406 /* connectiontcpclient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E400B1A0CAC6E00712406 /* connectiontcpclient.cpp */; };
 		848E41D71A0CAC6E00712406 /* connectiontcpserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E400C1A0CAC6E00712406 /* connectiontcpserver.cpp */; };
-		848E41D81A0CAC6E00712406 /* connectiontls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E400D1A0CAC6E00712406 /* connectiontls.cpp */; };
-		848E41D91A0CAC6E00712406 /* connectiontlsserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E400E1A0CAC6E00712406 /* connectiontlsserver.cpp */; };
-		848E41DA1A0CAC6E00712406 /* dataform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E400F1A0CAC6E00712406 /* dataform.cpp */; };
-		848E41DB1A0CAC6E00712406 /* dataformfield.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40101A0CAC6E00712406 /* dataformfield.cpp */; };
-		848E41DC1A0CAC6E00712406 /* dataformfieldcontainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40111A0CAC6E00712406 /* dataformfieldcontainer.cpp */; };
-		848E41DD1A0CAC6E00712406 /* dataformitem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40121A0CAC6E00712406 /* dataformitem.cpp */; };
-		848E41DE1A0CAC6E00712406 /* dataformreported.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40131A0CAC6E00712406 /* dataformreported.cpp */; };
-		848E41DF1A0CAC6E00712406 /* delayeddelivery.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40141A0CAC6E00712406 /* delayeddelivery.cpp */; };
-		848E41E01A0CAC6E00712406 /* disco.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40151A0CAC6E00712406 /* disco.cpp */; };
 		848E41E11A0CAC6E00712406 /* dns.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40161A0CAC6E00712406 /* dns.cpp */; };
-		848E41E21A0CAC6E00712406 /* error.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40171A0CAC6E00712406 /* error.cpp */; };
-		848E41E31A0CAC6E00712406 /* eventdispatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40181A0CAC6E00712406 /* eventdispatcher.cpp */; };
-		848E41FA1A0CAC6E00712406 /* featureneg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40321A0CAC6E00712406 /* featureneg.cpp */; };
-		848E41FB1A0CAC6E00712406 /* flexoff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40331A0CAC6E00712406 /* flexoff.cpp */; };
-		848E41FC1A0CAC6E00712406 /* forward.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40341A0CAC6E00712406 /* forward.cpp */; };
-		848E41FD1A0CAC6E00712406 /* forward.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E40351A0CAC6E00712406 /* forward.h */; };
 		848E41FE1A0CAC6E00712406 /* gloox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40361A0CAC6E00712406 /* gloox.cpp */; };
-		848E41FF1A0CAC6E00712406 /* gpgencrypted.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40371A0CAC6E00712406 /* gpgencrypted.cpp */; };
-		848E42001A0CAC6E00712406 /* gpgsigned.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40381A0CAC6E00712406 /* gpgsigned.cpp */; };
-		848E42011A0CAC6E00712406 /* inbandbytestream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40391A0CAC6E00712406 /* inbandbytestream.cpp */; };
-		848E42021A0CAC6E00712406 /* instantmucroom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E403A1A0CAC6E00712406 /* instantmucroom.cpp */; };
-		848E42031A0CAC6E00712406 /* iq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E403B1A0CAC6E00712406 /* iq.cpp */; };
-		848E42041A0CAC6E00712406 /* jid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E403C1A0CAC6E00712406 /* jid.cpp */; };
-		848E42051A0CAC6E00712406 /* jinglecontent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E403D1A0CAC6E00712406 /* jinglecontent.cpp */; };
-		848E42061A0CAC6E00712406 /* jinglefiletransfer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E403E1A0CAC6E00712406 /* jinglefiletransfer.cpp */; };
-		848E42071A0CAC6E00712406 /* jingleiceudp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E403F1A0CAC6E00712406 /* jingleiceudp.cpp */; };
-		848E42081A0CAC6E00712406 /* jinglepluginfactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40401A0CAC6E00712406 /* jinglepluginfactory.cpp */; };
-		848E42091A0CAC6E00712406 /* jinglesession.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40411A0CAC6E00712406 /* jinglesession.cpp */; };
-		848E420A1A0CAC6E00712406 /* jinglesessionmanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40421A0CAC6E00712406 /* jinglesessionmanager.cpp */; };
-		848E420B1A0CAC6E00712406 /* lastactivity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40431A0CAC6E00712406 /* lastactivity.cpp */; };
-		848E420C1A0CAC6E00712406 /* linklocalclient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40441A0CAC6E00712406 /* linklocalclient.cpp */; };
-		848E420D1A0CAC6E00712406 /* linklocalmanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40451A0CAC6E00712406 /* linklocalmanager.cpp */; };
 		848E420E1A0CAC6E00712406 /* logsink.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40461A0CAC6E00712406 /* logsink.cpp */; };
-		848E420F1A0CAC6E00712406 /* md5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40491A0CAC6E00712406 /* md5.cpp */; };
-		848E42101A0CAC6E00712406 /* message.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E404A1A0CAC6E00712406 /* message.cpp */; };
-		848E42111A0CAC6E00712406 /* messageevent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E404B1A0CAC6E00712406 /* messageevent.cpp */; };
-		848E42121A0CAC6E00712406 /* messageeventfilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E404C1A0CAC6E00712406 /* messageeventfilter.cpp */; };
-		848E42131A0CAC6E00712406 /* messageeventfilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E404D1A0CAC6E00712406 /* messageeventfilter.h */; };
-		848E42141A0CAC6E00712406 /* messageeventhandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E404E1A0CAC6E00712406 /* messageeventhandler.h */; };
-		848E42151A0CAC6E00712406 /* messagefilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E404F1A0CAC6E00712406 /* messagefilter.cpp */; };
-		848E42161A0CAC6E00712406 /* messagesession.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40501A0CAC6E00712406 /* messagesession.cpp */; };
-		848E42171A0CAC6E00712406 /* mucinvitationhandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40511A0CAC6E00712406 /* mucinvitationhandler.cpp */; };
-		848E42181A0CAC6E00712406 /* mucmessagesession.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40521A0CAC6E00712406 /* mucmessagesession.cpp */; };
-		848E42191A0CAC6E00712406 /* mucroom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40531A0CAC6E00712406 /* mucroom.cpp */; };
 		848E421A1A0CAC6E00712406 /* mutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40541A0CAC6E00712406 /* mutex.cpp */; };
-		848E421B1A0CAC6E00712406 /* nickname.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40551A0CAC6E00712406 /* nickname.cpp */; };
-		848E421C1A0CAC6E00712406 /* nonsaslauth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40561A0CAC6E00712406 /* nonsaslauth.cpp */; };
-		848E421D1A0CAC6E00712406 /* nonsaslauth.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E40571A0CAC6E00712406 /* nonsaslauth.h */; };
-		848E421E1A0CAC6E00712406 /* oob.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40581A0CAC6E00712406 /* oob.cpp */; };
-		848E421F1A0CAC6E00712406 /* parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40591A0CAC6E00712406 /* parser.cpp */; };
 		848E42201A0CAC6E00712406 /* prep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E405A1A0CAC6E00712406 /* prep.cpp */; };
-		848E42211A0CAC6E00712406 /* presence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E405B1A0CAC6E00712406 /* presence.cpp */; };
-		848E42221A0CAC6E00712406 /* privacyitem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E405C1A0CAC6E00712406 /* privacyitem.cpp */; };
-		848E42231A0CAC6E00712406 /* privacymanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E405D1A0CAC6E00712406 /* privacymanager.cpp */; };
-		848E42241A0CAC6E00712406 /* privatexml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E405E1A0CAC6E00712406 /* privatexml.cpp */; };
-		848E42251A0CAC6E00712406 /* pubsubevent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E405F1A0CAC6E00712406 /* pubsubevent.cpp */; };
-		848E42261A0CAC6E00712406 /* pubsubitem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40601A0CAC6E00712406 /* pubsubitem.cpp */; };
-		848E42271A0CAC6E00712406 /* pubsubmanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40611A0CAC6E00712406 /* pubsubmanager.cpp */; };
-		848E42281A0CAC6E00712406 /* receipt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40621A0CAC6E00712406 /* receipt.cpp */; };
-		848E42291A0CAC6E00712406 /* registration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40631A0CAC6E00712406 /* registration.cpp */; };
-		848E422A1A0CAC6E00712406 /* rosteritem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40641A0CAC6E00712406 /* rosteritem.cpp */; };
-		848E422B1A0CAC6E00712406 /* rostermanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40651A0CAC6E00712406 /* rostermanager.cpp */; };
-		848E422C1A0CAC6E00712406 /* search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40661A0CAC6E00712406 /* search.cpp */; };
-		848E422D1A0CAC6E00712406 /* sha.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40671A0CAC6E00712406 /* sha.cpp */; };
-		848E422E1A0CAC6E00712406 /* shim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40681A0CAC6E00712406 /* shim.cpp */; };
-		848E422F1A0CAC6E00712406 /* simanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40691A0CAC6E00712406 /* simanager.cpp */; };
-		848E42301A0CAC6E00712406 /* siprofileft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E406A1A0CAC6E00712406 /* siprofileft.cpp */; };
-		848E42311A0CAC6E00712406 /* socks5bytestream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E406B1A0CAC6E00712406 /* socks5bytestream.cpp */; };
-		848E42321A0CAC6E00712406 /* socks5bytestreammanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E406C1A0CAC6E00712406 /* socks5bytestreammanager.cpp */; };
-		848E42331A0CAC6E00712406 /* socks5bytestreamserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E406D1A0CAC6E00712406 /* socks5bytestreamserver.cpp */; };
-		848E42341A0CAC6E00712406 /* softwareversion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E406E1A0CAC6E00712406 /* softwareversion.cpp */; };
-		848E42351A0CAC6E00712406 /* stanza.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E406F1A0CAC6E00712406 /* stanza.cpp */; };
-		848E42361A0CAC6E00712406 /* stanzaextensionfactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40701A0CAC6E00712406 /* stanzaextensionfactory.cpp */; };
-		848E42371A0CAC6E00712406 /* subscription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40711A0CAC6E00712406 /* subscription.cpp */; };
-		848E42381A0CAC6E00712406 /* tag.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40721A0CAC6E00712406 /* tag.cpp */; };
-		848E428B1A0CAC6E00712406 /* tlsdefault.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E41B21A0CAC6E00712406 /* tlsdefault.cpp */; };
-		848E428C1A0CAC6E00712406 /* tlsgnutlsbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E41B31A0CAC6E00712406 /* tlsgnutlsbase.cpp */; };
-		848E428D1A0CAC6E00712406 /* tlsgnutlsclient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E41B41A0CAC6E00712406 /* tlsgnutlsclient.cpp */; };
-		848E428E1A0CAC6E00712406 /* tlsgnutlsclientanon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E41B51A0CAC6E00712406 /* tlsgnutlsclientanon.cpp */; };
-		848E428F1A0CAC6E00712406 /* tlsgnutlsserveranon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E41B61A0CAC6E00712406 /* tlsgnutlsserveranon.cpp */; };
-		848E42901A0CAC6E00712406 /* tlsopensslbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E41B71A0CAC6E00712406 /* tlsopensslbase.cpp */; };
-		848E42911A0CAC6E00712406 /* tlsopensslclient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E41B81A0CAC6E00712406 /* tlsopensslclient.cpp */; };
-		848E42921A0CAC6E00712406 /* tlsopensslserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E41B91A0CAC6E00712406 /* tlsopensslserver.cpp */; };
-		848E42931A0CAC6E00712406 /* tlsschannel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E41BA1A0CAC6E00712406 /* tlsschannel.cpp */; };
-		848E42941A0CAC6E00712406 /* uniquemucroom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E41BB1A0CAC6E00712406 /* uniquemucroom.cpp */; };
 		848E42951A0CAC6E00712406 /* util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E41BC1A0CAC6E00712406 /* util.cpp */; };
-		848E42961A0CAC6E00712406 /* vcard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E41BD1A0CAC6E00712406 /* vcard.cpp */; };
-		848E42971A0CAC6E00712406 /* vcardmanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E41BE1A0CAC6E00712406 /* vcardmanager.cpp */; };
-		848E42981A0CAC6E00712406 /* vcardupdate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E41BF1A0CAC6E00712406 /* vcardupdate.cpp */; };
-		848E42991A0CAC6E00712406 /* xhtmlim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E41C11A0CAC6E00712406 /* xhtmlim.cpp */; };
 		848E42A51A0CB91500712406 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848E42A21A0CB8E200712406 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		848E3EAE1A0CA81500712406 /* libgloox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libgloox.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		848E3EE11A0CA93800712406 /* tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tag.h; path = src/tag.h; sourceTree = "<group>"; };
-		848E3EE21A0CA93800712406 /* taghandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = taghandler.h; path = src/taghandler.h; sourceTree = "<group>"; };
-		848E3EE31A0CA93800712406 /* tlsbase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tlsbase.h; path = src/tlsbase.h; sourceTree = "<group>"; };
-		848E3EE41A0CA93800712406 /* tlsdefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tlsdefault.h; path = src/tlsdefault.h; sourceTree = "<group>"; };
-		848E3EE51A0CA93800712406 /* tlsgnutlsbase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tlsgnutlsbase.h; path = src/tlsgnutlsbase.h; sourceTree = "<group>"; };
-		848E3EE61A0CA93800712406 /* tlsgnutlsclient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tlsgnutlsclient.h; path = src/tlsgnutlsclient.h; sourceTree = "<group>"; };
-		848E3EE71A0CA93800712406 /* tlsgnutlsclientanon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tlsgnutlsclientanon.h; path = src/tlsgnutlsclientanon.h; sourceTree = "<group>"; };
-		848E3EE81A0CA93800712406 /* tlsgnutlsserveranon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tlsgnutlsserveranon.h; path = src/tlsgnutlsserveranon.h; sourceTree = "<group>"; };
-		848E3EE91A0CA93800712406 /* tlshandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tlshandler.h; path = src/tlshandler.h; sourceTree = "<group>"; };
-		848E3EEA1A0CA93800712406 /* tlsopensslbase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tlsopensslbase.h; path = src/tlsopensslbase.h; sourceTree = "<group>"; };
-		848E3EEB1A0CA93800712406 /* tlsopensslclient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tlsopensslclient.h; path = src/tlsopensslclient.h; sourceTree = "<group>"; };
-		848E3EEC1A0CA93800712406 /* tlsopensslserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tlsopensslserver.h; path = src/tlsopensslserver.h; sourceTree = "<group>"; };
-		848E3EED1A0CA93800712406 /* tlsschannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tlsschannel.h; path = src/tlsschannel.h; sourceTree = "<group>"; };
-		848E3EEE1A0CA93800712406 /* uniquemucroom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = uniquemucroom.h; path = src/uniquemucroom.h; sourceTree = "<group>"; };
 		848E3EEF1A0CA93800712406 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = util.h; path = src/util.h; sourceTree = "<group>"; };
-		848E3EF01A0CA93800712406 /* vcard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vcard.h; path = src/vcard.h; sourceTree = "<group>"; };
-		848E3EF11A0CA93800712406 /* vcardhandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vcardhandler.h; path = src/vcardhandler.h; sourceTree = "<group>"; };
-		848E3EF21A0CA93800712406 /* vcardmanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vcardmanager.h; path = src/vcardmanager.h; sourceTree = "<group>"; };
-		848E3EF31A0CA93800712406 /* vcardupdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vcardupdate.h; path = src/vcardupdate.h; sourceTree = "<group>"; };
-		848E3EF41A0CA93800712406 /* xhtmlim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xhtmlim.h; path = src/xhtmlim.h; sourceTree = "<group>"; };
-		848E3F111A0CA9BE00712406 /* resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = resource.h; path = src/resource.h; sourceTree = "<group>"; };
-		848E3F121A0CA9BE00712406 /* rosteritem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rosteritem.h; path = src/rosteritem.h; sourceTree = "<group>"; };
-		848E3F131A0CA9BE00712406 /* rosterlistener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rosterlistener.h; path = src/rosterlistener.h; sourceTree = "<group>"; };
-		848E3F141A0CA9BE00712406 /* rostermanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rostermanager.h; path = src/rostermanager.h; sourceTree = "<group>"; };
-		848E3F151A0CA9BE00712406 /* search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = search.h; path = src/search.h; sourceTree = "<group>"; };
-		848E3F161A0CA9BE00712406 /* sha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sha.h; path = src/sha.h; sourceTree = "<group>"; };
-		848E3F171A0CA9BE00712406 /* shim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = shim.h; path = src/shim.h; sourceTree = "<group>"; };
-		848E3F181A0CA9BE00712406 /* sihandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sihandler.h; path = src/sihandler.h; sourceTree = "<group>"; };
-		848E3F191A0CA9BE00712406 /* simanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = simanager.h; path = src/simanager.h; sourceTree = "<group>"; };
-		848E3F1A1A0CA9BE00712406 /* siprofileft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = siprofileft.h; path = src/siprofileft.h; sourceTree = "<group>"; };
-		848E3F1B1A0CA9BE00712406 /* siprofilefthandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = siprofilefthandler.h; path = src/siprofilefthandler.h; sourceTree = "<group>"; };
-		848E3F1C1A0CA9BE00712406 /* siprofilehandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = siprofilehandler.h; path = src/siprofilehandler.h; sourceTree = "<group>"; };
-		848E3F1D1A0CA9BE00712406 /* socks5bytestream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = socks5bytestream.h; path = src/socks5bytestream.h; sourceTree = "<group>"; };
-		848E3F1E1A0CA9BF00712406 /* socks5bytestreammanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = socks5bytestreammanager.h; path = src/socks5bytestreammanager.h; sourceTree = "<group>"; };
-		848E3F1F1A0CA9BF00712406 /* socks5bytestreamserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = socks5bytestreamserver.h; path = src/socks5bytestreamserver.h; sourceTree = "<group>"; };
-		848E3F201A0CA9BF00712406 /* softwareversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = softwareversion.h; path = src/softwareversion.h; sourceTree = "<group>"; };
-		848E3F211A0CA9BF00712406 /* stanza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stanza.h; path = src/stanza.h; sourceTree = "<group>"; };
-		848E3F221A0CA9BF00712406 /* stanzaextension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stanzaextension.h; path = src/stanzaextension.h; sourceTree = "<group>"; };
-		848E3F231A0CA9BF00712406 /* stanzaextensionfactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stanzaextensionfactory.h; path = src/stanzaextensionfactory.h; sourceTree = "<group>"; };
-		848E3F241A0CA9BF00712406 /* statisticshandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = statisticshandler.h; path = src/statisticshandler.h; sourceTree = "<group>"; };
-		848E3F251A0CA9BF00712406 /* subscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = subscription.h; path = src/subscription.h; sourceTree = "<group>"; };
-		848E3F261A0CA9BF00712406 /* subscriptionhandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = subscriptionhandler.h; path = src/subscriptionhandler.h; sourceTree = "<group>"; };
 		848E3F461A0CAA0C00712406 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = src/config.h; sourceTree = "<group>"; };
 		848E3F471A0CAA0C00712406 /* connectionbase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = connectionbase.h; path = src/connectionbase.h; sourceTree = "<group>"; };
 		848E3F481A0CAA0C00712406 /* connectionbosh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = connectionbosh.h; path = src/connectionbosh.h; sourceTree = "<group>"; };
@@ -287,180 +48,22 @@
 		848E3F4F1A0CAA0C00712406 /* connectiontcpclient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = connectiontcpclient.h; path = src/connectiontcpclient.h; sourceTree = "<group>"; };
 		848E3F501A0CAA0C00712406 /* connectiontcpserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = connectiontcpserver.h; path = src/connectiontcpserver.h; sourceTree = "<group>"; };
 		848E3F5B1A0CAA0C00712406 /* dns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dns.h; path = src/dns.h; sourceTree = "<group>"; };
-		848E3F5C1A0CAA0C00712406 /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = error.h; path = src/error.h; sourceTree = "<group>"; };
-		848E3F5D1A0CAA0C00712406 /* event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = event.h; path = src/event.h; sourceTree = "<group>"; };
-		848E3F5E1A0CAA0C00712406 /* eventdispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = eventdispatcher.h; path = src/eventdispatcher.h; sourceTree = "<group>"; };
-		848E3F5F1A0CAA0C00712406 /* eventhandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = eventhandler.h; path = src/eventhandler.h; sourceTree = "<group>"; };
-		848E3F601A0CAA0C00712406 /* featureneg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = featureneg.h; path = src/featureneg.h; sourceTree = "<group>"; };
-		848E3F851A0CAA6C00712406 /* jinglesessionhandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jinglesessionhandler.h; path = src/jinglesessionhandler.h; sourceTree = "<group>"; };
-		848E3F861A0CAA6C00712406 /* lastactivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lastactivity.h; path = src/lastactivity.h; sourceTree = "<group>"; };
-		848E3F871A0CAA6C00712406 /* lastactivityhandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lastactivityhandler.h; path = src/lastactivityhandler.h; sourceTree = "<group>"; };
-		848E3F881A0CAA6C00712406 /* linklocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = linklocal.h; path = src/linklocal.h; sourceTree = "<group>"; };
-		848E3F891A0CAA6C00712406 /* linklocalclient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = linklocalclient.h; path = src/linklocalclient.h; sourceTree = "<group>"; };
-		848E3F8A1A0CAA6C00712406 /* linklocalhandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = linklocalhandler.h; path = src/linklocalhandler.h; sourceTree = "<group>"; };
-		848E3F8B1A0CAA6C00712406 /* linklocalmanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = linklocalmanager.h; path = src/linklocalmanager.h; sourceTree = "<group>"; };
 		848E3F8C1A0CAA6C00712406 /* loghandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = loghandler.h; path = src/loghandler.h; sourceTree = "<group>"; };
 		848E3F8D1A0CAA6C00712406 /* logsink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = logsink.h; path = src/logsink.h; sourceTree = "<group>"; };
 		848E3F8E1A0CAA6C00712406 /* macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = macros.h; path = src/macros.h; sourceTree = "<group>"; };
-		848E3F8F1A0CAA6C00712406 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = md5.h; path = src/md5.h; sourceTree = "<group>"; };
-		848E3F901A0CAA6C00712406 /* message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = message.h; path = src/message.h; sourceTree = "<group>"; };
-		848E3F911A0CAA6C00712406 /* messageevent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = messageevent.h; path = src/messageevent.h; sourceTree = "<group>"; };
-		848E3F921A0CAA6C00712406 /* messagefilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = messagefilter.h; path = src/messagefilter.h; sourceTree = "<group>"; };
-		848E3F931A0CAA6C00712406 /* messagehandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = messagehandler.h; path = src/messagehandler.h; sourceTree = "<group>"; };
-		848E3F941A0CAA6C00712406 /* messagesession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = messagesession.h; path = src/messagesession.h; sourceTree = "<group>"; };
-		848E3F951A0CAA6C00712406 /* messagesessionhandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = messagesessionhandler.h; path = src/messagesessionhandler.h; sourceTree = "<group>"; };
-		848E3F961A0CAA6C00712406 /* mucinvitationhandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mucinvitationhandler.h; path = src/mucinvitationhandler.h; sourceTree = "<group>"; };
-		848E3F971A0CAA6C00712406 /* mucmessagesession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mucmessagesession.h; path = src/mucmessagesession.h; sourceTree = "<group>"; };
-		848E3F981A0CAA6C00712406 /* mucroom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mucroom.h; path = src/mucroom.h; sourceTree = "<group>"; };
-		848E3F991A0CAA6C00712406 /* mucroomconfighandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mucroomconfighandler.h; path = src/mucroomconfighandler.h; sourceTree = "<group>"; };
-		848E3F9A1A0CAA6D00712406 /* mucroomhandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mucroomhandler.h; path = src/mucroomhandler.h; sourceTree = "<group>"; };
 		848E3F9B1A0CAA6D00712406 /* mutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mutex.h; path = src/mutex.h; sourceTree = "<group>"; };
 		848E3F9C1A0CAA6D00712406 /* mutexguard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mutexguard.h; path = src/mutexguard.h; sourceTree = "<group>"; };
-		848E3F9D1A0CAA6D00712406 /* nickname.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nickname.h; path = src/nickname.h; sourceTree = "<group>"; };
-		848E3F9E1A0CAA6D00712406 /* oob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = oob.h; path = src/oob.h; sourceTree = "<group>"; };
-		848E3F9F1A0CAA6D00712406 /* parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = parser.h; path = src/parser.h; sourceTree = "<group>"; };
 		848E3FA01A0CAA6D00712406 /* prep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = prep.h; path = src/prep.h; sourceTree = "<group>"; };
-		848E3FA11A0CAA6D00712406 /* presence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = presence.h; path = src/presence.h; sourceTree = "<group>"; };
-		848E3FA21A0CAA6D00712406 /* presencehandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = presencehandler.h; path = src/presencehandler.h; sourceTree = "<group>"; };
-		848E3FA31A0CAA6D00712406 /* privacyitem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = privacyitem.h; path = src/privacyitem.h; sourceTree = "<group>"; };
-		848E3FA41A0CAA6D00712406 /* privacylisthandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = privacylisthandler.h; path = src/privacylisthandler.h; sourceTree = "<group>"; };
-		848E3FA51A0CAA6D00712406 /* privacymanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = privacymanager.h; path = src/privacymanager.h; sourceTree = "<group>"; };
-		848E3FA61A0CAA6D00712406 /* privatexml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = privatexml.h; path = src/privatexml.h; sourceTree = "<group>"; };
-		848E3FA71A0CAA6D00712406 /* privatexmlhandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = privatexmlhandler.h; path = src/privatexmlhandler.h; sourceTree = "<group>"; };
-		848E3FA81A0CAA6D00712406 /* pubsub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pubsub.h; path = src/pubsub.h; sourceTree = "<group>"; };
-		848E3FA91A0CAA6D00712406 /* pubsubevent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pubsubevent.h; path = src/pubsubevent.h; sourceTree = "<group>"; };
-		848E3FAA1A0CAA6D00712406 /* pubsubitem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pubsubitem.h; path = src/pubsubitem.h; sourceTree = "<group>"; };
-		848E3FAB1A0CAA6D00712406 /* pubsubmanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pubsubmanager.h; path = src/pubsubmanager.h; sourceTree = "<group>"; };
-		848E3FAC1A0CAA6D00712406 /* pubsubresulthandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pubsubresulthandler.h; path = src/pubsubresulthandler.h; sourceTree = "<group>"; };
-		848E3FD51A0CAC1900712406 /* jinglepluginfactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jinglepluginfactory.h; path = src/jinglepluginfactory.h; sourceTree = "<group>"; };
-		848E3FD61A0CAC1900712406 /* jinglesession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jinglesession.h; path = src/jinglesession.h; sourceTree = "<group>"; };
-		848E3FD71A0CAC1900712406 /* jinglesessionmanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jinglesessionmanager.h; path = src/jinglesessionmanager.h; sourceTree = "<group>"; };
-		848E3FD81A0CAC1900712406 /* receipt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = receipt.h; path = src/receipt.h; sourceTree = "<group>"; };
-		848E3FD91A0CAC1900712406 /* registration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = registration.h; path = src/registration.h; sourceTree = "<group>"; };
-		848E3FDA1A0CAC1900712406 /* registrationhandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = registrationhandler.h; path = src/registrationhandler.h; sourceTree = "<group>"; };
-		848E3FDB1A0CAC1900712406 /* rosteritemdata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rosteritemdata.h; path = src/rosteritemdata.h; sourceTree = "<group>"; };
-		848E3FDC1A0CAC1900712406 /* searchhandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = searchhandler.h; path = src/searchhandler.h; sourceTree = "<group>"; };
-		848E3FE61A0CAC4400712406 /* flexoff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = flexoff.h; path = src/flexoff.h; sourceTree = "<group>"; };
-		848E3FE71A0CAC4400712406 /* flexoffhandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = flexoffhandler.h; path = src/flexoffhandler.h; sourceTree = "<group>"; };
 		848E3FE81A0CAC4400712406 /* gloox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gloox.h; path = src/gloox.h; sourceTree = "<group>"; };
-		848E3FE91A0CAC4400712406 /* glooxversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = glooxversion.h; path = src/glooxversion.h; sourceTree = "<group>"; };
-		848E3FEA1A0CAC4400712406 /* gpgencrypted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gpgencrypted.h; path = src/gpgencrypted.h; sourceTree = "<group>"; };
-		848E3FEB1A0CAC4400712406 /* gpgsigned.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gpgsigned.h; path = src/gpgsigned.h; sourceTree = "<group>"; };
-		848E3FEC1A0CAC4400712406 /* inbandbytestream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = inbandbytestream.h; path = src/inbandbytestream.h; sourceTree = "<group>"; };
-		848E3FED1A0CAC4400712406 /* instantmucroom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = instantmucroom.h; path = src/instantmucroom.h; sourceTree = "<group>"; };
-		848E3FF71A0CAC6E00712406 /* adhoc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = adhoc.cpp; path = src/adhoc.cpp; sourceTree = "<group>"; };
-		848E3FF81A0CAC6E00712406 /* amp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = amp.cpp; path = src/amp.cpp; sourceTree = "<group>"; };
-		848E3FF91A0CAC6E00712406 /* annotations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = annotations.cpp; path = src/annotations.cpp; sourceTree = "<group>"; };
-		848E3FFA1A0CAC6E00712406 /* atomicrefcount.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = atomicrefcount.cpp; path = src/atomicrefcount.cpp; sourceTree = "<group>"; };
-		848E3FFB1A0CAC6E00712406 /* attention.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = attention.cpp; path = src/attention.cpp; sourceTree = "<group>"; };
-		848E3FFC1A0CAC6E00712406 /* base64.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = base64.cpp; path = src/base64.cpp; sourceTree = "<group>"; };
-		848E3FFD1A0CAC6E00712406 /* bookmarkstorage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bookmarkstorage.cpp; path = src/bookmarkstorage.cpp; sourceTree = "<group>"; };
-		848E3FFE1A0CAC6E00712406 /* capabilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = capabilities.cpp; path = src/capabilities.cpp; sourceTree = "<group>"; };
-		848E3FFF1A0CAC6E00712406 /* carbons.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = carbons.cpp; path = src/carbons.cpp; sourceTree = "<group>"; };
-		848E40001A0CAC6E00712406 /* chatstate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = chatstate.cpp; path = src/chatstate.cpp; sourceTree = "<group>"; };
-		848E40011A0CAC6E00712406 /* chatstatefilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = chatstatefilter.cpp; path = src/chatstatefilter.cpp; sourceTree = "<group>"; };
-		848E40021A0CAC6E00712406 /* client.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = client.cpp; path = src/client.cpp; sourceTree = "<group>"; };
-		848E40031A0CAC6E00712406 /* clientbase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = clientbase.cpp; path = src/clientbase.cpp; sourceTree = "<group>"; };
-		848E40041A0CAC6E00712406 /* component.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = component.cpp; path = src/component.cpp; sourceTree = "<group>"; };
-		848E40051A0CAC6E00712406 /* compressiondefault.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = compressiondefault.cpp; path = src/compressiondefault.cpp; sourceTree = "<group>"; };
-		848E40061A0CAC6E00712406 /* compressionzlib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = compressionzlib.cpp; path = src/compressionzlib.cpp; sourceTree = "<group>"; };
-		848E40071A0CAC6E00712406 /* connectionbosh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = connectionbosh.cpp; path = src/connectionbosh.cpp; sourceTree = "<group>"; };
-		848E40081A0CAC6E00712406 /* connectionhttpproxy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = connectionhttpproxy.cpp; path = src/connectionhttpproxy.cpp; sourceTree = "<group>"; };
-		848E40091A0CAC6E00712406 /* connectionsocks5proxy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = connectionsocks5proxy.cpp; path = src/connectionsocks5proxy.cpp; sourceTree = "<group>"; };
 		848E400A1A0CAC6E00712406 /* connectiontcpbase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = connectiontcpbase.cpp; path = src/connectiontcpbase.cpp; sourceTree = "<group>"; };
 		848E400B1A0CAC6E00712406 /* connectiontcpclient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = connectiontcpclient.cpp; path = src/connectiontcpclient.cpp; sourceTree = "<group>"; };
 		848E400C1A0CAC6E00712406 /* connectiontcpserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = connectiontcpserver.cpp; path = src/connectiontcpserver.cpp; sourceTree = "<group>"; };
-		848E400D1A0CAC6E00712406 /* connectiontls.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = connectiontls.cpp; path = src/connectiontls.cpp; sourceTree = "<group>"; };
-		848E400E1A0CAC6E00712406 /* connectiontlsserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = connectiontlsserver.cpp; path = src/connectiontlsserver.cpp; sourceTree = "<group>"; };
-		848E400F1A0CAC6E00712406 /* dataform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dataform.cpp; path = src/dataform.cpp; sourceTree = "<group>"; };
-		848E40101A0CAC6E00712406 /* dataformfield.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dataformfield.cpp; path = src/dataformfield.cpp; sourceTree = "<group>"; };
-		848E40111A0CAC6E00712406 /* dataformfieldcontainer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dataformfieldcontainer.cpp; path = src/dataformfieldcontainer.cpp; sourceTree = "<group>"; };
-		848E40121A0CAC6E00712406 /* dataformitem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dataformitem.cpp; path = src/dataformitem.cpp; sourceTree = "<group>"; };
-		848E40131A0CAC6E00712406 /* dataformreported.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dataformreported.cpp; path = src/dataformreported.cpp; sourceTree = "<group>"; };
-		848E40141A0CAC6E00712406 /* delayeddelivery.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = delayeddelivery.cpp; path = src/delayeddelivery.cpp; sourceTree = "<group>"; };
-		848E40151A0CAC6E00712406 /* disco.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = disco.cpp; path = src/disco.cpp; sourceTree = "<group>"; };
 		848E40161A0CAC6E00712406 /* dns.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dns.cpp; path = src/dns.cpp; sourceTree = "<group>"; };
-		848E40171A0CAC6E00712406 /* error.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = error.cpp; path = src/error.cpp; sourceTree = "<group>"; };
-		848E40181A0CAC6E00712406 /* eventdispatcher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = eventdispatcher.cpp; path = src/eventdispatcher.cpp; sourceTree = "<group>"; };
-		848E40321A0CAC6E00712406 /* featureneg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = featureneg.cpp; path = src/featureneg.cpp; sourceTree = "<group>"; };
-		848E40331A0CAC6E00712406 /* flexoff.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = flexoff.cpp; path = src/flexoff.cpp; sourceTree = "<group>"; };
-		848E40341A0CAC6E00712406 /* forward.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = forward.cpp; path = src/forward.cpp; sourceTree = "<group>"; };
-		848E40351A0CAC6E00712406 /* forward.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = forward.h; path = src/forward.h; sourceTree = "<group>"; };
 		848E40361A0CAC6E00712406 /* gloox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gloox.cpp; path = src/gloox.cpp; sourceTree = "<group>"; };
-		848E40371A0CAC6E00712406 /* gpgencrypted.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gpgencrypted.cpp; path = src/gpgencrypted.cpp; sourceTree = "<group>"; };
-		848E40381A0CAC6E00712406 /* gpgsigned.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gpgsigned.cpp; path = src/gpgsigned.cpp; sourceTree = "<group>"; };
-		848E40391A0CAC6E00712406 /* inbandbytestream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = inbandbytestream.cpp; path = src/inbandbytestream.cpp; sourceTree = "<group>"; };
-		848E403A1A0CAC6E00712406 /* instantmucroom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = instantmucroom.cpp; path = src/instantmucroom.cpp; sourceTree = "<group>"; };
-		848E403B1A0CAC6E00712406 /* iq.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = iq.cpp; path = src/iq.cpp; sourceTree = "<group>"; };
-		848E403C1A0CAC6E00712406 /* jid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jid.cpp; path = src/jid.cpp; sourceTree = "<group>"; };
-		848E403D1A0CAC6E00712406 /* jinglecontent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jinglecontent.cpp; path = src/jinglecontent.cpp; sourceTree = "<group>"; };
-		848E403E1A0CAC6E00712406 /* jinglefiletransfer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jinglefiletransfer.cpp; path = src/jinglefiletransfer.cpp; sourceTree = "<group>"; };
-		848E403F1A0CAC6E00712406 /* jingleiceudp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jingleiceudp.cpp; path = src/jingleiceudp.cpp; sourceTree = "<group>"; };
-		848E40401A0CAC6E00712406 /* jinglepluginfactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jinglepluginfactory.cpp; path = src/jinglepluginfactory.cpp; sourceTree = "<group>"; };
-		848E40411A0CAC6E00712406 /* jinglesession.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jinglesession.cpp; path = src/jinglesession.cpp; sourceTree = "<group>"; };
-		848E40421A0CAC6E00712406 /* jinglesessionmanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jinglesessionmanager.cpp; path = src/jinglesessionmanager.cpp; sourceTree = "<group>"; };
-		848E40431A0CAC6E00712406 /* lastactivity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lastactivity.cpp; path = src/lastactivity.cpp; sourceTree = "<group>"; };
-		848E40441A0CAC6E00712406 /* linklocalclient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = linklocalclient.cpp; path = src/linklocalclient.cpp; sourceTree = "<group>"; };
-		848E40451A0CAC6E00712406 /* linklocalmanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = linklocalmanager.cpp; path = src/linklocalmanager.cpp; sourceTree = "<group>"; };
 		848E40461A0CAC6E00712406 /* logsink.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = logsink.cpp; path = src/logsink.cpp; sourceTree = "<group>"; };
-		848E40491A0CAC6E00712406 /* md5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = md5.cpp; path = src/md5.cpp; sourceTree = "<group>"; };
-		848E404A1A0CAC6E00712406 /* message.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = message.cpp; path = src/message.cpp; sourceTree = "<group>"; };
-		848E404B1A0CAC6E00712406 /* messageevent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = messageevent.cpp; path = src/messageevent.cpp; sourceTree = "<group>"; };
-		848E404C1A0CAC6E00712406 /* messageeventfilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = messageeventfilter.cpp; path = src/messageeventfilter.cpp; sourceTree = "<group>"; };
-		848E404D1A0CAC6E00712406 /* messageeventfilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = messageeventfilter.h; path = src/messageeventfilter.h; sourceTree = "<group>"; };
-		848E404E1A0CAC6E00712406 /* messageeventhandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = messageeventhandler.h; path = src/messageeventhandler.h; sourceTree = "<group>"; };
-		848E404F1A0CAC6E00712406 /* messagefilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = messagefilter.cpp; path = src/messagefilter.cpp; sourceTree = "<group>"; };
-		848E40501A0CAC6E00712406 /* messagesession.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = messagesession.cpp; path = src/messagesession.cpp; sourceTree = "<group>"; };
-		848E40511A0CAC6E00712406 /* mucinvitationhandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mucinvitationhandler.cpp; path = src/mucinvitationhandler.cpp; sourceTree = "<group>"; };
-		848E40521A0CAC6E00712406 /* mucmessagesession.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mucmessagesession.cpp; path = src/mucmessagesession.cpp; sourceTree = "<group>"; };
-		848E40531A0CAC6E00712406 /* mucroom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mucroom.cpp; path = src/mucroom.cpp; sourceTree = "<group>"; };
 		848E40541A0CAC6E00712406 /* mutex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mutex.cpp; path = src/mutex.cpp; sourceTree = "<group>"; };
-		848E40551A0CAC6E00712406 /* nickname.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = nickname.cpp; path = src/nickname.cpp; sourceTree = "<group>"; };
-		848E40561A0CAC6E00712406 /* nonsaslauth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = nonsaslauth.cpp; path = src/nonsaslauth.cpp; sourceTree = "<group>"; };
-		848E40571A0CAC6E00712406 /* nonsaslauth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nonsaslauth.h; path = src/nonsaslauth.h; sourceTree = "<group>"; };
-		848E40581A0CAC6E00712406 /* oob.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = oob.cpp; path = src/oob.cpp; sourceTree = "<group>"; };
-		848E40591A0CAC6E00712406 /* parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = parser.cpp; path = src/parser.cpp; sourceTree = "<group>"; };
 		848E405A1A0CAC6E00712406 /* prep.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = prep.cpp; path = src/prep.cpp; sourceTree = "<group>"; };
-		848E405B1A0CAC6E00712406 /* presence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = presence.cpp; path = src/presence.cpp; sourceTree = "<group>"; };
-		848E405C1A0CAC6E00712406 /* privacyitem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = privacyitem.cpp; path = src/privacyitem.cpp; sourceTree = "<group>"; };
-		848E405D1A0CAC6E00712406 /* privacymanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = privacymanager.cpp; path = src/privacymanager.cpp; sourceTree = "<group>"; };
-		848E405E1A0CAC6E00712406 /* privatexml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = privatexml.cpp; path = src/privatexml.cpp; sourceTree = "<group>"; };
-		848E405F1A0CAC6E00712406 /* pubsubevent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pubsubevent.cpp; path = src/pubsubevent.cpp; sourceTree = "<group>"; };
-		848E40601A0CAC6E00712406 /* pubsubitem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pubsubitem.cpp; path = src/pubsubitem.cpp; sourceTree = "<group>"; };
-		848E40611A0CAC6E00712406 /* pubsubmanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pubsubmanager.cpp; path = src/pubsubmanager.cpp; sourceTree = "<group>"; };
-		848E40621A0CAC6E00712406 /* receipt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = receipt.cpp; path = src/receipt.cpp; sourceTree = "<group>"; };
-		848E40631A0CAC6E00712406 /* registration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = registration.cpp; path = src/registration.cpp; sourceTree = "<group>"; };
-		848E40641A0CAC6E00712406 /* rosteritem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = rosteritem.cpp; path = src/rosteritem.cpp; sourceTree = "<group>"; };
-		848E40651A0CAC6E00712406 /* rostermanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = rostermanager.cpp; path = src/rostermanager.cpp; sourceTree = "<group>"; };
-		848E40661A0CAC6E00712406 /* search.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = search.cpp; path = src/search.cpp; sourceTree = "<group>"; };
-		848E40671A0CAC6E00712406 /* sha.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sha.cpp; path = src/sha.cpp; sourceTree = "<group>"; };
-		848E40681A0CAC6E00712406 /* shim.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = shim.cpp; path = src/shim.cpp; sourceTree = "<group>"; };
-		848E40691A0CAC6E00712406 /* simanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = simanager.cpp; path = src/simanager.cpp; sourceTree = "<group>"; };
-		848E406A1A0CAC6E00712406 /* siprofileft.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = siprofileft.cpp; path = src/siprofileft.cpp; sourceTree = "<group>"; };
-		848E406B1A0CAC6E00712406 /* socks5bytestream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = socks5bytestream.cpp; path = src/socks5bytestream.cpp; sourceTree = "<group>"; };
-		848E406C1A0CAC6E00712406 /* socks5bytestreammanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = socks5bytestreammanager.cpp; path = src/socks5bytestreammanager.cpp; sourceTree = "<group>"; };
-		848E406D1A0CAC6E00712406 /* socks5bytestreamserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = socks5bytestreamserver.cpp; path = src/socks5bytestreamserver.cpp; sourceTree = "<group>"; };
-		848E406E1A0CAC6E00712406 /* softwareversion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = softwareversion.cpp; path = src/softwareversion.cpp; sourceTree = "<group>"; };
-		848E406F1A0CAC6E00712406 /* stanza.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stanza.cpp; path = src/stanza.cpp; sourceTree = "<group>"; };
-		848E40701A0CAC6E00712406 /* stanzaextensionfactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stanzaextensionfactory.cpp; path = src/stanzaextensionfactory.cpp; sourceTree = "<group>"; };
-		848E40711A0CAC6E00712406 /* subscription.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = subscription.cpp; path = src/subscription.cpp; sourceTree = "<group>"; };
-		848E40721A0CAC6E00712406 /* tag.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tag.cpp; path = src/tag.cpp; sourceTree = "<group>"; };
-		848E41B21A0CAC6E00712406 /* tlsdefault.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tlsdefault.cpp; path = src/tlsdefault.cpp; sourceTree = "<group>"; };
-		848E41B31A0CAC6E00712406 /* tlsgnutlsbase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tlsgnutlsbase.cpp; path = src/tlsgnutlsbase.cpp; sourceTree = "<group>"; };
-		848E41B41A0CAC6E00712406 /* tlsgnutlsclient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tlsgnutlsclient.cpp; path = src/tlsgnutlsclient.cpp; sourceTree = "<group>"; };
-		848E41B51A0CAC6E00712406 /* tlsgnutlsclientanon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tlsgnutlsclientanon.cpp; path = src/tlsgnutlsclientanon.cpp; sourceTree = "<group>"; };
-		848E41B61A0CAC6E00712406 /* tlsgnutlsserveranon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tlsgnutlsserveranon.cpp; path = src/tlsgnutlsserveranon.cpp; sourceTree = "<group>"; };
-		848E41B71A0CAC6E00712406 /* tlsopensslbase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tlsopensslbase.cpp; path = src/tlsopensslbase.cpp; sourceTree = "<group>"; };
-		848E41B81A0CAC6E00712406 /* tlsopensslclient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tlsopensslclient.cpp; path = src/tlsopensslclient.cpp; sourceTree = "<group>"; };
-		848E41B91A0CAC6E00712406 /* tlsopensslserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tlsopensslserver.cpp; path = src/tlsopensslserver.cpp; sourceTree = "<group>"; };
-		848E41BA1A0CAC6E00712406 /* tlsschannel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tlsschannel.cpp; path = src/tlsschannel.cpp; sourceTree = "<group>"; };
-		848E41BB1A0CAC6E00712406 /* uniquemucroom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = uniquemucroom.cpp; path = src/uniquemucroom.cpp; sourceTree = "<group>"; };
 		848E41BC1A0CAC6E00712406 /* util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = util.cpp; path = src/util.cpp; sourceTree = "<group>"; };
-		848E41BD1A0CAC6E00712406 /* vcard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vcard.cpp; path = src/vcard.cpp; sourceTree = "<group>"; };
-		848E41BE1A0CAC6E00712406 /* vcardmanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vcardmanager.cpp; path = src/vcardmanager.cpp; sourceTree = "<group>"; };
-		848E41BF1A0CAC6E00712406 /* vcardupdate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vcardupdate.cpp; path = src/vcardupdate.cpp; sourceTree = "<group>"; };
-		848E41C01A0CAC6E00712406 /* version.rc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = version.rc; path = src/version.rc; sourceTree = "<group>"; };
-		848E41C11A0CAC6E00712406 /* xhtmlim.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xhtmlim.cpp; path = src/xhtmlim.cpp; sourceTree = "<group>"; };
 		848E42A21A0CB8E200712406 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -514,113 +117,14 @@
 				848E3F4F1A0CAA0C00712406 /* connectiontcpclient.h */,
 				848E3F501A0CAA0C00712406 /* connectiontcpserver.h */,
 				848E3F5B1A0CAA0C00712406 /* dns.h */,
-				848E3F5C1A0CAA0C00712406 /* error.h */,
-				848E3F5D1A0CAA0C00712406 /* event.h */,
-				848E3F5E1A0CAA0C00712406 /* eventdispatcher.h */,
-				848E3F5F1A0CAA0C00712406 /* eventhandler.h */,
-				848E3F601A0CAA0C00712406 /* featureneg.h */,
-				848E3FE61A0CAC4400712406 /* flexoff.h */,
-				848E3FE71A0CAC4400712406 /* flexoffhandler.h */,
-				848E40351A0CAC6E00712406 /* forward.h */,
 				848E3FE81A0CAC4400712406 /* gloox.h */,
-				848E3FE91A0CAC4400712406 /* glooxversion.h */,
-				848E3FEA1A0CAC4400712406 /* gpgencrypted.h */,
-				848E3FEB1A0CAC4400712406 /* gpgsigned.h */,
-				848E3FEC1A0CAC4400712406 /* inbandbytestream.h */,
-				848E3FED1A0CAC4400712406 /* instantmucroom.h */,
-				848E3FD51A0CAC1900712406 /* jinglepluginfactory.h */,
-				848E3FD61A0CAC1900712406 /* jinglesession.h */,
-				848E3F851A0CAA6C00712406 /* jinglesessionhandler.h */,
-				848E3FD71A0CAC1900712406 /* jinglesessionmanager.h */,
-				848E3F861A0CAA6C00712406 /* lastactivity.h */,
-				848E3F871A0CAA6C00712406 /* lastactivityhandler.h */,
-				848E3F881A0CAA6C00712406 /* linklocal.h */,
-				848E3F891A0CAA6C00712406 /* linklocalclient.h */,
-				848E3F8A1A0CAA6C00712406 /* linklocalhandler.h */,
-				848E3F8B1A0CAA6C00712406 /* linklocalmanager.h */,
 				848E3F8C1A0CAA6C00712406 /* loghandler.h */,
 				848E3F8D1A0CAA6C00712406 /* logsink.h */,
 				848E3F8E1A0CAA6C00712406 /* macros.h */,
-				848E3F8F1A0CAA6C00712406 /* md5.h */,
-				848E3F901A0CAA6C00712406 /* message.h */,
-				848E3F911A0CAA6C00712406 /* messageevent.h */,
-				848E404D1A0CAC6E00712406 /* messageeventfilter.h */,
-				848E404E1A0CAC6E00712406 /* messageeventhandler.h */,
-				848E3F921A0CAA6C00712406 /* messagefilter.h */,
-				848E3F931A0CAA6C00712406 /* messagehandler.h */,
-				848E3F941A0CAA6C00712406 /* messagesession.h */,
-				848E3F951A0CAA6C00712406 /* messagesessionhandler.h */,
-				848E3F961A0CAA6C00712406 /* mucinvitationhandler.h */,
-				848E3F971A0CAA6C00712406 /* mucmessagesession.h */,
-				848E3F981A0CAA6C00712406 /* mucroom.h */,
-				848E3F991A0CAA6C00712406 /* mucroomconfighandler.h */,
-				848E3F9A1A0CAA6D00712406 /* mucroomhandler.h */,
 				848E3F9B1A0CAA6D00712406 /* mutex.h */,
 				848E3F9C1A0CAA6D00712406 /* mutexguard.h */,
-				848E3F9D1A0CAA6D00712406 /* nickname.h */,
-				848E40571A0CAC6E00712406 /* nonsaslauth.h */,
-				848E3F9E1A0CAA6D00712406 /* oob.h */,
-				848E3F9F1A0CAA6D00712406 /* parser.h */,
 				848E3FA01A0CAA6D00712406 /* prep.h */,
-				848E3FA11A0CAA6D00712406 /* presence.h */,
-				848E3FA21A0CAA6D00712406 /* presencehandler.h */,
-				848E3FA31A0CAA6D00712406 /* privacyitem.h */,
-				848E3FA41A0CAA6D00712406 /* privacylisthandler.h */,
-				848E3FA51A0CAA6D00712406 /* privacymanager.h */,
-				848E3FA61A0CAA6D00712406 /* privatexml.h */,
-				848E3FA71A0CAA6D00712406 /* privatexmlhandler.h */,
-				848E3FA81A0CAA6D00712406 /* pubsub.h */,
-				848E3FA91A0CAA6D00712406 /* pubsubevent.h */,
-				848E3FAA1A0CAA6D00712406 /* pubsubitem.h */,
-				848E3FAB1A0CAA6D00712406 /* pubsubmanager.h */,
-				848E3FAC1A0CAA6D00712406 /* pubsubresulthandler.h */,
-				848E3FD81A0CAC1900712406 /* receipt.h */,
-				848E3FD91A0CAC1900712406 /* registration.h */,
-				848E3FDA1A0CAC1900712406 /* registrationhandler.h */,
-				848E3F111A0CA9BE00712406 /* resource.h */,
-				848E3F121A0CA9BE00712406 /* rosteritem.h */,
-				848E3FDB1A0CAC1900712406 /* rosteritemdata.h */,
-				848E3F131A0CA9BE00712406 /* rosterlistener.h */,
-				848E3F141A0CA9BE00712406 /* rostermanager.h */,
-				848E3F151A0CA9BE00712406 /* search.h */,
-				848E3FDC1A0CAC1900712406 /* searchhandler.h */,
-				848E3F161A0CA9BE00712406 /* sha.h */,
-				848E3F171A0CA9BE00712406 /* shim.h */,
-				848E3F181A0CA9BE00712406 /* sihandler.h */,
-				848E3F191A0CA9BE00712406 /* simanager.h */,
-				848E3F1A1A0CA9BE00712406 /* siprofileft.h */,
-				848E3F1B1A0CA9BE00712406 /* siprofilefthandler.h */,
-				848E3F1C1A0CA9BE00712406 /* siprofilehandler.h */,
-				848E3F1D1A0CA9BE00712406 /* socks5bytestream.h */,
-				848E3F1E1A0CA9BF00712406 /* socks5bytestreammanager.h */,
-				848E3F1F1A0CA9BF00712406 /* socks5bytestreamserver.h */,
-				848E3F201A0CA9BF00712406 /* softwareversion.h */,
-				848E3F211A0CA9BF00712406 /* stanza.h */,
-				848E3F221A0CA9BF00712406 /* stanzaextension.h */,
-				848E3F231A0CA9BF00712406 /* stanzaextensionfactory.h */,
-				848E3F241A0CA9BF00712406 /* statisticshandler.h */,
-				848E3F251A0CA9BF00712406 /* subscription.h */,
-				848E3F261A0CA9BF00712406 /* subscriptionhandler.h */,
-				848E3EE11A0CA93800712406 /* tag.h */,
-				848E3EE21A0CA93800712406 /* taghandler.h */,
-				848E3EE31A0CA93800712406 /* tlsbase.h */,
-				848E3EE41A0CA93800712406 /* tlsdefault.h */,
-				848E3EE51A0CA93800712406 /* tlsgnutlsbase.h */,
-				848E3EE61A0CA93800712406 /* tlsgnutlsclient.h */,
-				848E3EE71A0CA93800712406 /* tlsgnutlsclientanon.h */,
-				848E3EE81A0CA93800712406 /* tlsgnutlsserveranon.h */,
-				848E3EE91A0CA93800712406 /* tlshandler.h */,
-				848E3EEA1A0CA93800712406 /* tlsopensslbase.h */,
-				848E3EEB1A0CA93800712406 /* tlsopensslclient.h */,
-				848E3EEC1A0CA93800712406 /* tlsopensslserver.h */,
-				848E3EED1A0CA93800712406 /* tlsschannel.h */,
-				848E3EEE1A0CA93800712406 /* uniquemucroom.h */,
 				848E3EEF1A0CA93800712406 /* util.h */,
-				848E3EF01A0CA93800712406 /* vcard.h */,
-				848E3EF11A0CA93800712406 /* vcardhandler.h */,
-				848E3EF21A0CA93800712406 /* vcardmanager.h */,
-				848E3EF31A0CA93800712406 /* vcardupdate.h */,
-				848E3EF41A0CA93800712406 /* xhtmlim.h */,
 			);
 			name = include;
 			sourceTree = "<group>";
@@ -628,115 +132,15 @@
 		848E3EBE1A0CA8D700712406 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				848E3FF71A0CAC6E00712406 /* adhoc.cpp */,
-				848E3FF81A0CAC6E00712406 /* amp.cpp */,
-				848E3FF91A0CAC6E00712406 /* annotations.cpp */,
-				848E3FFA1A0CAC6E00712406 /* atomicrefcount.cpp */,
-				848E3FFB1A0CAC6E00712406 /* attention.cpp */,
-				848E3FFC1A0CAC6E00712406 /* base64.cpp */,
-				848E3FFD1A0CAC6E00712406 /* bookmarkstorage.cpp */,
-				848E3FFE1A0CAC6E00712406 /* capabilities.cpp */,
-				848E3FFF1A0CAC6E00712406 /* carbons.cpp */,
-				848E40001A0CAC6E00712406 /* chatstate.cpp */,
-				848E40011A0CAC6E00712406 /* chatstatefilter.cpp */,
-				848E40021A0CAC6E00712406 /* client.cpp */,
-				848E40031A0CAC6E00712406 /* clientbase.cpp */,
-				848E40041A0CAC6E00712406 /* component.cpp */,
-				848E40051A0CAC6E00712406 /* compressiondefault.cpp */,
-				848E40061A0CAC6E00712406 /* compressionzlib.cpp */,
-				848E40071A0CAC6E00712406 /* connectionbosh.cpp */,
-				848E40081A0CAC6E00712406 /* connectionhttpproxy.cpp */,
-				848E40091A0CAC6E00712406 /* connectionsocks5proxy.cpp */,
 				848E400A1A0CAC6E00712406 /* connectiontcpbase.cpp */,
 				848E400B1A0CAC6E00712406 /* connectiontcpclient.cpp */,
 				848E400C1A0CAC6E00712406 /* connectiontcpserver.cpp */,
-				848E400D1A0CAC6E00712406 /* connectiontls.cpp */,
-				848E400E1A0CAC6E00712406 /* connectiontlsserver.cpp */,
-				848E400F1A0CAC6E00712406 /* dataform.cpp */,
-				848E40101A0CAC6E00712406 /* dataformfield.cpp */,
-				848E40111A0CAC6E00712406 /* dataformfieldcontainer.cpp */,
-				848E40121A0CAC6E00712406 /* dataformitem.cpp */,
-				848E40131A0CAC6E00712406 /* dataformreported.cpp */,
-				848E40141A0CAC6E00712406 /* delayeddelivery.cpp */,
-				848E40151A0CAC6E00712406 /* disco.cpp */,
 				848E40161A0CAC6E00712406 /* dns.cpp */,
-				848E40171A0CAC6E00712406 /* error.cpp */,
-				848E40181A0CAC6E00712406 /* eventdispatcher.cpp */,
-				848E40321A0CAC6E00712406 /* featureneg.cpp */,
-				848E40331A0CAC6E00712406 /* flexoff.cpp */,
-				848E40341A0CAC6E00712406 /* forward.cpp */,
 				848E40361A0CAC6E00712406 /* gloox.cpp */,
-				848E40371A0CAC6E00712406 /* gpgencrypted.cpp */,
-				848E40381A0CAC6E00712406 /* gpgsigned.cpp */,
-				848E40391A0CAC6E00712406 /* inbandbytestream.cpp */,
-				848E403A1A0CAC6E00712406 /* instantmucroom.cpp */,
-				848E403B1A0CAC6E00712406 /* iq.cpp */,
-				848E403C1A0CAC6E00712406 /* jid.cpp */,
-				848E403D1A0CAC6E00712406 /* jinglecontent.cpp */,
-				848E403E1A0CAC6E00712406 /* jinglefiletransfer.cpp */,
-				848E403F1A0CAC6E00712406 /* jingleiceudp.cpp */,
-				848E40401A0CAC6E00712406 /* jinglepluginfactory.cpp */,
-				848E40411A0CAC6E00712406 /* jinglesession.cpp */,
-				848E40421A0CAC6E00712406 /* jinglesessionmanager.cpp */,
-				848E40431A0CAC6E00712406 /* lastactivity.cpp */,
-				848E40441A0CAC6E00712406 /* linklocalclient.cpp */,
-				848E40451A0CAC6E00712406 /* linklocalmanager.cpp */,
 				848E40461A0CAC6E00712406 /* logsink.cpp */,
-				848E40491A0CAC6E00712406 /* md5.cpp */,
-				848E404A1A0CAC6E00712406 /* message.cpp */,
-				848E404B1A0CAC6E00712406 /* messageevent.cpp */,
-				848E404C1A0CAC6E00712406 /* messageeventfilter.cpp */,
-				848E404F1A0CAC6E00712406 /* messagefilter.cpp */,
-				848E40501A0CAC6E00712406 /* messagesession.cpp */,
-				848E40511A0CAC6E00712406 /* mucinvitationhandler.cpp */,
-				848E40521A0CAC6E00712406 /* mucmessagesession.cpp */,
-				848E40531A0CAC6E00712406 /* mucroom.cpp */,
 				848E40541A0CAC6E00712406 /* mutex.cpp */,
-				848E40551A0CAC6E00712406 /* nickname.cpp */,
-				848E40561A0CAC6E00712406 /* nonsaslauth.cpp */,
-				848E40581A0CAC6E00712406 /* oob.cpp */,
-				848E40591A0CAC6E00712406 /* parser.cpp */,
 				848E405A1A0CAC6E00712406 /* prep.cpp */,
-				848E405B1A0CAC6E00712406 /* presence.cpp */,
-				848E405C1A0CAC6E00712406 /* privacyitem.cpp */,
-				848E405D1A0CAC6E00712406 /* privacymanager.cpp */,
-				848E405E1A0CAC6E00712406 /* privatexml.cpp */,
-				848E405F1A0CAC6E00712406 /* pubsubevent.cpp */,
-				848E40601A0CAC6E00712406 /* pubsubitem.cpp */,
-				848E40611A0CAC6E00712406 /* pubsubmanager.cpp */,
-				848E40621A0CAC6E00712406 /* receipt.cpp */,
-				848E40631A0CAC6E00712406 /* registration.cpp */,
-				848E40641A0CAC6E00712406 /* rosteritem.cpp */,
-				848E40651A0CAC6E00712406 /* rostermanager.cpp */,
-				848E40661A0CAC6E00712406 /* search.cpp */,
-				848E40671A0CAC6E00712406 /* sha.cpp */,
-				848E40681A0CAC6E00712406 /* shim.cpp */,
-				848E40691A0CAC6E00712406 /* simanager.cpp */,
-				848E406A1A0CAC6E00712406 /* siprofileft.cpp */,
-				848E406B1A0CAC6E00712406 /* socks5bytestream.cpp */,
-				848E406C1A0CAC6E00712406 /* socks5bytestreammanager.cpp */,
-				848E406D1A0CAC6E00712406 /* socks5bytestreamserver.cpp */,
-				848E406E1A0CAC6E00712406 /* softwareversion.cpp */,
-				848E406F1A0CAC6E00712406 /* stanza.cpp */,
-				848E40701A0CAC6E00712406 /* stanzaextensionfactory.cpp */,
-				848E40711A0CAC6E00712406 /* subscription.cpp */,
-				848E40721A0CAC6E00712406 /* tag.cpp */,
-				848E41B21A0CAC6E00712406 /* tlsdefault.cpp */,
-				848E41B31A0CAC6E00712406 /* tlsgnutlsbase.cpp */,
-				848E41B41A0CAC6E00712406 /* tlsgnutlsclient.cpp */,
-				848E41B51A0CAC6E00712406 /* tlsgnutlsclientanon.cpp */,
-				848E41B61A0CAC6E00712406 /* tlsgnutlsserveranon.cpp */,
-				848E41B71A0CAC6E00712406 /* tlsopensslbase.cpp */,
-				848E41B81A0CAC6E00712406 /* tlsopensslclient.cpp */,
-				848E41B91A0CAC6E00712406 /* tlsopensslserver.cpp */,
-				848E41BA1A0CAC6E00712406 /* tlsschannel.cpp */,
-				848E41BB1A0CAC6E00712406 /* uniquemucroom.cpp */,
 				848E41BC1A0CAC6E00712406 /* util.cpp */,
-				848E41BD1A0CAC6E00712406 /* vcard.cpp */,
-				848E41BE1A0CAC6E00712406 /* vcardmanager.cpp */,
-				848E41BF1A0CAC6E00712406 /* vcardupdate.cpp */,
-				848E41C01A0CAC6E00712406 /* version.rc */,
-				848E41C11A0CAC6E00712406 /* xhtmlim.cpp */,
 			);
 			name = src;
 			sourceTree = "<group>";
@@ -756,122 +160,23 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				848E3FC61A0CAA6D00712406 /* oob.h in Headers */,
-				848E3FF61A0CAC4400712406 /* instantmucroom.h in Headers */,
 				848E3FB41A0CAA6D00712406 /* loghandler.h in Headers */,
-				848E3F841A0CAA0C00712406 /* featureneg.h in Headers */,
-				848E3FD21A0CAA6D00712406 /* pubsubitem.h in Headers */,
-				848E3FAD1A0CAA6D00712406 /* jinglesessionhandler.h in Headers */,
 				848E3F6D1A0CAA0C00712406 /* connectiondatahandler.h in Headers */,
-				848E3F811A0CAA0C00712406 /* event.h in Headers */,
 				848E3FB61A0CAA6D00712406 /* macros.h in Headers */,
-				848E3FB81A0CAA6D00712406 /* message.h in Headers */,
-				848E3FF21A0CAC4400712406 /* glooxversion.h in Headers */,
 				848E3F721A0CAA0C00712406 /* connectiontcpbase.h in Headers */,
-				848E3EFD1A0CA93900712406 /* tlshandler.h in Headers */,
-				848E3F061A0CA93900712406 /* vcardmanager.h in Headers */,
-				848E3F801A0CAA0C00712406 /* error.h in Headers */,
-				848E3F351A0CA9BF00712406 /* socks5bytestreamserver.h in Headers */,
-				848E3FAE1A0CAA6D00712406 /* lastactivity.h in Headers */,
-				848E3FBD1A0CAA6D00712406 /* messagesessionhandler.h in Headers */,
-				848E3FC21A0CAA6D00712406 /* mucroomhandler.h in Headers */,
-				848E3FD31A0CAA6D00712406 /* pubsubmanager.h in Headers */,
 				848E3FC31A0CAA6D00712406 /* mutex.h in Headers */,
-				848E3FD11A0CAA6D00712406 /* pubsubevent.h in Headers */,
-				848E3F321A0CA9BF00712406 /* siprofilehandler.h in Headers */,
-				848E3FC01A0CAA6D00712406 /* mucroom.h in Headers */,
 				848E3FC81A0CAA6D00712406 /* prep.h in Headers */,
-				848E3F071A0CA93900712406 /* vcardupdate.h in Headers */,
 				848E3FB51A0CAA6D00712406 /* logsink.h in Headers */,
-				848E3FC51A0CAA6D00712406 /* nickname.h in Headers */,
-				848E3EFF1A0CA93900712406 /* tlsopensslclient.h in Headers */,
-				848E3F3C1A0CA9BF00712406 /* subscriptionhandler.h in Headers */,
-				848E3F381A0CA9BF00712406 /* stanzaextension.h in Headers */,
-				848E3FB91A0CAA6D00712406 /* messageevent.h in Headers */,
-				848E3F081A0CA93900712406 /* xhtmlim.h in Headers */,
-				848E3F2F1A0CA9BF00712406 /* simanager.h in Headers */,
-				848E3FF41A0CAC4400712406 /* gpgsigned.h in Headers */,
-				848E3F371A0CA9BF00712406 /* stanza.h in Headers */,
-				848E41FD1A0CAC6E00712406 /* forward.h in Headers */,
-				848E42131A0CAC6E00712406 /* messageeventfilter.h in Headers */,
 				848E3FF11A0CAC4400712406 /* gloox.h in Headers */,
-				848E3F3A1A0CA9BF00712406 /* statisticshandler.h in Headers */,
-				848E3FC11A0CAA6D00712406 /* mucroomconfighandler.h in Headers */,
-				848E3EF71A0CA93800712406 /* tlsbase.h in Headers */,
-				848E3EFB1A0CA93900712406 /* tlsgnutlsclientanon.h in Headers */,
-				848E3F281A0CA9BF00712406 /* rosteritem.h in Headers */,
-				848E3FCF1A0CAA6D00712406 /* privatexmlhandler.h in Headers */,
-				848E3F311A0CA9BF00712406 /* siprofilefthandler.h in Headers */,
-				848E3F391A0CA9BF00712406 /* stanzaextensionfactory.h in Headers */,
-				848E3EF81A0CA93800712406 /* tlsdefault.h in Headers */,
-				848E3FBC1A0CAA6D00712406 /* messagesession.h in Headers */,
-				848E3F051A0CA93900712406 /* vcardhandler.h in Headers */,
-				848E3FBE1A0CAA6D00712406 /* mucinvitationhandler.h in Headers */,
-				848E3FB01A0CAA6D00712406 /* linklocal.h in Headers */,
-				848E421D1A0CAC6E00712406 /* nonsaslauth.h in Headers */,
-				848E3FB71A0CAA6D00712406 /* md5.h in Headers */,
 				848E3F6B1A0CAA0C00712406 /* connectionbase.h in Headers */,
-				848E42141A0CAC6E00712406 /* messageeventhandler.h in Headers */,
-				848E3F021A0CA93900712406 /* uniquemucroom.h in Headers */,
-				848E3F3B1A0CA9BF00712406 /* subscription.h in Headers */,
-				848E3F831A0CAA0C00712406 /* eventhandler.h in Headers */,
-				848E3F361A0CA9BF00712406 /* softwareversion.h in Headers */,
-				848E3FC91A0CAA6D00712406 /* presence.h in Headers */,
-				848E3FBA1A0CAA6D00712406 /* messagefilter.h in Headers */,
-				848E3F041A0CA93900712406 /* vcard.h in Headers */,
-				848E3FB21A0CAA6D00712406 /* linklocalhandler.h in Headers */,
 				848E3FC41A0CAA6D00712406 /* mutexguard.h in Headers */,
-				848E3EF51A0CA93800712406 /* tag.h in Headers */,
-				848E3EFA1A0CA93900712406 /* tlsgnutlsclient.h in Headers */,
-				848E3EF91A0CA93800712406 /* tlsgnutlsbase.h in Headers */,
-				848E3FE41A0CAC1900712406 /* searchhandler.h in Headers */,
-				848E3FDD1A0CAC1900712406 /* jinglepluginfactory.h in Headers */,
-				848E3FD41A0CAA6D00712406 /* pubsubresulthandler.h in Headers */,
-				848E3FF31A0CAC4400712406 /* gpgencrypted.h in Headers */,
-				848E3FCE1A0CAA6D00712406 /* privatexml.h in Headers */,
-				848E3F331A0CA9BF00712406 /* socks5bytestream.h in Headers */,
 				848E3F6E1A0CAA0C00712406 /* connectionhandler.h in Headers */,
-				848E3F2D1A0CA9BF00712406 /* shim.h in Headers */,
-				848E3FEF1A0CAC4400712406 /* flexoff.h in Headers */,
-				848E3FCB1A0CAA6D00712406 /* privacyitem.h in Headers */,
-				848E3F301A0CA9BF00712406 /* siprofileft.h in Headers */,
-				848E3F011A0CA93900712406 /* tlsschannel.h in Headers */,
-				848E3EF61A0CA93800712406 /* taghandler.h in Headers */,
-				848E3FB31A0CAA6D00712406 /* linklocalmanager.h in Headers */,
 				848E3F6A1A0CAA0C00712406 /* config.h in Headers */,
-				848E3EFC1A0CA93900712406 /* tlsgnutlsserveranon.h in Headers */,
-				848E3F001A0CA93900712406 /* tlsopensslserver.h in Headers */,
-				848E3EFE1A0CA93900712406 /* tlsopensslbase.h in Headers */,
-				848E3F821A0CAA0C00712406 /* eventdispatcher.h in Headers */,
 				848E3F031A0CA93900712406 /* util.h in Headers */,
-				848E3FF01A0CAC4400712406 /* flexoffhandler.h in Headers */,
-				848E3F2A1A0CA9BF00712406 /* rostermanager.h in Headers */,
-				848E3FE31A0CAC1900712406 /* rosteritemdata.h in Headers */,
-				848E3FE11A0CAC1900712406 /* registration.h in Headers */,
-				848E3F291A0CA9BF00712406 /* rosterlistener.h in Headers */,
 				848E3F741A0CAA0C00712406 /* connectiontcpserver.h in Headers */,
 				848E3F7F1A0CAA0C00712406 /* dns.h in Headers */,
-				848E3FBF1A0CAA6D00712406 /* mucmessagesession.h in Headers */,
-				848E3FCA1A0CAA6D00712406 /* presencehandler.h in Headers */,
-				848E3F271A0CA9BF00712406 /* resource.h in Headers */,
-				848E3FAF1A0CAA6D00712406 /* lastactivityhandler.h in Headers */,
-				848E3FE21A0CAC1900712406 /* registrationhandler.h in Headers */,
-				848E3FF51A0CAC4400712406 /* inbandbytestream.h in Headers */,
-				848E3F2E1A0CA9BF00712406 /* sihandler.h in Headers */,
-				848E3FCC1A0CAA6D00712406 /* privacylisthandler.h in Headers */,
-				848E3FE01A0CAC1900712406 /* receipt.h in Headers */,
-				848E3FB11A0CAA6D00712406 /* linklocalclient.h in Headers */,
-				848E3FBB1A0CAA6D00712406 /* messagehandler.h in Headers */,
-				848E3FC71A0CAA6D00712406 /* parser.h in Headers */,
-				848E3FDF1A0CAC1900712406 /* jinglesessionmanager.h in Headers */,
-				848E3FDE1A0CAC1900712406 /* jinglesession.h in Headers */,
 				848E3F731A0CAA0C00712406 /* connectiontcpclient.h in Headers */,
-				848E3F2B1A0CA9BF00712406 /* search.h in Headers */,
-				848E3F2C1A0CA9BF00712406 /* sha.h in Headers */,
 				848E3F6C1A0CAA0C00712406 /* connectionbosh.h in Headers */,
-				848E3F341A0CA9BF00712406 /* socks5bytestreammanager.h in Headers */,
-				848E3FD01A0CAA6D00712406 /* pubsub.h in Headers */,
-				848E3FCD1A0CAA6D00712406 /* privacymanager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -931,114 +236,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				848E421C1A0CAC6E00712406 /* nonsaslauth.cpp in Sources */,
-				848E422F1A0CAC6E00712406 /* simanager.cpp in Sources */,
-				848E42031A0CAC6E00712406 /* iq.cpp in Sources */,
 				848E41D51A0CAC6E00712406 /* connectiontcpbase.cpp in Sources */,
-				848E428D1A0CAC6E00712406 /* tlsgnutlsclient.cpp in Sources */,
-				848E41C31A0CAC6E00712406 /* amp.cpp in Sources */,
-				848E41E01A0CAC6E00712406 /* disco.cpp in Sources */,
-				848E42051A0CAC6E00712406 /* jinglecontent.cpp in Sources */,
-				848E42241A0CAC6E00712406 /* privatexml.cpp in Sources */,
-				848E42021A0CAC6E00712406 /* instantmucroom.cpp in Sources */,
-				848E42381A0CAC6E00712406 /* tag.cpp in Sources */,
-				848E42341A0CAC6E00712406 /* softwareversion.cpp in Sources */,
-				848E41D91A0CAC6E00712406 /* connectiontlsserver.cpp in Sources */,
-				848E41CF1A0CAC6E00712406 /* component.cpp in Sources */,
-				848E42331A0CAC6E00712406 /* socks5bytestreamserver.cpp in Sources */,
-				848E420A1A0CAC6E00712406 /* jinglesessionmanager.cpp in Sources */,
-				848E421B1A0CAC6E00712406 /* nickname.cpp in Sources */,
-				848E42171A0CAC6E00712406 /* mucinvitationhandler.cpp in Sources */,
-				848E42061A0CAC6E00712406 /* jinglefiletransfer.cpp in Sources */,
-				848E41C41A0CAC6E00712406 /* annotations.cpp in Sources */,
-				848E42961A0CAC6E00712406 /* vcard.cpp in Sources */,
-				848E41FF1A0CAC6E00712406 /* gpgencrypted.cpp in Sources */,
-				848E428B1A0CAC6E00712406 /* tlsdefault.cpp in Sources */,
 				848E42201A0CAC6E00712406 /* prep.cpp in Sources */,
-				848E42271A0CAC6E00712406 /* pubsubmanager.cpp in Sources */,
 				848E41FE1A0CAC6E00712406 /* gloox.cpp in Sources */,
-				848E42161A0CAC6E00712406 /* messagesession.cpp in Sources */,
-				848E41D21A0CAC6E00712406 /* connectionbosh.cpp in Sources */,
-				848E41FC1A0CAC6E00712406 /* forward.cpp in Sources */,
-				848E42261A0CAC6E00712406 /* pubsubitem.cpp in Sources */,
-				848E41CD1A0CAC6E00712406 /* client.cpp in Sources */,
-				848E42231A0CAC6E00712406 /* privacymanager.cpp in Sources */,
-				848E41C81A0CAC6E00712406 /* bookmarkstorage.cpp in Sources */,
-				848E41E31A0CAC6E00712406 /* eventdispatcher.cpp in Sources */,
-				848E422D1A0CAC6E00712406 /* sha.cpp in Sources */,
-				848E42291A0CAC6E00712406 /* registration.cpp in Sources */,
-				848E41CB1A0CAC6E00712406 /* chatstate.cpp in Sources */,
-				848E41CA1A0CAC6E00712406 /* carbons.cpp in Sources */,
-				848E42311A0CAC6E00712406 /* socks5bytestream.cpp in Sources */,
-				848E42001A0CAC6E00712406 /* gpgsigned.cpp in Sources */,
 				848E42951A0CAC6E00712406 /* util.cpp in Sources */,
-				848E42041A0CAC6E00712406 /* jid.cpp in Sources */,
-				848E42321A0CAC6E00712406 /* socks5bytestreammanager.cpp in Sources */,
-				848E428C1A0CAC6E00712406 /* tlsgnutlsbase.cpp in Sources */,
-				848E42281A0CAC6E00712406 /* receipt.cpp in Sources */,
-				848E42191A0CAC6E00712406 /* mucroom.cpp in Sources */,
-				848E428E1A0CAC6E00712406 /* tlsgnutlsclientanon.cpp in Sources */,
-				848E41D11A0CAC6E00712406 /* compressionzlib.cpp in Sources */,
-				848E420F1A0CAC6E00712406 /* md5.cpp in Sources */,
-				848E422C1A0CAC6E00712406 /* search.cpp in Sources */,
-				848E421F1A0CAC6E00712406 /* parser.cpp in Sources */,
-				848E42151A0CAC6E00712406 /* messagefilter.cpp in Sources */,
-				848E41FA1A0CAC6E00712406 /* featureneg.cpp in Sources */,
-				848E422E1A0CAC6E00712406 /* shim.cpp in Sources */,
-				848E420D1A0CAC6E00712406 /* linklocalmanager.cpp in Sources */,
-				848E42351A0CAC6E00712406 /* stanza.cpp in Sources */,
-				848E42991A0CAC6E00712406 /* xhtmlim.cpp in Sources */,
-				848E41DC1A0CAC6E00712406 /* dataformfieldcontainer.cpp in Sources */,
-				848E41CE1A0CAC6E00712406 /* clientbase.cpp in Sources */,
-				848E42251A0CAC6E00712406 /* pubsubevent.cpp in Sources */,
-				848E41DE1A0CAC6E00712406 /* dataformreported.cpp in Sources */,
-				848E42971A0CAC6E00712406 /* vcardmanager.cpp in Sources */,
-				848E41C91A0CAC6E00712406 /* capabilities.cpp in Sources */,
-				848E422B1A0CAC6E00712406 /* rostermanager.cpp in Sources */,
-				848E41C71A0CAC6E00712406 /* base64.cpp in Sources */,
-				848E42371A0CAC6E00712406 /* subscription.cpp in Sources */,
-				848E42921A0CAC6E00712406 /* tlsopensslserver.cpp in Sources */,
-				848E420C1A0CAC6E00712406 /* linklocalclient.cpp in Sources */,
-				848E41C51A0CAC6E00712406 /* atomicrefcount.cpp in Sources */,
-				848E42211A0CAC6E00712406 /* presence.cpp in Sources */,
-				848E42091A0CAC6E00712406 /* jinglesession.cpp in Sources */,
-				848E41D41A0CAC6E00712406 /* connectionsocks5proxy.cpp in Sources */,
-				848E42981A0CAC6E00712406 /* vcardupdate.cpp in Sources */,
-				848E42941A0CAC6E00712406 /* uniquemucroom.cpp in Sources */,
-				848E42121A0CAC6E00712406 /* messageeventfilter.cpp in Sources */,
-				848E42901A0CAC6E00712406 /* tlsopensslbase.cpp in Sources */,
-				848E41DB1A0CAC6E00712406 /* dataformfield.cpp in Sources */,
-				848E42101A0CAC6E00712406 /* message.cpp in Sources */,
-				848E42011A0CAC6E00712406 /* inbandbytestream.cpp in Sources */,
-				848E42301A0CAC6E00712406 /* siprofileft.cpp in Sources */,
-				848E428F1A0CAC6E00712406 /* tlsgnutlsserveranon.cpp in Sources */,
-				848E41FB1A0CAC6E00712406 /* flexoff.cpp in Sources */,
-				848E420B1A0CAC6E00712406 /* lastactivity.cpp in Sources */,
-				848E42111A0CAC6E00712406 /* messageevent.cpp in Sources */,
-				848E41DD1A0CAC6E00712406 /* dataformitem.cpp in Sources */,
-				848E422A1A0CAC6E00712406 /* rosteritem.cpp in Sources */,
-				848E42081A0CAC6E00712406 /* jinglepluginfactory.cpp in Sources */,
-				848E42361A0CAC6E00712406 /* stanzaextensionfactory.cpp in Sources */,
-				848E42221A0CAC6E00712406 /* privacyitem.cpp in Sources */,
-				848E41DF1A0CAC6E00712406 /* delayeddelivery.cpp in Sources */,
-				848E41D01A0CAC6E00712406 /* compressiondefault.cpp in Sources */,
-				848E42181A0CAC6E00712406 /* mucmessagesession.cpp in Sources */,
 				848E41D61A0CAC6E00712406 /* connectiontcpclient.cpp in Sources */,
-				848E41D31A0CAC6E00712406 /* connectionhttpproxy.cpp in Sources */,
 				848E420E1A0CAC6E00712406 /* logsink.cpp in Sources */,
 				848E41D71A0CAC6E00712406 /* connectiontcpserver.cpp in Sources */,
-				848E41C61A0CAC6E00712406 /* attention.cpp in Sources */,
-				848E41D81A0CAC6E00712406 /* connectiontls.cpp in Sources */,
-				848E41CC1A0CAC6E00712406 /* chatstatefilter.cpp in Sources */,
-				848E42931A0CAC6E00712406 /* tlsschannel.cpp in Sources */,
 				848E421A1A0CAC6E00712406 /* mutex.cpp in Sources */,
 				848E41E11A0CAC6E00712406 /* dns.cpp in Sources */,
-				848E42911A0CAC6E00712406 /* tlsopensslclient.cpp in Sources */,
-				848E42071A0CAC6E00712406 /* jingleiceudp.cpp in Sources */,
-				848E41DA1A0CAC6E00712406 /* dataform.cpp in Sources */,
-				848E421E1A0CAC6E00712406 /* oob.cpp in Sources */,
-				848E41C21A0CAC6E00712406 /* adhoc.cpp in Sources */,
-				848E41E21A0CAC6E00712406 /* error.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
