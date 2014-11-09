@@ -14,5 +14,6 @@ CONFIG   -= app_bundle
 
 TEMPLATE = app
 
+include(gloox.pri)
 
 SOURCES += main.cpp

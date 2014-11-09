@@ -10,7 +10,6 @@
 		848E3F031A0CA93900712406 /* util.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EEF1A0CA93800712406 /* util.h */; };
 		848E3F6A1A0CAA0C00712406 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F461A0CAA0C00712406 /* config.h */; };
 		848E3F6B1A0CAA0C00712406 /* connectionbase.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F471A0CAA0C00712406 /* connectionbase.h */; };
-		848E3F6C1A0CAA0C00712406 /* connectionbosh.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F481A0CAA0C00712406 /* connectionbosh.h */; };
 		848E3F6D1A0CAA0C00712406 /* connectiondatahandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F491A0CAA0C00712406 /* connectiondatahandler.h */; };
 		848E3F6E1A0CAA0C00712406 /* connectionhandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F4A1A0CAA0C00712406 /* connectionhandler.h */; };
 		848E3F721A0CAA0C00712406 /* connectiontcpbase.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F4E1A0CAA0C00712406 /* connectiontcpbase.h */; };
@@ -39,7 +38,6 @@
 		848E3EEF1A0CA93800712406 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = util.h; path = src/util.h; sourceTree = "<group>"; };
 		848E3F461A0CAA0C00712406 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = src/config.h; sourceTree = "<group>"; };
 		848E3F471A0CAA0C00712406 /* connectionbase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = connectionbase.h; path = src/connectionbase.h; sourceTree = "<group>"; };
-		848E3F481A0CAA0C00712406 /* connectionbosh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = connectionbosh.h; path = src/connectionbosh.h; sourceTree = "<group>"; };
 		848E3F491A0CAA0C00712406 /* connectiondatahandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = connectiondatahandler.h; path = src/connectiondatahandler.h; sourceTree = "<group>"; };
 		848E3F4A1A0CAA0C00712406 /* connectionhandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = connectionhandler.h; path = src/connectionhandler.h; sourceTree = "<group>"; };
 		848E3F4E1A0CAA0C00712406 /* connectiontcpbase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = connectiontcpbase.h; path = src/connectiontcpbase.h; sourceTree = "<group>"; };
@@ -108,7 +106,6 @@
 				848E42A61A0CC21E00712406 /* config.h.unix */,
 				848E3F461A0CAA0C00712406 /* config.h */,
 				848E3F471A0CAA0C00712406 /* connectionbase.h */,
-				848E3F481A0CAA0C00712406 /* connectionbosh.h */,
 				848E3F491A0CAA0C00712406 /* connectiondatahandler.h */,
 				848E3F4A1A0CAA0C00712406 /* connectionhandler.h */,
 				848E3F4E1A0CAA0C00712406 /* connectiontcpbase.h */,
@@ -171,7 +168,6 @@
 				848E3F031A0CA93900712406 /* util.h in Headers */,
 				848E3F7F1A0CAA0C00712406 /* dns.h in Headers */,
 				848E3F731A0CAA0C00712406 /* connectiontcpclient.h in Headers */,
-				848E3F6C1A0CAA0C00712406 /* connectionbosh.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
