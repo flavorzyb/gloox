@@ -415,7 +415,7 @@ namespace gloox
       setsockopt(fd, SOL_SOCKET, SO_REUSEADDR,&timeout, sizeof(int));
     #else
       struct timeval timeout;
-      timeout.tv_sec = 2;
+      timeout.tv_sec = 3;
       timeout.tv_usec = 0;
       
       //发送时限
@@ -423,7 +423,8 @@ namespace gloox
       //接收时限
       setsockopt(fd, SOL_SOCKET, SO_RCVTIMEO,  (const void *) &timeout, sizeof(struct timeval));
       
-      setsockopt(fd, SOL_SOCKET, SO_REUSEADDR, (const void *) &timeout, sizeof(struct timeval));
+      int reuseaddr = 1;
+      setsockopt(fd, SOL_SOCKET, SO_REUSEADDR, (const void *) &reuseaddr, sizeof(int));
     #endif
       
       int keep_alive = 1;
