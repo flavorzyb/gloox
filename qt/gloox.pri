@@ -25,6 +25,7 @@ SOURCES +=  $$PWD/../libs/gloox-1.0.11/src/connectiontcpbase.cpp \
 
 INCLUDEPATH += $$PWD/../libs/gloox-1.0.11/src
 
-unix: HEADERS += $$PWD/../libs/gloox-1.0.11/src/config.h.unix
-
-unix: LIBS +=-lresolv
+unix: {
+    HEADERS += $$PWD/../libs/gloox-1.0.11/src/config.h.unix
+    LIBS +=-lresolv
+}

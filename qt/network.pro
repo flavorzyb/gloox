@@ -14,6 +14,15 @@ CONFIG   -= app_bundle
 
 TEMPLATE = app
 
-include(gloox.pri)
+include($$PWD/gloox.pri)
 
-SOURCES += main.cpp
+INCLUDEPATH += $$PWD/../network/Classes \
+               $$PWD/../libs/gloox-1.0.11/src
+
+HEADERS +=  $$PWD/../network/Classes/net/client.h \
+            $$PWD/../network/Classes/net/datahandler.h \
+    network.h
+
+SOURCES +=  main.cpp \
+            $$PWD/../network/Classes/net/client.cpp \
+            $$PWD/../network/Classes/net/datahandler.cpp
