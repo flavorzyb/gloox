@@ -21,8 +21,11 @@ INCLUDEPATH += $$PWD/../network/Classes \
 
 HEADERS +=  $$PWD/../network/Classes/net/client.h \
             $$PWD/../network/Classes/net/datahandler.h \
-    network.h
+            $$PWD/network.h \
+            $$PWD/nwapplication.h
 
-SOURCES +=  main.cpp \
+
+SOURCES +=  $$PWD/main.cpp \
             $$PWD/../network/Classes/net/client.cpp \
-            $$PWD/../network/Classes/net/datahandler.cpp
+            $$PWD/../network/Classes/net/datahandler.cpp \
+            $$PWD/nwapplication.cpp

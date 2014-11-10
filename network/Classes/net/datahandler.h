@@ -9,13 +9,13 @@ class DataHandler : public gloox::ConnectionDataHandler
 public:
     DataHandler();
     virtual ~DataHandler();
-    void handleReceivedData(const gloox::ConnectionBase* connection, char *data, int size);
+    void handleReceivedData(const gloox::ConnectionBase* connection, const std::string& data );
 
     void handleConnect(const gloox::ConnectionBase* connection);
 
     void registerDisconnectHandler(LUA_FUNCTION func);
     void unregisterDisconnectHandler();
-    void handleDisconnect(gloox::ConnectionBase* connection, gloox::ConnectionError reason);
+    void handleDisconnect(const gloox::ConnectionBase* connection, gloox::ConnectionError reason);
 
 private:
     DataHandler(const DataHandler & dh);

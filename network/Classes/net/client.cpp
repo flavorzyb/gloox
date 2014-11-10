@@ -28,7 +28,7 @@ bool Client::connect(const string &server, int port, LUA_FUNCTION errorFunc)
     close();
 
     m_dataHandler->registerDisconnectHandler(errorFunc);
-    m_client = new ConnectionTCPClient(m_dataHandler, &m_log, m_server, m_port);
+    m_client = new ConnectionTCPClient(m_dataHandler, m_log, m_server, m_port);
     ConnectionError error;
     for (int i = 0; i < 5; i++)
     {
@@ -38,7 +38,7 @@ bool Client::connect(const string &server, int port, LUA_FUNCTION errorFunc)
             break;
         }
 
-#if (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32)
+#if defined( _WIN32 )
         Sleep(100);
 #else
         usleep(500000);
@@ -84,7 +84,8 @@ bool Client::send(const char *data, unsigned int size)
 
     if (isConnect())
     {
-        m_client->send();
+        string str(data, size);
+        m_client->send(str);
     }
 
     return result;

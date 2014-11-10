@@ -1,8 +1,8 @@
-#include <QCoreApplication>
+#include "nwapplication.h"
 
 int main(int argc, char *argv[])
 {
-    QCoreApplication a(argc, argv);
-
+    NWApplication a(argc, argv);
+    a.run();
     return a.exec();
 }

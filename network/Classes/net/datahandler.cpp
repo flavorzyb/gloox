@@ -14,7 +14,7 @@ DataHandler::~DataHandler()
     //@todo 移除lua监听
 }
 
-void DataHandler::handleReceivedData(const ConnectionBase *connection, char *data, int size)
+void DataHandler::handleReceivedData( const ConnectionBase* connection, const std::string& data )
 {
 
 }
@@ -33,6 +33,6 @@ void DataHandler::unregisterDisconnectHandler()
 
 }
 
-void DataHandler::handleDisconnect(ConnectionBase *connection, ConnectionError reason)
+void DataHandler::handleDisconnect(const ConnectionBase *connection, ConnectionError reason)
 {
 }
