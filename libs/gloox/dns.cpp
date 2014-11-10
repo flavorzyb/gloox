@@ -415,9 +415,9 @@ namespace gloox
       setsockopt(fd, SOL_SOCKET, SO_REUSEADDR,&timeout, sizeof(int));
     #else
       struct timeval timeout;
-      timeout.tv_sec = 3;
+      timeout.tv_sec = 2;
       timeout.tv_usec = 0;
-      
+
       //发送时限
       setsockopt(fd, SOL_SOCKET, SO_SNDTIMEO,  (const void *) &timeout, sizeof(struct timeval));
       //接收时限
