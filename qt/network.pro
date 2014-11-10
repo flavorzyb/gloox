@@ -20,12 +20,10 @@ INCLUDEPATH += $$PWD/../network/Classes \
                $$PWD/../libs/gloox-1.0.11/src
 
 HEADERS +=  $$PWD/../network/Classes/net/client.h \
-            $$PWD/../network/Classes/net/datahandler.h \
             $$PWD/network.h \
             $$PWD/nwapplication.h
 
 
 SOURCES +=  $$PWD/main.cpp \
             $$PWD/../network/Classes/net/client.cpp \
-            $$PWD/../network/Classes/net/datahandler.cpp \
             $$PWD/nwapplication.cpp

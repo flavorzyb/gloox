@@ -36,7 +36,15 @@ void NWThread::run()
     while(client.isConnect())
     {
         qDebug()<<"will send data ... ..."<<data.c_str();
-        client.send(data.c_str(), data.length());
-        sleep(5);
+        if (client.send(data.c_str(), data.length()))
+        {
+            sleep(5);
+        }
+        else
+        {
+            break;
+        }
     }
+
+   qDebug()<<"will finished ... ...";
 }
