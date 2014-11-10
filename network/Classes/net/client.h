@@ -15,13 +15,14 @@ public:
     void close();
     void receive();
     void receiveWithPthread();
-    bool reconnect();
+    bool reconnect(LUA_FUNCTION errorFunc = 0);
     bool send(const char * data, unsigned int size);
     bool isConnect();
 
 private:
     Client(const Client & c);
     Client & operator=(const Client & c);
+    bool _connect(LUA_FUNCTION errorFunc = 0);
 
 private:
     std::string                   m_server;
