@@ -9,7 +9,16 @@
 /* Begin PBXBuildFile section */
 		2AFA2B651A0D2CF300BE1B65 /* libcocos2dx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFA279F1A0D2A5400BE1B65 /* libcocos2dx.a */; };
 		2AFA2B661A0D2CF300BE1B65 /* libCocosDenshion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFA2B621A0D2CDF00BE1B65 /* libCocosDenshion.a */; };
-		2AFA2B6F1A0D307800BE1B65 /* libgloox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFA2B6C1A0D304300BE1B65 /* libgloox.a */; };
+		2C29254F1A11289700C7169D /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C29254E1A11289700C7169D /* libresolv.dylib */; };
+		2C29256D1A1128BB00C7169D /* config.h.unix in Resources */ = {isa = PBXBuildFile; fileRef = 2C2925541A1128BB00C7169D /* config.h.unix */; };
+		2C29256F1A1128BB00C7169D /* connectiontcpbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C2925581A1128BB00C7169D /* connectiontcpbase.cpp */; };
+		2C2925701A1128BB00C7169D /* connectiontcpclient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C29255A1A1128BB00C7169D /* connectiontcpclient.cpp */; };
+		2C2925711A1128BB00C7169D /* dns.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C29255C1A1128BB00C7169D /* dns.cpp */; };
+		2C2925721A1128BB00C7169D /* gloox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C29255E1A1128BB00C7169D /* gloox.cpp */; };
+		2C2925731A1128BB00C7169D /* logsink.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C2925621A1128BB00C7169D /* logsink.cpp */; };
+		2C2925741A1128BB00C7169D /* mutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C2925651A1128BB00C7169D /* mutex.cpp */; };
+		2C2925751A1128BB00C7169D /* prep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C2925681A1128BB00C7169D /* prep.cpp */; };
+		2C2925761A1128BB00C7169D /* util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C29256A1A1128BB00C7169D /* util.cpp */; };
 		84CEB5741A10E2F900FFA547 /* client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84CEB5701A10E2F900FFA547 /* client.cpp */; };
 		84CEB5751A10E2F900FFA547 /* datahandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84CEB5721A10E2F900FFA547 /* datahandler.cpp */; };
 		84D661961A0CDD1B002E8D48 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D661951A0CDD1B002E8D48 /* QuartzCore.framework */; };
@@ -67,26 +76,36 @@
 			remoteGlobalIDString = D87CC2E4154FC6C500AAFE11;
 			remoteInfo = CocosDenshion;
 		};
-		2AFA2B6B1A0D304300BE1B65 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2AFA2B671A0D304300BE1B65 /* gloox.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 848E3EAE1A0CA81500712406;
-			remoteInfo = gloox;
-		};
-		2AFA2B6D1A0D307100BE1B65 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2AFA2B671A0D304300BE1B65 /* gloox.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 848E3EAD1A0CA81500712406;
-			remoteInfo = gloox;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2AFA279A1A0D2A5400BE1B65 /* cocos2dx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2dx.xcodeproj; path = "libs/cocos2d-x/cocos2dx/proj.ios/cocos2dx.xcodeproj"; sourceTree = "<group>"; };
 		2AFA2B5D1A0D2CDF00BE1B65 /* CocosDenshion.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CocosDenshion.xcodeproj; path = "libs/cocos2d-x/CocosDenshion/proj.ios/CocosDenshion.xcodeproj"; sourceTree = "<group>"; };
-		2AFA2B671A0D304300BE1B65 /* gloox.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = gloox.xcodeproj; path = "libs/gloox-1.0.11/gloox.xcodeproj"; sourceTree = "<group>"; };
+		2C29254E1A11289700C7169D /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
+		2C2925521A1128BB00C7169D /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		2C2925541A1128BB00C7169D /* config.h.unix */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.h.unix; sourceTree = "<group>"; };
+		2C2925561A1128BB00C7169D /* connectionbase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = connectionbase.h; sourceTree = "<group>"; };
+		2C2925571A1128BB00C7169D /* connectiondatahandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = connectiondatahandler.h; sourceTree = "<group>"; };
+		2C2925581A1128BB00C7169D /* connectiontcpbase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = connectiontcpbase.cpp; sourceTree = "<group>"; };
+		2C2925591A1128BB00C7169D /* connectiontcpbase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = connectiontcpbase.h; sourceTree = "<group>"; };
+		2C29255A1A1128BB00C7169D /* connectiontcpclient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = connectiontcpclient.cpp; sourceTree = "<group>"; };
+		2C29255B1A1128BB00C7169D /* connectiontcpclient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = connectiontcpclient.h; sourceTree = "<group>"; };
+		2C29255C1A1128BB00C7169D /* dns.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dns.cpp; sourceTree = "<group>"; };
+		2C29255D1A1128BB00C7169D /* dns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dns.h; sourceTree = "<group>"; };
+		2C29255E1A1128BB00C7169D /* gloox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gloox.cpp; sourceTree = "<group>"; };
+		2C29255F1A1128BB00C7169D /* gloox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gloox.h; sourceTree = "<group>"; };
+		2C2925601A1128BB00C7169D /* glooxversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glooxversion.h; sourceTree = "<group>"; };
+		2C2925611A1128BB00C7169D /* loghandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loghandler.h; sourceTree = "<group>"; };
+		2C2925621A1128BB00C7169D /* logsink.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = logsink.cpp; sourceTree = "<group>"; };
+		2C2925631A1128BB00C7169D /* logsink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logsink.h; sourceTree = "<group>"; };
+		2C2925641A1128BB00C7169D /* macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macros.h; sourceTree = "<group>"; };
+		2C2925651A1128BB00C7169D /* mutex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mutex.cpp; sourceTree = "<group>"; };
+		2C2925661A1128BB00C7169D /* mutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mutex.h; sourceTree = "<group>"; };
+		2C2925671A1128BB00C7169D /* mutexguard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mutexguard.h; sourceTree = "<group>"; };
+		2C2925681A1128BB00C7169D /* prep.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = prep.cpp; sourceTree = "<group>"; };
+		2C2925691A1128BB00C7169D /* prep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prep.h; sourceTree = "<group>"; };
+		2C29256A1A1128BB00C7169D /* util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = util.cpp; sourceTree = "<group>"; };
+		2C29256B1A1128BB00C7169D /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
 		84CEB5701A10E2F900FFA547 /* client.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = client.cpp; sourceTree = "<group>"; };
 		84CEB5711A10E2F900FFA547 /* client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client.h; sourceTree = "<group>"; };
 		84CEB5721A10E2F900FFA547 /* datahandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = datahandler.cpp; sourceTree = "<group>"; };
@@ -129,7 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AFA2B6F1A0D307800BE1B65 /* libgloox.a in Frameworks */,
+				2C29254F1A11289700C7169D /* libresolv.dylib in Frameworks */,
 				2AFA2B651A0D2CF300BE1B65 /* libcocos2dx.a in Frameworks */,
 				2AFA2B661A0D2CF300BE1B65 /* libCocosDenshion.a in Frameworks */,
 				84D6619A1A0CDD1B002E8D48 /* OpenAL.framework in Frameworks */,
@@ -162,13 +181,37 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2AFA2B681A0D304300BE1B65 /* Products */ = {
+		2C2925511A1128BB00C7169D /* gloox */ = {
 			isa = PBXGroup;
 			children = (
-				2AFA2B6C1A0D304300BE1B65 /* libgloox.a */,
+				2C2925521A1128BB00C7169D /* config.h */,
+				2C2925541A1128BB00C7169D /* config.h.unix */,
+				2C2925561A1128BB00C7169D /* connectionbase.h */,
+				2C2925571A1128BB00C7169D /* connectiondatahandler.h */,
+				2C2925581A1128BB00C7169D /* connectiontcpbase.cpp */,
+				2C2925591A1128BB00C7169D /* connectiontcpbase.h */,
+				2C29255A1A1128BB00C7169D /* connectiontcpclient.cpp */,
+				2C29255B1A1128BB00C7169D /* connectiontcpclient.h */,
+				2C29255C1A1128BB00C7169D /* dns.cpp */,
+				2C29255D1A1128BB00C7169D /* dns.h */,
+				2C29255E1A1128BB00C7169D /* gloox.cpp */,
+				2C29255F1A1128BB00C7169D /* gloox.h */,
+				2C2925601A1128BB00C7169D /* glooxversion.h */,
+				2C2925611A1128BB00C7169D /* loghandler.h */,
+				2C2925621A1128BB00C7169D /* logsink.cpp */,
+				2C2925631A1128BB00C7169D /* logsink.h */,
+				2C2925641A1128BB00C7169D /* macros.h */,
+				2C2925651A1128BB00C7169D /* mutex.cpp */,
+				2C2925661A1128BB00C7169D /* mutex.h */,
+				2C2925671A1128BB00C7169D /* mutexguard.h */,
+				2C2925681A1128BB00C7169D /* prep.cpp */,
+				2C2925691A1128BB00C7169D /* prep.h */,
+				2C29256A1A1128BB00C7169D /* util.cpp */,
+				2C29256B1A1128BB00C7169D /* util.h */,
 			);
-			name = Products;
-			sourceTree = "<group>";
+			name = gloox;
+			path = libs/gloox;
+			sourceTree = SOURCE_ROOT;
 		};
 		84CEB56F1A10E2F900FFA547 /* net */ = {
 			isa = PBXGroup;
@@ -185,7 +228,6 @@
 		84D661891A0CDD1A002E8D48 = {
 			isa = PBXGroup;
 			children = (
-				2AFA2B671A0D304300BE1B65 /* gloox.xcodeproj */,
 				2AFA279A1A0D2A5400BE1B65 /* cocos2dx.xcodeproj */,
 				2AFA2B5D1A0D2CDF00BE1B65 /* CocosDenshion.xcodeproj */,
 				84D661941A0CDD1B002E8D48 /* Frameworks */,
@@ -205,6 +247,7 @@
 		84D661941A0CDD1B002E8D48 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2C29254E1A11289700C7169D /* libresolv.dylib */,
 				84D661951A0CDD1B002E8D48 /* QuartzCore.framework */,
 				84D661971A0CDD1B002E8D48 /* OpenGLES.framework */,
 				84D661991A0CDD1B002E8D48 /* OpenAL.framework */,
@@ -220,6 +263,7 @@
 		84D661A51A0CDD1B002E8D48 /* network */ = {
 			isa = PBXGroup;
 			children = (
+				2C2925511A1128BB00C7169D /* gloox */,
 				84D661A61A0CDD1B002E8D48 /* Resources */,
 				84D661BE1A0CDD1B002E8D48 /* ios */,
 				84D665361A0CDD1E002E8D48 /* Classes */,
@@ -293,7 +337,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				2AFA2B6E1A0D307100BE1B65 /* PBXTargetDependency */,
 				2AFA2B641A0D2CEC00BE1B65 /* PBXTargetDependency */,
 				2AFA2B5C1A0D2CCD00BE1B65 /* PBXTargetDependency */,
 			);
@@ -334,10 +377,6 @@
 					ProductGroup = 2AFA2B5E1A0D2CDF00BE1B65 /* Products */;
 					ProjectRef = 2AFA2B5D1A0D2CDF00BE1B65 /* CocosDenshion.xcodeproj */;
 				},
-				{
-					ProductGroup = 2AFA2B681A0D304300BE1B65 /* Products */;
-					ProjectRef = 2AFA2B671A0D304300BE1B65 /* gloox.xcodeproj */;
-				},
 			);
 			projectRoot = "";
 			targets = (
@@ -361,13 +400,6 @@
 			remoteRef = 2AFA2B611A0D2CDF00BE1B65 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		2AFA2B6C1A0D304300BE1B65 /* libgloox.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libgloox.a;
-			remoteRef = 2AFA2B6B1A0D304300BE1B65 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -377,6 +409,7 @@
 			files = (
 				84D661B81A0CDD1B002E8D48 /* Icon.png in Resources */,
 				84D661A81A0CDD1B002E8D48 /* CloseNormal.png in Resources */,
+				2C29256D1A1128BB00C7169D /* config.h.unix in Resources */,
 				84D661B41A0CDD1B002E8D48 /* Icon-Small.png in Resources */,
 				84D661B01A0CDD1B002E8D48 /* Icon-72.png in Resources */,
 				84D661AE1A0CDD1B002E8D48 /* HelloWorld.png in Resources */,
@@ -396,11 +429,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C29256F1A1128BB00C7169D /* connectiontcpbase.cpp in Sources */,
 				84D661C41A0CDD1B002E8D48 /* RootViewController.mm in Sources */,
 				84CEB5751A10E2F900FFA547 /* datahandler.cpp in Sources */,
+				2C2925741A1128BB00C7169D /* mutex.cpp in Sources */,
+				2C2925731A1128BB00C7169D /* logsink.cpp in Sources */,
 				84D661C61A0CDD1B002E8D48 /* main.m in Sources */,
+				2C2925701A1128BB00C7169D /* connectiontcpclient.cpp in Sources */,
+				2C2925711A1128BB00C7169D /* dns.cpp in Sources */,
+				2C2925761A1128BB00C7169D /* util.cpp in Sources */,
 				84CEB5741A10E2F900FFA547 /* client.cpp in Sources */,
 				84D661C11A0CDD1B002E8D48 /* AppController.mm in Sources */,
+				2C2925751A1128BB00C7169D /* prep.cpp in Sources */,
+				2C2925721A1128BB00C7169D /* gloox.cpp in Sources */,
 				84D6653C1A0CDD1E002E8D48 /* HelloWorldScene.cpp in Sources */,
 				84D665391A0CDD1E002E8D48 /* AppDelegate.cpp in Sources */,
 			);
@@ -418,11 +459,6 @@
 			isa = PBXTargetDependency;
 			name = CocosDenshion;
 			targetProxy = 2AFA2B631A0D2CEC00BE1B65 /* PBXContainerItemProxy */;
-		};
-		2AFA2B6E1A0D307100BE1B65 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = gloox;
-			targetProxy = 2AFA2B6D1A0D307100BE1B65 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -452,7 +488,7 @@
 					"\"$(SRCROOT)/libs/cocos2d-x/cocos2dx/include\"",
 					"\"$(SRCROOT)/libs/cocos2d-x/cocos2dx/platform/third_party/ios\"",
 					"\"$(SRCROOT)/libs/cocos2d-x/cocos2dx/platform/ios\"",
-					"\"$(SRCROOT)/libs/gloox-1.0.11/src\"",
+					"\"$(SRCROOT)/libs/gloox\"",
 					"\"$(SRCROOT)/network/Classes\"",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
@@ -483,7 +519,7 @@
 					"\"$(SRCROOT)/libs/cocos2d-x/cocos2dx/include\"",
 					"\"$(SRCROOT)/libs/cocos2d-x/cocos2dx/platform/third_party/ios\"",
 					"\"$(SRCROOT)/libs/cocos2d-x/cocos2dx/platform/ios\"",
-					"\"$(SRCROOT)/libs/gloox-1.0.11/src\"",
+					"\"$(SRCROOT)/libs/gloox\"",
 					"\"$(SRCROOT)/network/Classes\"",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;

@@ -1,5 +1,6 @@
 #include "HelloWorldScene.h"
 #include "SimpleAudioEngine.h"
+#include "net/client.h"
 
 using namespace cocos2d;
 using namespace CocosDenshion;
@@ -70,6 +71,20 @@ bool HelloWorld::init()
 
     // add the sprite as a child to this layer
     this->addChild(pSprite, 0);
+
+    Client client;
+    if (!client.connect("zhuyanbin.com", 1111))
+    {
+        CCLOG("connect server fail.......");
+        return true;
+    }
+
+    client.receiveWithPthread();
+    char data[] = {"i am ok\n"};
+    while (client.isConnect() && client.send(data, strlen(data)))
+    {
+        sleep(2);
+    }
     
     return true;
 }
