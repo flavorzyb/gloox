@@ -1,6 +1,7 @@
 #include "HelloWorldScene.h"
 #include "SimpleAudioEngine.h"
 #include "net/client.h"
+#include <pthread.h>
 
 using namespace cocos2d;
 using namespace CocosDenshion;
@@ -18,6 +19,38 @@ CCScene* HelloWorld::scene()
 
     // return the scene
     return scene;
+}
+
+Client s_client;
+
+static char data[] = {"i am ok"};
+static int count = 0;
+static char str[64];
+static void * _onSendData(void * argv)
+{
+    Client *pClient = static_cast<Client *> (argv);
+    if (NULL!=pClient)
+    {
+        while (pClient->isConnect())
+        {
+            sprintf(str, "%s %d\n", data, count);
+            printf("send data:%s", str);
+            if (!pClient->send(str, strlen(str)))
+            {
+                break;
+            }
+            else
+            {
+                sleep(10);
+            }
+
+            count++;
+        }
+
+        CCLOG("安全退出pClient->isConnect()");
+    }
+
+    return 0;
 }
 
 // on "init" you need to initialize your instance
@@ -72,20 +105,18 @@ bool HelloWorld::init()
     // add the sprite as a child to this layer
     this->addChild(pSprite, 0);
 
-    Client client;
-    if (!client.connect("zhuyanbin.com", 1111))
+
+    if (!s_client.connect("zhuyanbin.com", 1111))
     {
         CCLOG("connect server fail.......");
         return true;
     }
 
-    client.receiveWithPthread();
-    char data[] = {"i am ok\n"};
-    while (client.isConnect() && client.send(data, strlen(data)))
-    {
-        sleep(2);
-    }
-    
+    s_client.receiveWithPthread();
+
+    pthread_t pthread;
+    pthread_create(&pthread, NULL, _onSendData, &s_client);
+
     return true;
 }
 

@@ -8,16 +8,16 @@ using namespace std;
 Client::Client():
     m_server("")
   , m_port(0)
-  , m_dataHandler(NULL)
   , m_client(NULL)
+  , m_offset(0)
+  , m_disconnectCallback(0)
 {
-    m_dataHandler = new DataHandler();
 }
 
 Client::~Client()
 {
     delete m_client;
-    delete m_dataHandler;
+    //@todo 移除lua call back
 }
 
 bool Client::connect(const string &server, int port, LUA_FUNCTION errorFunc)
@@ -30,7 +30,7 @@ bool Client::connect(const string &server, int port, LUA_FUNCTION errorFunc)
 
 void Client::close()
 {
-    m_dataHandler->unregisterDisconnectHandler();
+    unregisterDisconnectHandler();
     if (m_client != NULL)
     {
         m_client->cleanup();
@@ -101,8 +101,8 @@ bool Client::isConnect()
 bool Client::_connect(LUA_FUNCTION errorFunc)
 {
     close();
-    m_dataHandler->registerDisconnectHandler(errorFunc);
-    m_client = new ConnectionTCPClient(m_dataHandler, m_log, m_server, m_port);
+    registerDisconnectHandler(errorFunc);
+    m_client = new ConnectionTCPClient(this, m_log, m_server, m_port);
     ConnectionError error;
     for (int i = 0; i < 5; i++)
     {
@@ -113,11 +113,41 @@ bool Client::_connect(LUA_FUNCTION errorFunc)
         }
 
 #if defined( _WIN32 )
-        Sleep(100);
+        Sleep(1000);
 #else
-        usleep(500000);
+        usleep(1000000);
 #endif
     }
 
     return (error==ConnNoError);
+}
+
+void Client::handleReceivedData( const ConnectionBase* connection, const std::string& data )
+{
+    printf("received data======= len:%lu, str:%s\n", data.length(), data.c_str());
+}
+
+void Client::handleConnect(const ConnectionBase *connection)
+{
+    printf("connect succ!\n");
+}
+
+void Client::registerDisconnectHandler(LUA_FUNCTION func)
+{
+    m_disconnectCallback = func;
+}
+
+void Client::unregisterDisconnectHandler()
+{
+
+}
+
+void Client::handleDisconnect(const ConnectionBase *connection, ConnectionError reason)
+{
+    if (m_client != NULL)
+    {
+        m_client->cleanup();
+    }
+
+    printf("disconnect succ reason===%d!\n", reason);
 }

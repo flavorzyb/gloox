@@ -20,7 +20,6 @@
 		2C2925751A1128BB00C7169D /* prep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C2925681A1128BB00C7169D /* prep.cpp */; };
 		2C2925761A1128BB00C7169D /* util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C29256A1A1128BB00C7169D /* util.cpp */; };
 		84CEB5741A10E2F900FFA547 /* client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84CEB5701A10E2F900FFA547 /* client.cpp */; };
-		84CEB5751A10E2F900FFA547 /* datahandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84CEB5721A10E2F900FFA547 /* datahandler.cpp */; };
 		84D661961A0CDD1B002E8D48 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D661951A0CDD1B002E8D48 /* QuartzCore.framework */; };
 		84D661981A0CDD1B002E8D48 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D661971A0CDD1B002E8D48 /* OpenGLES.framework */; };
 		84D6619A1A0CDD1B002E8D48 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D661991A0CDD1B002E8D48 /* OpenAL.framework */; };
@@ -108,8 +107,6 @@
 		2C29256B1A1128BB00C7169D /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
 		84CEB5701A10E2F900FFA547 /* client.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = client.cpp; sourceTree = "<group>"; };
 		84CEB5711A10E2F900FFA547 /* client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client.h; sourceTree = "<group>"; };
-		84CEB5721A10E2F900FFA547 /* datahandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = datahandler.cpp; sourceTree = "<group>"; };
-		84CEB5731A10E2F900FFA547 /* datahandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = datahandler.h; sourceTree = "<group>"; };
 		84D661921A0CDD1B002E8D48 /* network.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = network.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D661951A0CDD1B002E8D48 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		84D661971A0CDD1B002E8D48 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -184,30 +181,30 @@
 		2C2925511A1128BB00C7169D /* gloox */ = {
 			isa = PBXGroup;
 			children = (
+				2C2925581A1128BB00C7169D /* connectiontcpbase.cpp */,
+				2C29255A1A1128BB00C7169D /* connectiontcpclient.cpp */,
+				2C29255C1A1128BB00C7169D /* dns.cpp */,
+				2C29255E1A1128BB00C7169D /* gloox.cpp */,
+				2C2925621A1128BB00C7169D /* logsink.cpp */,
+				2C2925651A1128BB00C7169D /* mutex.cpp */,
+				2C2925681A1128BB00C7169D /* prep.cpp */,
+				2C29256A1A1128BB00C7169D /* util.cpp */,
 				2C2925521A1128BB00C7169D /* config.h */,
-				2C2925541A1128BB00C7169D /* config.h.unix */,
 				2C2925561A1128BB00C7169D /* connectionbase.h */,
 				2C2925571A1128BB00C7169D /* connectiondatahandler.h */,
-				2C2925581A1128BB00C7169D /* connectiontcpbase.cpp */,
 				2C2925591A1128BB00C7169D /* connectiontcpbase.h */,
-				2C29255A1A1128BB00C7169D /* connectiontcpclient.cpp */,
 				2C29255B1A1128BB00C7169D /* connectiontcpclient.h */,
-				2C29255C1A1128BB00C7169D /* dns.cpp */,
 				2C29255D1A1128BB00C7169D /* dns.h */,
-				2C29255E1A1128BB00C7169D /* gloox.cpp */,
 				2C29255F1A1128BB00C7169D /* gloox.h */,
 				2C2925601A1128BB00C7169D /* glooxversion.h */,
 				2C2925611A1128BB00C7169D /* loghandler.h */,
-				2C2925621A1128BB00C7169D /* logsink.cpp */,
 				2C2925631A1128BB00C7169D /* logsink.h */,
 				2C2925641A1128BB00C7169D /* macros.h */,
-				2C2925651A1128BB00C7169D /* mutex.cpp */,
 				2C2925661A1128BB00C7169D /* mutex.h */,
 				2C2925671A1128BB00C7169D /* mutexguard.h */,
-				2C2925681A1128BB00C7169D /* prep.cpp */,
 				2C2925691A1128BB00C7169D /* prep.h */,
-				2C29256A1A1128BB00C7169D /* util.cpp */,
 				2C29256B1A1128BB00C7169D /* util.h */,
+				2C2925541A1128BB00C7169D /* config.h.unix */,
 			);
 			name = gloox;
 			path = libs/gloox;
@@ -218,8 +215,6 @@
 			children = (
 				84CEB5701A10E2F900FFA547 /* client.cpp */,
 				84CEB5711A10E2F900FFA547 /* client.h */,
-				84CEB5721A10E2F900FFA547 /* datahandler.cpp */,
-				84CEB5731A10E2F900FFA547 /* datahandler.h */,
 			);
 			name = net;
 			path = Classes/net;
@@ -431,7 +426,6 @@
 			files = (
 				2C29256F1A1128BB00C7169D /* connectiontcpbase.cpp in Sources */,
 				84D661C41A0CDD1B002E8D48 /* RootViewController.mm in Sources */,
-				84CEB5751A10E2F900FFA547 /* datahandler.cpp in Sources */,
 				2C2925741A1128BB00C7169D /* mutex.cpp in Sources */,
 				2C2925731A1128BB00C7169D /* logsink.cpp in Sources */,
 				84D661C61A0CDD1B002E8D48 /* main.m in Sources */,
