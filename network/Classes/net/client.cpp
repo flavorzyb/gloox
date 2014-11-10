@@ -5,7 +5,6 @@
 using namespace gloox;
 using namespace std;
 
-static const int TIME_OUT = 3000000;
 Client::Client():
     m_server("")
   , m_port(0)
