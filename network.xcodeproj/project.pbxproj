@@ -10,6 +10,8 @@
 		2AFA2B651A0D2CF300BE1B65 /* libcocos2dx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFA279F1A0D2A5400BE1B65 /* libcocos2dx.a */; };
 		2AFA2B661A0D2CF300BE1B65 /* libCocosDenshion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFA2B621A0D2CDF00BE1B65 /* libCocosDenshion.a */; };
 		2AFA2B6F1A0D307800BE1B65 /* libgloox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AFA2B6C1A0D304300BE1B65 /* libgloox.a */; };
+		84CEB5741A10E2F900FFA547 /* client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84CEB5701A10E2F900FFA547 /* client.cpp */; };
+		84CEB5751A10E2F900FFA547 /* datahandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84CEB5721A10E2F900FFA547 /* datahandler.cpp */; };
 		84D661961A0CDD1B002E8D48 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D661951A0CDD1B002E8D48 /* QuartzCore.framework */; };
 		84D661981A0CDD1B002E8D48 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D661971A0CDD1B002E8D48 /* OpenGLES.framework */; };
 		84D6619A1A0CDD1B002E8D48 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D661991A0CDD1B002E8D48 /* OpenAL.framework */; };
@@ -85,6 +87,10 @@
 		2AFA279A1A0D2A5400BE1B65 /* cocos2dx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2dx.xcodeproj; path = "libs/cocos2d-x/cocos2dx/proj.ios/cocos2dx.xcodeproj"; sourceTree = "<group>"; };
 		2AFA2B5D1A0D2CDF00BE1B65 /* CocosDenshion.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CocosDenshion.xcodeproj; path = "libs/cocos2d-x/CocosDenshion/proj.ios/CocosDenshion.xcodeproj"; sourceTree = "<group>"; };
 		2AFA2B671A0D304300BE1B65 /* gloox.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = gloox.xcodeproj; path = "libs/gloox-1.0.11/gloox.xcodeproj"; sourceTree = "<group>"; };
+		84CEB5701A10E2F900FFA547 /* client.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = client.cpp; sourceTree = "<group>"; };
+		84CEB5711A10E2F900FFA547 /* client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client.h; sourceTree = "<group>"; };
+		84CEB5721A10E2F900FFA547 /* datahandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = datahandler.cpp; sourceTree = "<group>"; };
+		84CEB5731A10E2F900FFA547 /* datahandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = datahandler.h; sourceTree = "<group>"; };
 		84D661921A0CDD1B002E8D48 /* network.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = network.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D661951A0CDD1B002E8D48 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		84D661971A0CDD1B002E8D48 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -162,6 +168,18 @@
 				2AFA2B6C1A0D304300BE1B65 /* libgloox.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		84CEB56F1A10E2F900FFA547 /* net */ = {
+			isa = PBXGroup;
+			children = (
+				84CEB5701A10E2F900FFA547 /* client.cpp */,
+				84CEB5711A10E2F900FFA547 /* client.h */,
+				84CEB5721A10E2F900FFA547 /* datahandler.cpp */,
+				84CEB5731A10E2F900FFA547 /* datahandler.h */,
+			);
+			name = net;
+			path = Classes/net;
 			sourceTree = "<group>";
 		};
 		84D661891A0CDD1A002E8D48 = {
@@ -252,6 +270,7 @@
 		84D665361A0CDD1E002E8D48 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				84CEB56F1A10E2F900FFA547 /* net */,
 				84D665371A0CDD1E002E8D48 /* AppDelegate.h */,
 				84D665381A0CDD1E002E8D48 /* AppDelegate.cpp */,
 				84D6653A1A0CDD1E002E8D48 /* HelloWorldScene.h */,
@@ -378,7 +397,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				84D661C41A0CDD1B002E8D48 /* RootViewController.mm in Sources */,
+				84CEB5751A10E2F900FFA547 /* datahandler.cpp in Sources */,
 				84D661C61A0CDD1B002E8D48 /* main.m in Sources */,
+				84CEB5741A10E2F900FFA547 /* client.cpp in Sources */,
 				84D661C11A0CDD1B002E8D48 /* AppController.mm in Sources */,
 				84D6653C1A0CDD1E002E8D48 /* HelloWorldScene.cpp in Sources */,
 				84D665391A0CDD1E002E8D48 /* AppDelegate.cpp in Sources */,
@@ -432,6 +453,7 @@
 					"\"$(SRCROOT)/libs/cocos2d-x/cocos2dx/platform/third_party/ios\"",
 					"\"$(SRCROOT)/libs/cocos2d-x/cocos2dx/platform/ios\"",
 					"\"$(SRCROOT)/libs/gloox-1.0.11/src\"",
+					"\"$(SRCROOT)/network/Classes\"",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
@@ -462,6 +484,7 @@
 					"\"$(SRCROOT)/libs/cocos2d-x/cocos2dx/platform/third_party/ios\"",
 					"\"$(SRCROOT)/libs/cocos2d-x/cocos2dx/platform/ios\"",
 					"\"$(SRCROOT)/libs/gloox-1.0.11/src\"",
+					"\"$(SRCROOT)/network/Classes\"",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
