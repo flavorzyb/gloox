@@ -29,6 +29,7 @@ void NWThread::run()
         qDebug()<<"connect server fail.";
     }
 
+    qDebug()<<"connect server ... ...ok";
     client.receiveWithPthread();
 
     std::string data = "i am ok";
