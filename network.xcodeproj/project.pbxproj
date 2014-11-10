@@ -455,7 +455,7 @@
 					"\"$(SRCROOT)/libs/gloox-1.0.11/src\"",
 					"\"$(SRCROOT)/network/Classes\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -486,7 +486,7 @@
 					"\"$(SRCROOT)/libs/gloox-1.0.11/src\"",
 					"\"$(SRCROOT)/network/Classes\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -504,7 +504,7 @@
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = network/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/libs/cocos2d-x/cocos2dx/platform/third_party/ios/libraries",
@@ -515,6 +515,7 @@
 					"-lsqlite3",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SEPARATE_STRIP = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "\"network/libs/Chipmunk/include/chipmunk\"";
 				WRAPPER_EXTENSION = app;
@@ -531,7 +532,7 @@
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = network/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/libs/cocos2d-x/cocos2dx/platform/third_party/ios/libraries",
@@ -542,6 +543,7 @@
 					"-lsqlite3",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SEPARATE_STRIP = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "\"network/libs/Chipmunk/include/chipmunk\"";
 				VALIDATE_PRODUCT = YES;

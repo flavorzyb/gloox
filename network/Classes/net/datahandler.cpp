@@ -16,7 +16,7 @@ DataHandler::~DataHandler()
 
 void DataHandler::handleReceivedData( const ConnectionBase* connection, const std::string& data )
 {
-    printf("received data======= len:%d, str:%s\n", data.length(), data.c_str());
+    printf("received data======= len:%lu, str:%s\n", data.length(), data.c_str());
 }
 
 void DataHandler::handleConnect(const ConnectionBase *connection)

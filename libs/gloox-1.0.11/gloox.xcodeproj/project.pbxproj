@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C2920FA1A11134E00C7169D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848E42A21A0CB8E200712406 /* Foundation.framework */; };
+		2C2920FC1A11135900C7169D /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2920FB1A11135900C7169D /* libresolv.dylib */; };
 		848E3F031A0CA93900712406 /* util.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3EEF1A0CA93800712406 /* util.h */; };
 		848E3F6A1A0CAA0C00712406 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F461A0CAA0C00712406 /* config.h */; };
 		848E3F6B1A0CAA0C00712406 /* connectionbase.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E3F471A0CAA0C00712406 /* connectionbase.h */; };
@@ -30,10 +32,10 @@
 		848E421A1A0CAC6E00712406 /* mutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E40541A0CAC6E00712406 /* mutex.cpp */; };
 		848E42201A0CAC6E00712406 /* prep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E405A1A0CAC6E00712406 /* prep.cpp */; };
 		848E42951A0CAC6E00712406 /* util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 848E41BC1A0CAC6E00712406 /* util.cpp */; };
-		848E42A51A0CB91500712406 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848E42A21A0CB8E200712406 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C2920FB1A11135900C7169D /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
 		848E3EAE1A0CA81500712406 /* libgloox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libgloox.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		848E3EEF1A0CA93800712406 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = util.h; path = src/util.h; sourceTree = "<group>"; };
 		848E3F461A0CAA0C00712406 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = src/config.h; sourceTree = "<group>"; };
@@ -67,7 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				848E42A51A0CB91500712406 /* Foundation.framework in Frameworks */,
+				2C2920FC1A11135900C7169D /* libresolv.dylib in Frameworks */,
+				2C2920FA1A11134E00C7169D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +144,7 @@
 		848E42A41A0CB8E500712406 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2C2920FB1A11135900C7169D /* libresolv.dylib */,
 				848E42A21A0CB8E200712406 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -245,6 +249,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -277,7 +282,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -286,6 +291,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -313,6 +319,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -324,6 +331,7 @@
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_ENABLE_CPP_RTTI = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 			};
@@ -336,6 +344,7 @@
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_ENABLE_CPP_RTTI = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 			};
