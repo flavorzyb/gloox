@@ -89,7 +89,10 @@ namespace gloox
   bool ConnectionTCPBase::dataAvailable( int timeout )
   {
     if( m_socket < 0 )
+    {
+        printf("m_socket=============%d\n", m_socket);
       return true; // let recv() catch the closed fd
+    }
 
     fd_set fds;
     struct timeval tv;

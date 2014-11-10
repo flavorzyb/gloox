@@ -30,13 +30,13 @@ void NWThread::run()
     }
 
     qDebug()<<"connect server ... ...ok";
-//    client.receiveWithPthread();
+    client.receiveWithPthread();
 
-    std::string data = "i am ok";
+    std::string data = "i am ok\n";
     while(client.isConnect())
     {
         qDebug()<<"will send data ... ..."<<data.c_str();
         client.send(data.c_str(), data.length());
-        sleep(1);
+        sleep(5);
     }
 }
