@@ -1,8 +1,9 @@
 #ifndef __NET_DATAHANDLER_H
 #define __NET_DATAHANDLER_H
-#include "network.h"
-#include "connectionbase.h"
+
 #include "connectiondatahandler.h"
+
+typedef int LUA_FUNCTION;
 
 class DataHandler : public gloox::ConnectionDataHandler
 {
