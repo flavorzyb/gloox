@@ -15,6 +15,8 @@
 USING_NS_CC;
 using namespace CocosDenshion;
 
+CCScene *pScene = NULL;
+
 AppDelegate::AppDelegate()
 {
 
@@ -37,7 +39,7 @@ bool AppDelegate::applicationDidFinishLaunching()
     pDirector->setAnimationInterval(1.0 / 60);
 
     // create a scene. it's an autorelease object
-    CCScene *pScene = HelloWorld::scene();
+    pScene = HelloWorld::scene();
 
     // run
     pDirector->runWithScene(pScene);
@@ -59,4 +61,5 @@ void AppDelegate::applicationWillEnterForeground()
     CCDirector::sharedDirector()->startAnimation();
     SimpleAudioEngine::sharedEngine()->resumeBackgroundMusic();
     SimpleAudioEngine::sharedEngine()->resumeAllEffects();
+    HelloWorld::awakeUp();
 }

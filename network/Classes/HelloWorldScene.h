@@ -15,6 +15,8 @@ public:
     // a selector callback
     void menuCloseCallback(CCObject* pSender);
 
+    static void awakeUp();
+    
     // preprocessor macro for "static create()" constructor ( node() deprecated )
     CREATE_FUNC(HelloWorld);
 };

@@ -33,15 +33,17 @@ static void * _onSendData(void * argv)
     {
         while (pClient->isConnect())
         {
+            time_t t = time(NULL);
             sprintf(str, "%s %d\n", data, count);
-            printf("send data:%s", str);
             if (!pClient->send(str, strlen(str)))
             {
+                printf("send data:%s time:%ld... ... fail\n", str, t);
                 break;
             }
             else
             {
-                sleep(10);
+                printf("send data:%s time:%ld... ... ok\n", str, t);
+                sleep(6);
             }
 
             count++;
@@ -118,6 +120,26 @@ bool HelloWorld::init()
     pthread_create(&pthread, NULL, _onSendData, &s_client);
 
     return true;
+}
+
+void HelloWorld::awakeUp()
+{
+    CCLOG("awake up .... ... ");
+    if (s_client.isConnect() == false)
+    {
+        if (s_client.reconnect() == false)
+        {
+            CCLOG("重连失败!");
+            return ;
+        }
+        CCLOG("重连成功!");
+        pthread_t pthread;
+        pthread_create(&pthread, NULL, _onSendData, &s_client);
+    }
+    else
+    {
+        CCLOG("一直在连接，从未断开过。");
+    }
 }
 
 void HelloWorld::menuCloseCallback(CCObject* pSender)
