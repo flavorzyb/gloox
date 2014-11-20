@@ -166,14 +166,14 @@ namespace gloox
 
   void ConnectionTCPBase::cleanup()
   {
-    if( !m_sendMutex.trylock() )
-      return;
-
-    if( !m_recvMutex.trylock() )
-    {
-      m_sendMutex.unlock();
-      return;
-    }
+//    if( !m_sendMutex.trylock() )
+//      return;
+//
+//    if( !m_recvMutex.trylock() )
+//    {
+//      m_sendMutex.unlock();
+//      return;
+//    }
 
     if( m_socket >= 0 )
     {
