@@ -1,0 +1,9 @@
+$#include "utils/tolua_LogManager.h"
+
+class LogManager
+{
+    static LogManager * getInstance();
+    void sendErrorLog(const char * msg);
+    void setLogUrl(const char * url);
+    const char * getLogUrl() const;
+};

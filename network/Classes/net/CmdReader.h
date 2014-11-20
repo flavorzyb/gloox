@@ -8,6 +8,8 @@
 
 #ifndef __NET__CMDREADER_H_
 #define __NET__CMDREADER_H_
+#include "LuaUtils.h"
+
 namespace net
 {
     class CmdReader
@@ -16,14 +18,15 @@ namespace net
             CmdReader(const CmdReader & reader);
             CmdReader & operator= (const CmdReader & reader);
         public:
-            CmdReader(char * pData, unsigned int len);
+            explicit CmdReader(char * pData, unsigned int len, LUA_FUNCTION handler);
             ~CmdReader();
-            char * getData();
+            const char * getData() const;
             unsigned int getLength() const;
-        
+            LUA_FUNCTION getHandler() const;
         private:
-            unsigned int m_len;
-            char * m_data;
+            unsigned int      m_len;
+            char            * m_data;
+            LUA_FUNCTION      m_handler;
     };
 }
 #endif /* defined(__NET__CMDREADER_H_) */

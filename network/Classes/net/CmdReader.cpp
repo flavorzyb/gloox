@@ -10,9 +10,10 @@
 
 namespace net
 {
-    CmdReader::CmdReader(char * pData, unsigned int len):
+    CmdReader::CmdReader(char * pData, unsigned int len, LUA_FUNCTION handler):
       m_len(len)
     , m_data(pData)
+    , m_handler(handler)
     {
     }
     
@@ -20,7 +21,7 @@ namespace net
     {
     }
     
-    char * CmdReader::getData()
+    const char * CmdReader::getData() const
     {
         return m_data;
     }
@@ -28,5 +29,10 @@ namespace net
     unsigned int CmdReader::getLength() const
     {
         return m_len;
+    }
+    
+    LUA_FUNCTION CmdReader::getHandler() const
+    {
+        return m_handler;
     }
 }

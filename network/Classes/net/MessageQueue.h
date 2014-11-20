@@ -8,6 +8,7 @@
 
 #ifndef __NET__MESSAGEQUEUE_H_
 #define __NET__MESSAGEQUEUE_H_
+#include "LuaUtils.h"
 
 namespace net
 {
@@ -24,7 +25,7 @@ namespace net
         virtual ~MessageQueue();
         static MessageQueue * getInstance();
         void init();
-        void add(char * data, int size);
+        void add(const char * data, int size, LUA_FUNCTION handler);
         void dispatcherAllMessage();
         
     private:
