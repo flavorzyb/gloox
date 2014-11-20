@@ -123,7 +123,9 @@ namespace net
       , m_onRecvHandler(0)
       , m_isDisconnectSchedule(false)
       , m_isConnecting(false)
+      , m_isReconnecting(false)
     {
+        pthread_mutex_init(&m_ReconnectMutex, NULL);
     }
 
     Client::~Client()
@@ -255,6 +257,8 @@ namespace net
                     _ClientFrameScript * frameScript = _ClientFrameScript::create(succ);
                     CCDirector::sharedDirector()->getScheduler()->scheduleSelector(schedule_selector(_ClientFrameScript::framescript), frameScript, 0, false);
                 }
+                
+                pClient->setIsReconnecting(false);
             }
         }
         
@@ -264,6 +268,12 @@ namespace net
     }
     void Client::reconnectWithPthread(LUA_FUNCTION succ)
     {
+        if (isReconnecting())
+        {
+            return ;
+        }
+        
+        setIsReconnecting(true);
         struct _onConnectStruct *cs = new struct _onConnectStruct;
         cs->m_succ = succ;
         cs->m_client = this;
@@ -473,5 +483,20 @@ namespace net
         Client * result = new Client();
 
         return result;
+    }
+    
+    bool Client::isReconnecting()
+    {
+        pthread_mutex_lock(&m_ReconnectMutex);
+        bool result = m_isReconnecting;
+        pthread_mutex_unlock(&m_ReconnectMutex);
+        return result;
+    }
+    
+    void Client::setIsReconnecting(bool isReconnecting)
+    {
+        pthread_mutex_lock(&m_ReconnectMutex);
+        m_isReconnecting = isReconnecting;
+        pthread_mutex_unlock(&m_ReconnectMutex);
     }
 }

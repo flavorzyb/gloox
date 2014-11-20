@@ -1,11 +1,13 @@
 #ifndef __NET_CLIENT_H
 #define __NET_CLIENT_H
 #include <string>
+#include <pthread.h>
 #include "connectiontcpclient.h"
 #include "logsink.h"
 #include "connectiondatahandler.h"
 #include "LuaUtils.h"
 #include "LuaDelegate.h"
+
 
 namespace net
 {
@@ -46,6 +48,8 @@ namespace net
 
         inline LUA_FUNCTION getDisconnectCallBack() const {return m_disconnectCallback;}
         inline void setIsDisconnectSchedule(bool isDisconnectSchedule) { m_isDisconnectSchedule = isDisconnectSchedule;}
+        bool isReconnecting();
+        void setIsReconnecting(bool isReconnecting);
     private:
         Client(const Client & c);
         Client & operator=(const Client & c);
@@ -62,6 +66,8 @@ namespace net
         LUA_FUNCTION                  m_onRecvHandler;
         bool                          m_isDisconnectSchedule;
         bool                          m_isConnecting;
+        bool                          m_isReconnecting;
+        pthread_mutex_t               m_ReconnectMutex;
     };
 }
 #endif // __NET_CLIENT_H
