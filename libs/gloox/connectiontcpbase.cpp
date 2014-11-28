@@ -94,6 +94,7 @@ namespace gloox
       return true; // let recv() catch the closed fd
     }
 
+
     fd_set fds;
     struct timeval tv;
 
@@ -166,6 +167,7 @@ namespace gloox
 
   void ConnectionTCPBase::cleanup()
   {
+//      
 //    if( !m_sendMutex.trylock() )
 //      return;
 //
@@ -174,6 +176,9 @@ namespace gloox
 //      m_sendMutex.unlock();
 //      return;
 //    }
+      
+    m_sendMutex.lock();
+    m_recvMutex.lock();
 
     if( m_socket >= 0 )
     {

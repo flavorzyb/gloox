@@ -17,6 +17,7 @@
 
 #if defined( _WIN32 ) && !defined( __SYMBIAN32__ )
 # include <windows.h>
+#include <mutex>
 #endif
 
 #ifdef _WIN32_WCE
@@ -46,7 +47,8 @@ namespace gloox
         MutexImpl& operator=( const MutexImpl& );
 
 #if defined( _WIN32 ) && !defined( __SYMBIAN32__ )
-        CRITICAL_SECTION m_cs;
+        //CRITICAL_SECTION m_cs;
+		std::mutex	m_mutex;
 #elif defined( HAVE_PTHREAD )
         pthread_mutex_t m_mutex;
 #endif
@@ -58,7 +60,7 @@ namespace gloox
 #if defined( _WIN32 ) && !defined( __SYMBIAN32__ )
       // NOTE: Critical sections by nature allow "recursive"
       //  (the same thread can get it again, and just bump the ref count).
-      InitializeCriticalSection( &m_cs );
+      //InitializeCriticalSectionEx( &m_cs,0,0 );
 #elif defined( HAVE_PTHREAD )
       // For pthreads, configured the mutex to be recursive
       //  (the same thread can get it again, and just bump the ref count).
@@ -73,7 +75,7 @@ namespace gloox
     Mutex::MutexImpl::~MutexImpl()
     {
 #if defined( _WIN32 ) && !defined( __SYMBIAN32__ )
-      DeleteCriticalSection( &m_cs );
+    //  DeleteCriticalSection( &m_cs );
 #elif defined( HAVE_PTHREAD )
       pthread_mutex_destroy( &m_mutex );
 #endif
@@ -82,7 +84,8 @@ namespace gloox
     void Mutex::MutexImpl::lock()
     {
 #if defined( _WIN32 ) && !defined( __SYMBIAN32__ )
-      EnterCriticalSection( &m_cs );
+      //EnterCriticalSection( &m_cs );
+	  m_mutex.lock();
 #elif defined( HAVE_PTHREAD )
       pthread_mutex_lock( &m_mutex );
 #endif
@@ -91,7 +94,8 @@ namespace gloox
     bool Mutex::MutexImpl::trylock()
     {
 #if defined( _WIN32 ) && !defined( __SYMBIAN32__ )
-      return TryEnterCriticalSection( &m_cs ) ? true : false;
+      //return TryEnterCriticalSection( &m_cs ) ? true : false;
+	  return m_mutex.try_lock();
 #elif defined( HAVE_PTHREAD )
       return !( pthread_mutex_trylock( &m_mutex ) );
 #else
@@ -102,7 +106,8 @@ namespace gloox
     void Mutex::MutexImpl::unlock()
     {
 #if defined( _WIN32 ) && !defined( __SYMBIAN32__ )
-      LeaveCriticalSection( &m_cs );
+     // LeaveCriticalSection( &m_cs );
+	  m_mutex.unlock();
 #elif defined( HAVE_PTHREAD )
       pthread_mutex_unlock( &m_mutex );
 #endif
