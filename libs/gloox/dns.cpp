@@ -404,15 +404,15 @@ namespace gloox
 
 #ifdef HAVE_SETSOCKOPT
       
-    #if defined( _WIN32 )
+	#if defined( _WIN32 ) || defined (_WIN32_WCE)
       int timeout = 3000;
       
       //发送时限
-      setsockopt(fd, SOL_SOCKET, SO_SNDTIMEO,  &timeout, sizeof(int));
+      setsockopt(fd, SOL_SOCKET, SO_SNDTIMEO,  (char *)&timeout, sizeof(int));
       //接收时限
-      setsockopt(fd, SOL_SOCKET, SO_RCVTIMEO,  &timeout, sizeof(int));
+      setsockopt(fd, SOL_SOCKET, SO_RCVTIMEO,  (char *)&timeout, sizeof(int));
       
-      setsockopt(fd, SOL_SOCKET, SO_REUSEADDR, &timeout, sizeof(int));
+      setsockopt(fd, SOL_SOCKET, SO_REUSEADDR, (char *)&timeout, sizeof(int));
     #else
       struct timeval timeout;
       timeout.tv_sec = 15;
@@ -432,6 +432,9 @@ namespace gloox
       int keep_interval = 7;//两次KeepAlive探测间的时间间隔
       int keep_count = 3;//判定断开前的KeepAlive探测次数
 
+    #if defined( _WIN32 ) || defined (_WIN32_WCE)
+	  setsockopt(fd, SOL_SOCKET, SO_KEEPALIVE, (const char *)&keep_alive, sizeof(int));
+    #else
       setsockopt(fd, SOL_SOCKET, SO_KEEPALIVE,  (const void *) &keep_alive,    sizeof(int));
       setsockopt(fd, SOL_TCP, TCP_KEEPIDLE,     (const void *) &keep_idle,     sizeof(int));
       setsockopt(fd, SOL_TCP,TCP_KEEPINTVL,     (const void *) &keep_interval, sizeof(int));
@@ -440,6 +443,7 @@ namespace gloox
       // 设置tcp 的nodelay
       int tcp_nodelay = 1;
       setsockopt(fd, SOL_TCP,TCP_NODELAY,       (const void *) &tcp_nodelay,   sizeof(int));
+    #endif
 #endif
 
     return (int)fd;
@@ -502,7 +506,7 @@ namespace gloox
 
   void DNS::closeSocket( int fd, const LogSink& logInstance )
   {
-#if defined( _WIN32 ) && !defined( __SYMBIAN32__ )
+#if (defined( _WIN32 ) && !defined( __SYMBIAN32__ )) || defined(_WIN32_WCE)
     int result = closesocket( fd );
 #else
     int result = close( fd );
